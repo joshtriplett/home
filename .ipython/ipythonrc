@@ -1,0 +1,13 @@
+autoindent 0
+automagic 1
+colors Linux
+#colors LightBG
+confirm_exit 0
+banner 0
+pdb 0
+pprint 1
+xmode Context
+readline_parse_and_bind tab: complete
+readline_parse_and_bind "\C-r": reverse-search-history
+readline_parse_and_bind "\C-s": forward-search-history
+readline_omit__names 0

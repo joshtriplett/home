@@ -97,6 +97,11 @@ buffer to finish."
 ;; Never put a brace on the same line as another statement
 (setq c-hanging-braces-alist nil)
 
+;; TeX
+(add-hook 'LaTeX-mode-hook
+          (lambda ()
+            (TeX-PDF-mode)))
+
 ;; nxml-mode setup
 (when (require 'nxml-mode nil t)
   (push '("\\.xsd\\'" . nxml-mode) auto-mode-alist)

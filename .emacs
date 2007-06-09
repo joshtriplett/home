@@ -233,7 +233,6 @@ buffer to finish."
   ;; If you edit it by hand, you could mess it up, so be careful.
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
- '(blink-matching-paren nil)
  '(column-number-mode t)
  '(ecb-directories-menu-user-extension-function nil)
  '(ecb-history-menu-user-extension-function nil)

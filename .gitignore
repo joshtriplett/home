@@ -19,6 +19,7 @@
 .metacity
 .mcop
 .mcoprc
+.mutt_certificates
 .nautilus
 .recently-used
 .recently-used.xbel
@@ -45,11 +46,16 @@
 
 # Machine-specific
 .drirc
+.forward
 .gphoto
 .hplip.conf
 .lpoptions
 .minirc.dfl
+.ssh/authorized_keys
 .ssh/*.pub
+
+# Potentially machine-specific, and potentially private
+.muttrc
 
 # I don't keep any configuration in .subversion
 .subversion

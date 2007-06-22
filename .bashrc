@@ -57,3 +57,7 @@ xterm*|rxvt*)
     export PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD/#$HOME/~}\007"'
     ;;
 esac
+
+if [ -z "$BASH_COMPLETION" ] && [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+fi

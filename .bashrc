@@ -1,6 +1,6 @@
-export PATH="/home/josh/local/bin:/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
+export PATH="$HOME/local/bin:/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
 #LD_LIBRARY_PATH not currently needed.
-#export LD_LIBRARY_PATH=/home/josh/local/lib
+#export LD_LIBRARY_PATH=$HOME/local/lib
 export LC_COLLATE=C
 
 # If not running interactively, don't do anything

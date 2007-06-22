@@ -49,6 +49,7 @@
 .forward
 .gphoto
 .hplip.conf
+.ivtv*
 .lpoptions
 .minirc.dfl
 .ssh/authorized_keys

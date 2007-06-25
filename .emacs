@@ -84,6 +84,9 @@ buffer to finish."
 ;; Indent using spaces, never tabs
 (setq-default indent-tabs-mode nil)
 
+;; default to unified diffs
+(setq diff-switches "-u")
+
 ;; Hook for cc-mode customizations
 (defun my-c-mode-common-hook ()
   ;; Make enter automatically indent the next line

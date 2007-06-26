@@ -15,6 +15,7 @@
 .gtkrc-1.2-gnome2
 .ipython/*.pyc
 .ipython/history
+.ketchup
 .lesshst
 .metacity
 .mcop
@@ -67,6 +68,7 @@
 .AbiWord
 .BitTornado
 .config
+.evolution
 .gaim
 .gconf
 .gimp*

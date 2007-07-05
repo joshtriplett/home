@@ -9,6 +9,7 @@
 .dmrc
 .dvdcss
 .emacs.d
+.evolution-composer.autosave-*
 .fontconfig
 .gconfd
 .gstreamer-0.10

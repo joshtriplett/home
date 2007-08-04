@@ -17,7 +17,7 @@
 (cond ((fboundp 'cua-mode) (cua-mode t))
       ((fboundp 'CUA-mode) (CUA-mode t))
       ((require 'cua nil t) (CUA-mode t))
-      (t (warn "Can't find CUA mode")))
+      (t (message "Can't find CUA mode")))
 
 ;; Set email address based on $EMAIL
 (let (email (getenv "EMAIL"))
@@ -128,7 +128,8 @@ buffer to finish."
 (setq makefile-cleanup-continuations-p nil)
 
 ;; Put scroll bars on the right
-(set-scroll-bar-mode 'right)
+(when (require 'scroll-bar nil t)
+      (set-scroll-bar-mode 'right))
 
 ;; Wrap lines at 78 columns
 (setq-default fill-column 78)

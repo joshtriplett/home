@@ -127,6 +127,9 @@ buffer to finish."
 ;; Disable whitespace cleanup in Makefiles
 (setq makefile-cleanup-continuations-p nil)
 
+;; Don't show the menu in a terminal
+(unless window-system (menu-bar-mode -1))
+
 ;; Put scroll bars on the right
 (when (require 'scroll-bar nil t)
       (set-scroll-bar-mode 'right))

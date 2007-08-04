@@ -131,7 +131,7 @@ buffer to finish."
 (unless window-system (menu-bar-mode -1))
 
 ;; Put scroll bars on the right
-(when (require 'scroll-bar nil t)
+(when (fboundp 'set-scroll-bar-mode)
       (set-scroll-bar-mode 'right))
 
 ;; Wrap lines at 78 columns

@@ -152,7 +152,7 @@ buffer to finish."
 
 ;; Make shifted direction keys work on the Linux console or in an xterm
 (defmacro foreach (var list &rest body)
-  (` (let ((_foreach_list (, list))) 
+  (` (let ((_foreach_list (, list)))
        (while _foreach_list
 	 (setq (, var) (car _foreach_list)
 	       _foreach_list (cdr _foreach_list))

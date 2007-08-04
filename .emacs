@@ -78,8 +78,12 @@ buffer to finish."
   (tabbar-mode)
   (define-key esc-map [left] 'tabbar-backward)
   (define-key esc-map [right] 'tabbar-forward)
-  (global-set-key [(meta left)] 'tabbar-backward)
-  (global-set-key [(meta right)] 'tabbar-forward))
+  (define-key esc-map [S-left] 'tabbar-backward)
+  (define-key esc-map [S-right] 'tabbar-forward)
+  (global-set-key [M-left] 'tabbar-backward)
+  (global-set-key [M-right] 'tabbar-forward)
+  (global-set-key [S-M-left] 'tabbar-backward)
+  (global-set-key [S-M-right] 'tabbar-forward))
 
 ;; Indent using spaces, never tabs
 (setq-default indent-tabs-mode nil)

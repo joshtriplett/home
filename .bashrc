@@ -24,7 +24,7 @@ export GIT_AUTHOR_EMAIL=$EMAIL
 export GIT_COMMITTER_NAME='Josh Triplett'
 export GIT_COMMITTER_EMAIL=$EMAIL
 export EDITOR=emacs
-export ENSCRIPT='--header=|$n --highlight --media=letter --margins=::36:36 --color'
+export ENSCRIPT='--header=|$n --highlight --media=letter --color'
 export LESS='-R'
 export LESSHISTFILE=-
 export GZIP='-9'

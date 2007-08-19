@@ -74,7 +74,8 @@ buffer to finish."
 
 ;; Use tabbar mode if available
 (when (require 'tabbar nil t)
-  (setq tabbar-buffer-groups-function (lambda (b) (list "All Buffers")) )
+  (setq tabbar-buffer-groups-function
+	(lambda (&optional b) (list "All Buffers")) )
   (tabbar-mode)
   (define-key esc-map [left] 'tabbar-backward)
   (define-key esc-map [right] 'tabbar-forward)

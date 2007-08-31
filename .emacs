@@ -139,9 +139,6 @@ buffer to finish."
 (when (fboundp 'set-scroll-bar-mode)
       (set-scroll-bar-mode 'right))
 
-;; Wrap lines at 78 columns
-(setq-default fill-column 78)
-
 ;; Use xdvi to view TeX dvi files
 (setq tex-dvi-view-command "xdvi")
 

@@ -9,10 +9,6 @@ xpdf.initialZoom: width
 
 xdvi.paper: us
 
-XTerm*vt100.Foreground: #B2B2B2
-XTerm*vt100.Background: #000000
-UXTerm*vt100.Foreground: #B2B2B2
-UXTerm*vt100.Background: #000000
 *vt100.Foreground: #B2B2B2
 *vt100.Background: #000000
 *vt100.Color0: #000000
@@ -23,8 +19,6 @@ UXTerm*vt100.Background: #000000
 *vt100.Color5: #B218B2
 *vt100.Color6: #18B2B2
 *vt100.Color7: #B2B2B2
-!*vt100.whatever_the_intensive_fg_is: #FFFFFF
-!*vt100.whatever_the_intensive_bg_is: #686868
 *vt100.Color8: #686868
 *vt100.Color9: #FF5454
 *vt100.Color10: #54FF54
@@ -33,15 +27,11 @@ UXTerm*vt100.Background: #000000
 *vt100.Color13: #FF54FF
 *vt100.Color14: #54FFFF
 *vt100.Color15: #FFFFFF
-!XTerm*font: neep-alt-24
-!XTerm*boldFont: neep-alt-bold-24
-!UXTerm*font: neep-alt-24
-!UXTerm*boldFont: neep-alt-bold-24
 XTerm*faceName: Monospace-10
 UXTerm*faceName: Monospace-10
 
-URxvt.font: neep-alt-24
-URxvt.boldFont: neep-alt-bold-24
+URxvt.font: neep-alt-14
+URxvt.boldFont: neep-alt-bold-14
 URxvt.foreground: #B2B2B2
 URxvt.background: #000000
 URxvt.color0: #000000

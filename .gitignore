@@ -1,6 +1,7 @@
 # Transient
 .DCOPserver*
 .ICEauthority
+.Trash
 .Xauthority
 .bash_history
 .ccache

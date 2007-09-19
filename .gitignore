@@ -101,6 +101,7 @@
 # and many write their entire configuration out each time even if unmodified.
 .BillardGL.conf.v7
 .SearchAndRescue
+.a7xpg.prf
 .adonthell
 .angryddrc
 .armagetronad
@@ -146,6 +147,7 @@
 .gnubg
 .gnurobborc
 .gtetrinet
+.gunroar
 .gvba
 .gweled
 .hedgewars

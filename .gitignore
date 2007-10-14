@@ -4,10 +4,12 @@
 .Trash
 .Xauthority
 .bash_history
+.camel_certs
 .ccache
 .distcc/lock
 .distcc/state
 .dmrc
+.dovecot.sievec
 .dvdcss
 .emacs.d
 .evolution-composer.autosave-*

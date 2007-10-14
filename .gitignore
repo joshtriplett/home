@@ -35,7 +35,9 @@
 
 # Private
 .cia_key
+.crm114
 .cvspass
+.getmail
 .gnome2_private
 .listadmin.ini
 .pam
@@ -51,6 +53,7 @@
 .ssh/known_hosts
 
 # Machine-specific
+.dovecot.sieve
 .drirc
 .forward
 .gphoto

@@ -118,6 +118,10 @@ buffer to finish."
   (fset 'html-mode 'nxml-mode)
   (fset 'xml-mode 'nxml-mode))
 
+;; sieve-mode setup
+(when (require 'sieve-mode nil t)
+  (push '("\\.sieve\\'" . sieve-mode) auto-mode-alist))
+
 ;; Hook for css-mode customizations
 (defun my-css-mode-hook ()
   ;; Turn off mirror mode

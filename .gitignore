@@ -12,6 +12,7 @@
 .dovecot.sievec
 .dvdcss
 .emacs.d
+.esd_auth
 .evolution-composer.autosave-*
 .fontconfig
 .gconfd

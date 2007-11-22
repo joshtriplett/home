@@ -61,7 +61,9 @@
 .hplip.conf
 .ivtv*
 .lpoptions
+.maildir
 .minirc.dfl
+.rss2email
 .ssh/authorized_keys
 .ssh/*.pub
 

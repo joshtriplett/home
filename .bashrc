@@ -11,6 +11,9 @@ export LC_COLLATE=C
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
+# Append history rather than replacing it
+shopt -s histappend
+
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(lesspipe)"
 

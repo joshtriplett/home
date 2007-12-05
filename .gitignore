@@ -6,6 +6,7 @@
 .bash_history
 .camel_certs
 .ccache
+.dbus
 .distcc/lock
 .distcc/state
 .dmrc

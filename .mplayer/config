@@ -2,3 +2,4 @@ ao=alsa,oss,
 fixed-vo=yes
 prefer-ipv4=yes
 fontconfig=yes
+slang=en

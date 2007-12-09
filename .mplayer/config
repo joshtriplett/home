@@ -3,3 +3,4 @@ fixed-vo=yes
 prefer-ipv4=yes
 fontconfig=yes
 slang=en
+doubleclick-time=0

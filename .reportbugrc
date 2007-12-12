@@ -16,3 +16,4 @@ header "X-Debbugs-CC: josh@freedesktop.org"
 smtphost bugs.debian.org
 # You can add other settings after this line.  See
 # /etc/reportbug.conf for a full listing of options.
+header "X-Debbugs-No-Ack: ack!"

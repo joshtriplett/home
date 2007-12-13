@@ -1,0 +1,5 @@
+timeout:        0:10:00
+lock:           True
+lockTimeout:    0:01:00
+splash:         False
+mode:           blank

@@ -1,0 +1,2 @@
+set spoolfile=imaps://josh@josh.homelinux.net/INBOX
+set folder=imaps://josh@josh.homelinux.net/

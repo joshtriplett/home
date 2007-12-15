@@ -71,9 +71,6 @@
 .ssh/authorized_keys
 .ssh/*.pub
 
-# Potentially machine-specific, and potentially private
-.muttrc
-
 # I don't keep any configuration in .subversion
 .subversion
 

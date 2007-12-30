@@ -97,7 +97,8 @@
 .ncftp
 .openoffice.org*
 .purple
-.qt
+.qt/*.lock
+.qt/qt_plugins_*rc
 .quodlibet
 .sane
 .stellarium

@@ -17,8 +17,8 @@ shopt -s histappend
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(lesspipe)"
 
-export HISTSIZE=5000
-export HISTFILESIZE=50000
+export HISTSIZE=100000
+export HISTFILESIZE=100000
 
 export EMAIL='josh@freedesktop.org'
 export DEBEMAIL=$EMAIL

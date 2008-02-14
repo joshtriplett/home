@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <gconf>
         <dir name="apps">
+                <dir name="nautilus">
+                        <dir name="preferences">
+                                <entry name="enable_delete" mtime="1202986157" type="bool" value="true">
+                                </entry>
+                                <entry name="desktop_is_home_dir" mtime="1202986157" type="bool" value="true">
+                                </entry>
+                                <entry name="always_use_browser" mtime="1202986157" type="bool" value="true">
+                                </entry>
+                        </dir>
+                </dir>
                 <dir name="metacity">
                         <dir name="general">
                                 <entry name="num_workspaces" mtime="1202980906" type="int" value="1">

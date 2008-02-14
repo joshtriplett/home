@@ -1,5 +1,54 @@
 <?xml version="1.0"?>
 <gconf>
+        <dir name="apps">
+                <dir name="gnome-terminal">
+                        <dir name="profiles">
+                                <dir name="Default">
+                                        <entry name="use_theme_colors" mtime="1202977397" type="bool" value="false">
+                                        </entry>
+                                        <entry name="scrollbar_position" mtime="1202977397" type="string">
+                                                <stringvalue>hidden</stringvalue>
+                                        </entry>
+                                        <entry name="scrollback_lines" mtime="1202977397" type="int" value="50000">
+                                        </entry>
+                                        <entry name="palette" mtime="1202977397" type="string">
+                                                <stringvalue>#000000000000:#AAAA00000000:#0000AAAA0000:#AAAA55550000:#00000000AAAA:#AAAA0000AAAA:#0000AAAAAAAA:#AAAAAAAAAAAA:#555555555555:#FFFF55555555:#5555FFFF5555:#FFFFFFFF5555:#55555555FFFF:#FFFF5555FFFF:#5555FFFFFFFF:#FFFFFFFFFFFF</stringvalue>
+                                        </entry>
+                                        <entry name="foreground_color" mtime="1202977397" type="string">
+                                                <stringvalue>#AAAAAA</stringvalue>
+                                        </entry>
+                                        <entry name="cursor_blink" mtime="1202977397" type="bool" value="false">
+                                        </entry>
+                                        <entry name="background_type" mtime="1202977397" type="string">
+                                                <stringvalue>solid</stringvalue>
+                                        </entry>
+                                        <entry name="background_color" mtime="1202977397" type="string">
+                                                <stringvalue>#000000</stringvalue>
+                                        </entry>
+                                </dir>
+                        </dir>
+                        <dir name="keybindings">
+                                <entry name="prev_tab" mtime="1202977397" type="string">
+                                        <stringvalue>&lt;Alt&gt;Left</stringvalue>
+                                </entry>
+                                <entry name="next_tab" mtime="1202977397" type="string">
+                                        <stringvalue>&lt;Alt&gt;Right</stringvalue>
+                                </entry>
+                                <entry name="new_tab" mtime="1202977397" type="string">
+                                        <stringvalue>&lt;Control&gt;&lt;Alt&gt;n</stringvalue>
+                                </entry>
+                                <entry name="help" mtime="1202977397" type="string">
+                                        <stringvalue>disabled</stringvalue>
+                                </entry>
+                        </dir>
+                        <dir name="global">
+                                <entry name="use_mnemonics" mtime="1202977397" type="bool" value="false">
+                                </entry>
+                                <entry name="use_menu_accelerators" mtime="1202977397" type="bool" value="false">
+                                </entry>
+                        </dir>
+                </dir>
+        </dir>
         <dir name="desktop">
                 <dir name="gnome">
                         <dir name="interface">

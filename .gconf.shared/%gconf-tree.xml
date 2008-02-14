@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <gconf>
         <dir name="apps">
+                <dir name="metacity">
+                        <dir name="general">
+                                <entry name="num_workspaces" mtime="1202980906" type="int" value="1">
+                                </entry>
+                        </dir>
+                </dir>
                 <dir name="gksu">
                         <entry name="sudo-mode" mtime="1202980086" type="bool" value="true">
                         </entry>

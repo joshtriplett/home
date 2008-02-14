@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<gconf>
+        <dir name="desktop">
+                <dir name="gnome">
+                        <dir name="interface">
+                                <entry name="cursor_blink" mtime="1202954016" type="bool" value="false">
+                                </entry>
+                        </dir>
+                        <dir name="background">
+                                <entry name="primary_color" mtime="1202949904" type="string">
+                                        <stringvalue>#46468282b4b4</stringvalue>
+                                </entry>
+                                <entry name="draw_background" mtime="1202949904" type="bool" value="true">
+                                </entry>
+                                <entry name="color_shading_type" mtime="1202949904" type="string">
+                                        <stringvalue>solid</stringvalue>
+                                </entry>
+                                <entry name="picture_options" mtime="1202949904" type="string">
+                                        <stringvalue>none</stringvalue>
+                                </entry>
+                        </dir>
+                </dir>
+        </dir>
+</gconf>

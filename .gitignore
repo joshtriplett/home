@@ -81,7 +81,10 @@
 # machine-specific configuration, and private data.
 .AbiWord
 .BitTornado
-.config
+.config/Trolltech.conf
+.config/gtk-2.0/gtkfilechooser.ini
+.config/menus/gnome-applications.menu
+.config/menus/gnome-settings.menu
 .evolution
 .gaim
 .gconf
@@ -134,6 +137,9 @@
 .chromium-score
 .circuslinuxrc
 .clanbomber
+.config/pioneers
+.config/pioneers-server
+.config/pyscrabble
 .construo
 .crack-attack
 .crimson

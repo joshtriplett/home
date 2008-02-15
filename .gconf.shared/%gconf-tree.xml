@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <gconf>
         <dir name="apps">
+                <dir name="gnome-session">
+                        <dir name="options">
+                                <entry name="show_splash_screen" mtime="1203118005" type="bool" value="false">
+                                </entry>
+                        </dir>
+                </dir>
                 <dir name="nautilus">
                         <dir name="preferences">
                                 <entry name="enable_delete" mtime="1202986157" type="bool" value="true">

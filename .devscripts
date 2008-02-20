@@ -1,1 +1,2 @@
 BTS_SMTP_HOST=bugs.debian.org
+BTS_SUPPRESS_ACKS=yes

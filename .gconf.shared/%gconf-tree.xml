@@ -19,6 +19,9 @@
                 </dir>
                 <dir name="metacity">
                         <dir name="general">
+                                <entry name="action_double_click_titlebar" mtime="1205819033" type="string">
+                                        <stringvalue>toggle_maximize</stringvalue>
+                                </entry>
                                 <entry name="num_workspaces" mtime="1202980906" type="int" value="1">
                                 </entry>
                         </dir>

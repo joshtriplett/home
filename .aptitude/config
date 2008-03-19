@@ -4,4 +4,4 @@ aptitude::Keep-Unused-Pattern "";
 aptitude::Delete-Unused-Pattern "";
 aptitude::Get-Root-Command "sudo:/usr/bin/sudo";
 aptitude::UI "";
-aptitude::UI::Advance-On-Action "false";
+aptitude::UI::Advance-On-Action "true";

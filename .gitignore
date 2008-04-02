@@ -33,6 +33,7 @@
 .mythtv/themecache
 .nautilus/metafiles
 .nautilus/saved-session-*
+.psql_history
 .recently-used
 .recently-used.xbel
 .ssh/agent*

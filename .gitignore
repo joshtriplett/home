@@ -18,7 +18,7 @@
 .evolution-composer.autosave-*
 .fontconfig
 .gconfd/saved_state
-.gstreamer-0.10/registry.*.xml
+.gstreamer-0.10/registry.*
 .gtkrc-1.2-gnome2
 .ipython/*.pyc
 .ipython/db

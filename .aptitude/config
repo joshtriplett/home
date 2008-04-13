@@ -5,3 +5,6 @@ aptitude::Delete-Unused-Pattern "";
 aptitude::Get-Root-Command "sudo:/usr/bin/sudo";
 aptitude::UI "";
 aptitude::UI::Advance-On-Action "true";
+aptitude::Ignore-Recommends-Important "true";
+APT "";
+APT::Install-Recommends "false";

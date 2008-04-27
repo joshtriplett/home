@@ -1,2 +1,3 @@
 BTS_SMTP_HOST=bugs.debian.org
 BTS_SUPPRESS_ACKS=yes
+DEBUILD_PREPEND_PATH=/usr/lib/ccache

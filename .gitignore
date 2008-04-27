@@ -86,6 +86,7 @@
 .config/gtk-2.0/gtkfilechooser.ini
 .config/menus/gnome-applications.menu
 .config/menus/gnome-settings.menu
+.config/totem
 .evolution
 .gaim
 .gconf

@@ -14,6 +14,9 @@ shopt -s checkwinsize
 # Append history rather than replacing it
 shopt -s histappend
 
+# Do not complete an empty command (listing every program in $PATH)
+shopt -s no_empty_cmd_completion
+
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(lesspipe)"
 

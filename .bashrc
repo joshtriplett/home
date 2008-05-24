@@ -33,7 +33,7 @@ export LESSHISTFILE=-
 export GZIP='-9'
 
 # enable color support of ls and also add handy aliases
-if [ "$TERM" != "dumb" ]; then
+if [ -x /usr/bin/dircolors ]; then
     eval "`dircolors -b`"
     alias ls='ls --color=auto -v'
 else

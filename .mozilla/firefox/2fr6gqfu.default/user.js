@@ -16,6 +16,9 @@ user_pref("browser.link.open_newwindow.restriction", 2);
 // Use blank homepage.
 user_pref("browser.startup.page", 0);
 
+// Don't warn about about:config.
+user_pref("general.warnOnAboutConfig", false);
+
 // Don't load a URL from the clipboard when I middle click on content.
 user_pref("middlemouse.contentLoadURL", false);
 

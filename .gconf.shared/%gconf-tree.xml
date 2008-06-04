@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <gconf>
         <dir name="apps">
+                <dir name="gnome-power-manager">
+                        <dir name="lock">
+                                <entry name="hibernate_gnome_keyring" mtime="1212597290" type="bool" value="false">
+                                </entry>
+                        </dir>
+                </dir>
                 <dir name="gnome-keyring">
                         <dir name="daemon-components">
                                 <entry name="ssh" mtime="1207100701" type="bool" value="false">

@@ -187,7 +187,8 @@ buffer to finish."
 
 ;; makefile-mode
 ;; Disable whitespace cleanup in Makefiles
-(setq makefile-cleanup-continuations-p nil)
+(setq makefile-cleanup-continuations-p nil
+      makefile-cleanup-continuations nil)
 
 (custom-set-variables
   ;; custom-set-variables was added by Custom.

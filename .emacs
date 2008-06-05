@@ -1,4 +1,19 @@
-;; Global customizations
+;;;; Early customizations, which need to happen before anything else.
+
+;; Add ~/.elisp to load-path early.  Some of the modes and features
+;; loaded later may come from this directory.
+(add-to-list 'load-path "~/.elisp")
+
+;; Try to find and activate CUA mode early.  If something goes wrong
+;; later, this ensures that CUA mode has already loaded before emacs
+;; stops reading .emacs.
+(cond ((fboundp 'cua-mode) (cua-mode t))
+      ((fboundp 'CUA-mode) (CUA-mode t))
+      ((require 'cua nil t) (CUA-mode t))
+      (t (message "Can't find CUA mode")))
+
+;;;; Global customizations
+
 (setq inhibit-startup-message t
       inhibit-startup-buffer-menu t
       make-backup-files nil
@@ -7,27 +22,30 @@
       scroll-step 1
       frame-title-format "%b - emacs")
 
-;; Turn off the blinking cursor
-(if (fboundp 'blink-cursor-mode) (blink-cursor-mode 0))
-
-;; Add ~/.elisp to load-path
-(add-to-list 'load-path "~/.elisp")
-
-;; Run the emacs server
-(server-start)
-
-;; Try to find and activate CUA mode
-(cond ((fboundp 'cua-mode) (cua-mode t))
-      ((fboundp 'CUA-mode) (CUA-mode t))
-      ((require 'cua nil t) (CUA-mode t))
-      (t (message "Can't find CUA mode")))
+(setq-default indent-tabs-mode nil)
 
 ;; Set email address based on $EMAIL
 (let (email (getenv "EMAIL"))
   (if email (setq user-mail-address email)))
 
-;; Activate mouse-wheel mode
+(server-start)
+
+(when (require 'bar-cursor nil t)
+  (bar-cursor-mode 1))
+(if (fboundp 'blink-cursor-mode)
+    (blink-cursor-mode 0))
+(column-number-mode t)
+(global-font-lock-mode t)
 (mouse-wheel-mode t)
+(when (fboundp 'set-scroll-bar-mode)
+  (set-scroll-bar-mode 'right))
+
+;; Don't show the menu in a terminal
+(unless window-system
+  (menu-bar-mode -1))
+
+;; Don't wait for window manager when changing font - avoids long delays.
+(modify-frame-parameters nil '((wait-for-wm . nil)))
 
 ;; Make cut/copy/paste set/use the X CLIPBOARD (for use with C-v) in
 ;; preference to the X PRIMARY (for use with middle-mouse-button).
@@ -55,22 +73,16 @@ buffer to finish."
     (kill-buffer (current-buffer))))
 (global-set-key (kbd "C-x k") 'my-kill)
 
-;; Assign Ctrl-a to mark-whole-buffer
 (global-set-key [(control a)] 'mark-whole-buffer)
-
-;; Activate font-lock-mode (syntax coloring)
-(global-font-lock-mode t)
-
-;; Activate column-number-mode
-(column-number-mode t)
 
 ;; Enable some disabled commands
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region   'disabled nil)
 
-;; Make the cursor a vertical bar instead of a block
-(when (require 'bar-cursor nil t)
-  (bar-cursor-mode 1))
+;; Disable VC mode
+(remove-hook `find-file-hooks `vc-find-file-hook)
+(remove-hook `find-file-not-found-hooks `vc-file-not-found-hook)
+(setq vc-handled-backends ())
 
 ;; Use tabbar mode if available
 (when (require 'tabbar nil t)
@@ -85,68 +97,6 @@ buffer to finish."
   (global-set-key [M-right] 'tabbar-forward)
   (global-set-key [S-M-left] 'tabbar-backward)
   (global-set-key [S-M-right] 'tabbar-forward))
-
-;; Indent using spaces, never tabs
-(setq-default indent-tabs-mode nil)
-
-;; Hook for cc-mode customizations
-(defun my-c-mode-common-hook ()
-  ;; Make enter automatically indent the next line
-  (define-key c-mode-base-map "\C-m" 'c-context-line-break)
-  ;; Use "linux" indentation style for files in a linux-2.6 directory
-  (when (and buffer-file-name
-             (string-match "/linux-2.6/" buffer-file-name))
-    (c-set-style "linux"))
-  )
-(add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
-(c-add-style "bsd4" '("bsd"
-                      (c-basic-offset . 4)
-                      (c-hanging-braces-alist . nil)))
-(setq c-default-style "bsd4")
-
-;; TeX
-(add-hook 'LaTeX-mode-hook
-          (lambda ()
-            (TeX-PDF-mode)))
-
-;; nxml-mode setup
-(when (require 'nxml-mode nil t)
-  (push '("\\.xsd\\'" . nxml-mode) auto-mode-alist)
-  (push '("\\.html\\'" . nxml-mode) auto-mode-alist)
-  (push '("\\.kid\\'" . nxml-mode) auto-mode-alist)
-  (fset 'html-mode 'nxml-mode)
-  (fset 'xml-mode 'nxml-mode))
-
-;; sieve-mode setup
-(when (require 'sieve-mode nil t)
-  (push '("\\.sieve\\'" . sieve-mode) auto-mode-alist))
-
-;; Hook for css-mode customizations
-(defun my-css-mode-hook ()
-  ;; Turn off mirror mode
-  (cssm-leave-mirror-mode))
-(add-hook 'css-mode-hook 'my-css-mode-hook)
-
-;; Disable VC mode
-(remove-hook `find-file-hooks `vc-find-file-hook)
-(remove-hook `find-file-not-found-hooks `vc-file-not-found-hook)
-(setq vc-handled-backends ())
-
-;; Disable whitespace cleanup in Makefiles
-(setq makefile-cleanup-continuations-p nil)
-
-;; Don't show the menu in a terminal
-(unless window-system (menu-bar-mode -1))
-
-;; Put scroll bars on the right
-(when (fboundp 'set-scroll-bar-mode)
-      (set-scroll-bar-mode 'right))
-
-;; Use xdvi to view TeX dvi files
-(setq tex-dvi-view-command "xdvi")
-
-;; Don't wait for window manager when changing font - avoids long delays.
-(modify-frame-parameters nil '((wait-for-wm . nil)))
 
 ;; Make shifted direction keys work on the Linux console or in an xterm
 (when (member (getenv "TERM") '("linux" "xterm"))
@@ -193,6 +143,51 @@ buffer to finish."
     (define-key function-key-map (concat prefix "8C") [S-C-M-right])
     (define-key function-key-map (concat prefix "8H") [S-C-M-home])
     (define-key function-key-map (concat prefix "8F") [S-C-M-end])))
+
+;;;; Major mode customizations
+
+;; cc-mode
+(defun my-c-mode-common-hook ()
+  ;; Make enter automatically indent the next line
+  (define-key c-mode-base-map "\C-m" 'c-context-line-break)
+  ;; Use "linux" indentation style for files in a linux-2.6 directory
+  (when (and buffer-file-name
+             (string-match "/linux-2.6/" buffer-file-name))
+    (c-set-style "linux"))
+  )
+(add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
+(c-add-style "bsd4" '("bsd"
+                      (c-basic-offset . 4)
+                      (c-hanging-braces-alist . nil)))
+(setq c-default-style "bsd4")
+
+;; TeX
+(add-hook 'LaTeX-mode-hook
+          (lambda ()
+            (TeX-PDF-mode)))
+(setq tex-dvi-view-command "xdvi")
+
+;; nxml-mode
+(when (require 'nxml-mode nil t)
+  (push '("\\.xsd\\'" . nxml-mode) auto-mode-alist)
+  (push '("\\.html\\'" . nxml-mode) auto-mode-alist)
+  (push '("\\.kid\\'" . nxml-mode) auto-mode-alist)
+  (fset 'html-mode 'nxml-mode)
+  (fset 'xml-mode 'nxml-mode))
+
+;; sieve-mode
+(when (require 'sieve-mode nil t)
+  (push '("\\.sieve\\'" . sieve-mode) auto-mode-alist))
+
+;; css-mode
+(defun my-css-mode-hook ()
+  ;; Turn off mirror mode
+  (cssm-leave-mirror-mode))
+(add-hook 'css-mode-hook 'my-css-mode-hook)
+
+;; makefile-mode
+;; Disable whitespace cleanup in Makefiles
+(setq makefile-cleanup-continuations-p nil)
 
 (custom-set-variables
   ;; custom-set-variables was added by Custom.

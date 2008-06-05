@@ -92,6 +92,10 @@ buffer to finish."
 ;; default to unified diffs
 (setq diff-switches "-u")
 
+;; Scroll smoothly, with a margin around the cursor for context
+(setq scroll-margin 8
+      scroll-step 1)
+
 ;; Hook for cc-mode customizations
 (defun my-c-mode-common-hook ()
   ;; Make enter automatically indent the next line

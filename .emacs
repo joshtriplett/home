@@ -155,15 +155,8 @@ buffer to finish."
 (modify-frame-parameters nil '((wait-for-wm . nil)))
 
 ;; Make shifted direction keys work on the Linux console or in an xterm
-(defmacro foreach (var list &rest body)
-  (` (let ((_foreach_list (, list)))
-       (while _foreach_list
-	 (setq (, var) (car _foreach_list)
-	       _foreach_list (cdr _foreach_list))
-	 (progn (,@ body))
-	 ))))
 (when (member (getenv "TERM") '("linux" "xterm"))
-  (foreach prefix (list "\eO" "\eO1;" "\e[1;")
+  (dolist (prefix (list "\eO" "\eO1;" "\e[1;"))
     (define-key function-key-map (concat prefix "2A") [S-up])
     (define-key function-key-map (concat prefix "2B") [S-down])
     (define-key function-key-map (concat prefix "2D") [S-left])

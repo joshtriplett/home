@@ -96,14 +96,16 @@ buffer to finish."
 (defun my-c-mode-common-hook ()
   ;; Make enter automatically indent the next line
   (define-key c-mode-base-map "\C-m" 'c-context-line-break)
+  ;; Use "linux" indentation style for files in a linux-2.6 directory
+  (when (and buffer-file-name
+             (string-match "/linux-2.6/" buffer-file-name))
+    (c-set-style "linux"))
   )
 (add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
-;; Set the default style to bsd
-(setq c-default-style "bsd")
-;; Set the indent size to 4 spaces
-(setq c-basic-offset 4)
-;; Never put a brace on the same line as another statement
-(setq c-hanging-braces-alist nil)
+(c-add-style "bsd4" '("bsd"
+                      (c-basic-offset . 4)
+                      (c-hanging-braces-alist . nil)))
+(setq c-default-style "bsd4")
 
 ;; TeX
 (add-hook 'LaTeX-mode-hook

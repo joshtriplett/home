@@ -26,14 +26,14 @@
 
 ;; Set email address based on $EMAIL
 (let (email (getenv "EMAIL"))
-  (if email (setq user-mail-address email)))
+  (when email (setq user-mail-address email)))
 
 (server-start)
 
 (when (require 'bar-cursor nil t)
   (bar-cursor-mode 1))
-(if (fboundp 'blink-cursor-mode)
-    (blink-cursor-mode 0))
+(when (fboundp 'blink-cursor-mode)
+  (blink-cursor-mode 0))
 (column-number-mode t)
 (global-font-lock-mode t)
 (mouse-wheel-mode t)

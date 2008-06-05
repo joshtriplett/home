@@ -1,8 +1,11 @@
-;; Disable the startup message
-(setq inhibit-startup-message t)
-
-;; Disable the buffer list when starting with multiple files
-(setq inhibit-startup-buffer-menu t)
+;; Global customizations
+(setq inhibit-startup-message t
+      inhibit-startup-buffer-menu t
+      make-backup-files nil
+      diff-switches "-u"
+      scroll-margin 8
+      scroll-step 1
+      frame-title-format "%b - emacs")
 
 ;; Turn off the blinking cursor
 (if (fboundp 'blink-cursor-mode) (blink-cursor-mode 0))
@@ -13,7 +16,7 @@
 ;; Run the emacs server
 (server-start)
 
-;; Activate CUA mode
+;; Try to find and activate CUA mode
 (cond ((fboundp 'cua-mode) (cua-mode t))
       ((fboundp 'CUA-mode) (CUA-mode t))
       ((require 'cua nil t) (CUA-mode t))
@@ -61,9 +64,6 @@ buffer to finish."
 ;; Activate column-number-mode
 (column-number-mode t)
 
-;; Don't make backup files
-(setq make-backup-files nil)
-
 ;; Enable some disabled commands
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region   'disabled nil)
@@ -88,13 +88,6 @@ buffer to finish."
 
 ;; Indent using spaces, never tabs
 (setq-default indent-tabs-mode nil)
-
-;; default to unified diffs
-(setq diff-switches "-u")
-
-;; Scroll smoothly, with a margin around the cursor for context
-(setq scroll-margin 8
-      scroll-step 1)
 
 ;; Hook for cc-mode customizations
 (defun my-c-mode-common-hook ()
@@ -151,9 +144,6 @@ buffer to finish."
 
 ;; Use xdvi to view TeX dvi files
 (setq tex-dvi-view-command "xdvi")
-
-;; Include filename in title bar
-(setq frame-title-format "%b - emacs")
 
 ;; Don't wait for window manager when changing font - avoids long delays.
 (modify-frame-parameters nil '((wait-for-wm . nil)))

@@ -176,7 +176,7 @@ buffer to finish."
   (fset 'xml-mode 'nxml-mode))
 
 ;; sieve-mode
-(when (require 'sieve-mode nil t)
+(when (fboundp 'sieve-mode)
   (push '("\\.sieve\\'" . sieve-mode) auto-mode-alist))
 
 ;; css-mode

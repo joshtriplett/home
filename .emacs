@@ -19,6 +19,7 @@
       make-backup-files nil
       diff-switches "-u"
       scroll-margin 8
+      scroll-preserve-screen-position t
       scroll-step 1
       frame-title-format "%b - emacs")
 

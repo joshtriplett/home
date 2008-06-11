@@ -11,6 +11,9 @@ user_pref("browser.enable_automatic_image_resizing", false);
 // Don't try to "fix" URLs by adding www. and .com
 user_pref("browser.fixup.alternate.enabled", false);
 
+// Don't remember form entries
+user_pref("browser.formfill.enable", false);
+
 // Open almost everything in tabs rather than new windows.
 user_pref("browser.link.open_external", 3);
 user_pref("browser.link.open_newwindow", 3);

@@ -19,6 +19,9 @@ user_pref("browser.link.open_external", 3);
 user_pref("browser.link.open_newwindow", 3);
 user_pref("browser.link.open_newwindow.restriction", 2);
 
+// Don't prompt about setting the default browser.
+user_pref("browser.shell.checkDefaultBrowser", false);
+
 // Use blank homepage.
 user_pref("browser.startup.page", 0);
 

@@ -33,3 +33,7 @@ user_pref("plugin.default_plugin_disabled", false);
 
 // Don't show a message when blocking a popup.
 user_pref("privacy.popups.showBrowserMessage", false);
+
+// Foxmarks
+user_pref("foxmarks.username", "JoshTriplett");
+user_pref("foxmarks.securityLevel", 1);

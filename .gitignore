@@ -87,6 +87,7 @@
 .config/menus/gnome-applications.menu
 .config/menus/gnome-settings.menu
 .config/totem
+.config/transmission
 .evolution
 .gaim
 .gconf

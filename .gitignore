@@ -83,6 +83,8 @@
 .AbiWord
 .BitTornado
 .config/Trolltech.conf
+.config/enchant/*.dic
+.config/enchant/*.exc
 .config/gtk-2.0/gtkfilechooser.ini
 .config/menus/gnome-applications.menu
 .config/menus/gnome-settings.menu

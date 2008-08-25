@@ -34,6 +34,7 @@
 .nautilus/metafiles
 .nautilus/saved-session-*
 .psql_history
+.pulse-cookie
 .recently-used
 .recently-used.xbel
 .ssh/agent*

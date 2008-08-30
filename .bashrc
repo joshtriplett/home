@@ -49,13 +49,13 @@ export GREP_COLOR='1;32'
 # For use when piping into something like less that can handle color
 alias cgrep='grep --color=always'
 
-# Make Control-v paste, if in X and if xclip available
-if [ -n "$DISPLAY" ] && [ -x /usr/bin/xclip ] ; then
+# Make Control-v paste, if in X and if xsel available
+if [ -n "$DISPLAY" ] && [ -x /usr/bin/xsel ] ; then
     # Work around a bash bug: \C-@ does not work in a key binding
     bind '"\C-x\C-m": set-mark'
     # The '#' characters ensure that kill commands have text to work on; if
     # not, this binding would malfunction at the start or end of a line.
-    bind 'Control-v: "#\C-b\C-k#\C-x\C-?\"$(xclip -o -selection c)\"\e\C-e\C-x\C-m\C-a\C-y\C-?\C-e\C-y\ey\C-x\C-x\C-d"'
+    bind 'Control-v: "#\C-b\C-k#\C-x\C-?\"$(xsel -b -o)\"\e\C-e\C-x\C-m\C-a\C-y\C-?\C-e\C-y\ey\C-x\C-x\C-d"'
 fi
 
 # set variable identifying the chroot you work in (used in the prompt below)

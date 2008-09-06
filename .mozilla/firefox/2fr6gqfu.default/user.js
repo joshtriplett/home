@@ -25,6 +25,9 @@ user_pref("browser.shell.checkDefaultBrowser", false);
 // Use blank homepage.
 user_pref("browser.startup.page", 0);
 
+// Don't remember zoom levels.
+user_pref("browser.zoom.siteSpecific", false);
+
 // Don't warn about about:config.
 user_pref("general.warnOnAboutConfig", false);
 

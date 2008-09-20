@@ -1,6 +1,286 @@
 <?xml version="1.0"?>
 <gconf>
         <dir name="apps">
+                <dir name="panel">
+                        <dir name="objects">
+                                <dir name="object_quodlibet_launcher">
+                                        <entry name="toplevel_id" mtime="1221954210" type="string">
+                                                <stringvalue>bottom_panel</stringvalue>
+                                        </entry>
+                                        <entry name="position" mtime="1221954210" type="int" value="6">
+                                        </entry>
+                                        <entry name="panel_right_stick" mtime="1221954210" type="bool" value="false">
+                                        </entry>
+                                        <entry name="object_type" mtime="1221954210" type="string">
+                                                <stringvalue>launcher-object</stringvalue>
+                                        </entry>
+                                        <entry name="locked" mtime="1221954210" type="bool" value="true">
+                                        </entry>
+                                        <entry name="launcher_location" mtime="1221954210" type="string">
+                                                <stringvalue>quodlibet.desktop</stringvalue>
+                                        </entry>
+                                </dir>
+                                <dir name="object_pidgin_launcher">
+                                        <entry name="toplevel_id" mtime="1221954210" type="string">
+                                                <stringvalue>bottom_panel</stringvalue>
+                                        </entry>
+                                        <entry name="position" mtime="1221954210" type="int" value="5">
+                                        </entry>
+                                        <entry name="panel_right_stick" mtime="1221954210" type="bool" value="false">
+                                        </entry>
+                                        <entry name="object_type" mtime="1221954210" type="string">
+                                                <stringvalue>launcher-object</stringvalue>
+                                        </entry>
+                                        <entry name="locked" mtime="1221954210" type="bool" value="true">
+                                        </entry>
+                                        <entry name="launcher_location" mtime="1221954210" type="string">
+                                                <stringvalue>pidgin.desktop</stringvalue>
+                                        </entry>
+                                </dir>
+                                <dir name="object_evolution_launcher">
+                                        <entry name="toplevel_id" mtime="1221954210" type="string">
+                                                <stringvalue>bottom_panel</stringvalue>
+                                        </entry>
+                                        <entry name="position" mtime="1221954210" type="int" value="4">
+                                        </entry>
+                                        <entry name="panel_right_stick" mtime="1221954210" type="bool" value="false">
+                                        </entry>
+                                        <entry name="object_type" mtime="1221954210" type="string">
+                                                <stringvalue>launcher-object</stringvalue>
+                                        </entry>
+                                        <entry name="locked" mtime="1221954210" type="bool" value="true">
+                                        </entry>
+                                        <entry name="launcher_location" mtime="1221954210" type="string">
+                                                <stringvalue>evolution-mail.desktop</stringvalue>
+                                        </entry>
+                                </dir>
+                                <dir name="object_icedove_launcher">
+                                        <entry name="toplevel_id" mtime="1221954210" type="string">
+                                                <stringvalue>bottom_panel</stringvalue>
+                                        </entry>
+                                        <entry name="position" mtime="1221954210" type="int" value="3">
+                                        </entry>
+                                        <entry name="panel_right_stick" mtime="1221954210" type="bool" value="false">
+                                        </entry>
+                                        <entry name="object_type" mtime="1221954210" type="string">
+                                                <stringvalue>launcher-object</stringvalue>
+                                        </entry>
+                                        <entry name="locked" mtime="1221954210" type="bool" value="true">
+                                        </entry>
+                                        <entry name="launcher_location" mtime="1221954210" type="string">
+                                                <stringvalue>icedove.desktop</stringvalue>
+                                        </entry>
+                                </dir>
+                                <dir name="object_iceweasel_launcher">
+                                        <entry name="toplevel_id" mtime="1221954210" type="string">
+                                                <stringvalue>bottom_panel</stringvalue>
+                                        </entry>
+                                        <entry name="position" mtime="1221954210" type="int" value="2">
+                                        </entry>
+                                        <entry name="panel_right_stick" mtime="1221954210" type="bool" value="false">
+                                        </entry>
+                                        <entry name="object_type" mtime="1221954210" type="string">
+                                                <stringvalue>launcher-object</stringvalue>
+                                        </entry>
+                                        <entry name="locked" mtime="1221954210" type="bool" value="true">
+                                        </entry>
+                                        <entry name="launcher_location" mtime="1221954210" type="string">
+                                                <stringvalue>iceweasel.desktop</stringvalue>
+                                        </entry>
+                                </dir>
+                                <dir name="object_terminal_launcher">
+                                        <entry name="toplevel_id" mtime="1221954210" type="string">
+                                                <stringvalue>bottom_panel</stringvalue>
+                                        </entry>
+                                        <entry name="position" mtime="1221954210" type="int" value="1">
+                                        </entry>
+                                        <entry name="panel_right_stick" mtime="1221954210" type="bool" value="false">
+                                        </entry>
+                                        <entry name="object_type" mtime="1221954210" type="string">
+                                                <stringvalue>launcher-object</stringvalue>
+                                        </entry>
+                                        <entry name="locked" mtime="1221954210" type="bool" value="true">
+                                        </entry>
+                                        <entry name="launcher_location" mtime="1221954210" type="string">
+                                                <stringvalue>gnome-terminal.desktop</stringvalue>
+                                        </entry>
+                                </dir>
+                                <dir name="object_menu">
+                                        <entry name="toplevel_id" mtime="1221954210" type="string">
+                                                <stringvalue>bottom_panel</stringvalue>
+                                        </entry>
+                                        <entry name="position" mtime="1221954210" type="int" value="0">
+                                        </entry>
+                                        <entry name="panel_right_stick" mtime="1221954210" type="bool" value="false">
+                                        </entry>
+                                        <entry name="object_type" mtime="1221954210" type="string">
+                                                <stringvalue>menu-object</stringvalue>
+                                        </entry>
+                                        <entry name="menu_path" mtime="1221954210" type="string">
+                                                <stringvalue>applications:/</stringvalue>
+                                        </entry>
+                                        <entry name="locked" mtime="1221954210" type="bool" value="true">
+                                        </entry>
+                                </dir>
+                        </dir>
+                        <dir name="applets">
+                                <dir name="applet_clock">
+                                        <entry name="toplevel_id" mtime="1221954210" type="string">
+                                                <stringvalue>bottom_panel</stringvalue>
+                                        </entry>
+                                        <entry name="position" mtime="1221954210" type="int" value="0">
+                                        </entry>
+                                        <entry name="panel_right_stick" mtime="1221954210" type="bool" value="true">
+                                        </entry>
+                                        <entry name="object_type" mtime="1221954210" type="string">
+                                                <stringvalue>bonobo-applet</stringvalue>
+                                        </entry>
+                                        <entry name="locked" mtime="1221954210" type="bool" value="true">
+                                        </entry>
+                                        <entry name="bonobo_iid" mtime="1221954210" type="string">
+                                                <stringvalue>OAFIID:GNOME_ClockApplet</stringvalue>
+                                        </entry>
+                                        <dir name="prefs">
+                                                <entry name="show_week_numbers" mtime="1221954210" type="bool" value="false">
+                                                </entry>
+                                                <entry name="show_timezones" mtime="1221954210" type="bool" value="false">
+                                                </entry>
+                                                <entry name="show_seconds" mtime="1221954210" type="bool" value="false">
+                                                </entry>
+                                                <entry name="show_date" mtime="1221954210" type="bool" value="true">
+                                                </entry>
+                                                <entry name="gmt_time" mtime="1221954210" type="bool" value="false">
+                                                </entry>
+                                                <entry name="format" mtime="1221954210" type="string">
+                                                        <stringvalue>12-hour</stringvalue>
+                                                </entry>
+                                        </dir>
+                                </dir>
+                                <dir name="applet_volume">
+                                        <entry name="toplevel_id" mtime="1221954210" type="string">
+                                                <stringvalue>bottom_panel</stringvalue>
+                                        </entry>
+                                        <entry name="position" mtime="1221954210" type="int" value="1">
+                                        </entry>
+                                        <entry name="panel_right_stick" mtime="1221954210" type="bool" value="true">
+                                        </entry>
+                                        <entry name="object_type" mtime="1221954210" type="string">
+                                                <stringvalue>bonobo-applet</stringvalue>
+                                        </entry>
+                                        <entry name="locked" mtime="1221954210" type="bool" value="true">
+                                        </entry>
+                                        <entry name="bonobo_iid" mtime="1221954210" type="string">
+                                                <stringvalue>OAFIID:GNOME_MixerApplet</stringvalue>
+                                        </entry>
+                                </dir>
+                                <dir name="applet_tray">
+                                        <entry name="toplevel_id" mtime="1221954210" type="string">
+                                                <stringvalue>bottom_panel</stringvalue>
+                                        </entry>
+                                        <entry name="position" mtime="1221954210" type="int" value="2">
+                                        </entry>
+                                        <entry name="panel_right_stick" mtime="1221954210" type="bool" value="true">
+                                        </entry>
+                                        <entry name="object_type" mtime="1221954210" type="string">
+                                                <stringvalue>bonobo-applet</stringvalue>
+                                        </entry>
+                                        <entry name="locked" mtime="1221954210" type="bool" value="true">
+                                        </entry>
+                                        <entry name="bonobo_iid" mtime="1221954210" type="string">
+                                                <stringvalue>OAFIID:GNOME_NotificationAreaApplet</stringvalue>
+                                        </entry>
+                                </dir>
+                                <dir name="applet_window_list">
+                                        <entry name="toplevel_id" mtime="1221954210" type="string">
+                                                <stringvalue>bottom_panel</stringvalue>
+                                        </entry>
+                                        <entry name="position" mtime="1221954210" type="int" value="7">
+                                        </entry>
+                                        <entry name="panel_right_stick" mtime="1221954210" type="bool" value="false">
+                                        </entry>
+                                        <entry name="object_type" mtime="1221954210" type="string">
+                                                <stringvalue>bonobo-applet</stringvalue>
+                                        </entry>
+                                        <entry name="locked" mtime="1221954210" type="bool" value="true">
+                                        </entry>
+                                        <entry name="bonobo_iid" mtime="1221954210" type="string">
+                                                <stringvalue>OAFIID:GNOME_WindowListApplet</stringvalue>
+                                        </entry>
+                                        <dir name="prefs">
+                                                <entry name="group_windows" mtime="1221954210" type="string">
+                                                        <stringvalue>never</stringvalue>
+                                                </entry>
+                                        </dir>
+                                </dir>
+                        </dir>
+                        <dir name="toplevels">
+                                <dir name="bottom_panel">
+                                        <entry name="size" mtime="1221954210" type="int" value="48">
+                                        </entry>
+                                        <entry name="orientation" mtime="1221954210" type="string">
+                                                <stringvalue>bottom</stringvalue>
+                                        </entry>
+                                        <entry name="name" mtime="1221954210" type="string">
+                                                <stringvalue>Panel</stringvalue>
+                                        </entry>
+                                        <entry name="expand" mtime="1221954210" type="bool" value="true">
+                                        </entry>
+                                        <entry name="enable_buttons" mtime="1221954210" type="bool" value="false">
+                                        </entry>
+                                        <dir name="background">
+                                                <entry name="type" mtime="1221954210" type="string">
+                                                        <stringvalue>gtk</stringvalue>
+                                                </entry>
+                                        </dir>
+                                </dir>
+                        </dir>
+                        <dir name="general">
+                                <entry name="object_id_list" mtime="1221954210" type="list" ltype="string">
+                                        <li type="string">
+                                                <stringvalue>object_menu</stringvalue>
+                                        </li>
+                                        <li type="string">
+                                                <stringvalue>object_terminal_launcher</stringvalue>
+                                        </li>
+                                        <li type="string">
+                                                <stringvalue>object_iceweasel_launcher</stringvalue>
+                                        </li>
+                                        <li type="string">
+                                                <stringvalue>object_icedove_launcher</stringvalue>
+                                        </li>
+                                        <li type="string">
+                                                <stringvalue>object_evolution_launcher</stringvalue>
+                                        </li>
+                                        <li type="string">
+                                                <stringvalue>object_pidgin_launcher</stringvalue>
+                                        </li>
+                                        <li type="string">
+                                                <stringvalue>object_quodlibet_launcher</stringvalue>
+                                        </li>
+                                </entry>
+                                <entry name="applet_id_list" mtime="1221954210" type="list" ltype="string">
+                                        <li type="string">
+                                                <stringvalue>applet_window_list</stringvalue>
+                                        </li>
+                                        <li type="string">
+                                                <stringvalue>applet_tray</stringvalue>
+                                        </li>
+                                        <li type="string">
+                                                <stringvalue>applet_volume</stringvalue>
+                                        </li>
+                                        <li type="string">
+                                                <stringvalue>applet_clock</stringvalue>
+                                        </li>
+                                </entry>
+                                <entry name="toplevel_id_list" mtime="1221954210" type="list" ltype="string">
+                                        <li type="string">
+                                                <stringvalue>bottom_panel</stringvalue>
+                                        </li>
+                                </entry>
+                                <entry name="profiles_migrated" mtime="1221954209" type="bool" value="true">
+                                </entry>
+                        </dir>
+                </dir>
                 <dir name="gnome-power-manager">
                         <dir name="lock">
                                 <entry name="hibernate_gnome_keyring" mtime="1212597290" type="bool" value="false">

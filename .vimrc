@@ -10,3 +10,5 @@ syn on
 
 let g:debchangelog_fold_enable = 1
 let g:debcontrol_fold_enable = 1
+let g:xml_syntax_folding = 1
+au FileType xml setlocal foldmethod=syntax

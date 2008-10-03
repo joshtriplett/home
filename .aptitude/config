@@ -1,4 +1,5 @@
 aptitude "";
+aptitude::Autoclean-After-Update "true";
 aptitude::Recommends-Important "false";
 aptitude::Keep-Unused-Pattern "";
 aptitude::Delete-Unused-Pattern "";

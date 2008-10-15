@@ -283,7 +283,7 @@
                 </dir>
                 <dir name="gnome-power-manager">
                         <dir name="lock">
-                                <entry name="hibernate_gnome_keyring" mtime="1212597290" type="bool" value="false">
+                                <entry name="gnome_keyring_hibernate" mtime="1212597290" type="bool" value="false">
                                 </entry>
                         </dir>
                 </dir>

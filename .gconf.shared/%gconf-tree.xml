@@ -7,7 +7,7 @@
                                         <entry name="toplevel_id" mtime="1221954210" type="string">
                                                 <stringvalue>bottom_panel</stringvalue>
                                         </entry>
-                                        <entry name="position" mtime="1221954210" type="int" value="6">
+                                        <entry name="position" mtime="1221954210" type="int" value="5">
                                         </entry>
                                         <entry name="panel_right_stick" mtime="1221954210" type="bool" value="false">
                                         </entry>
@@ -24,7 +24,7 @@
                                         <entry name="toplevel_id" mtime="1221954210" type="string">
                                                 <stringvalue>bottom_panel</stringvalue>
                                         </entry>
-                                        <entry name="position" mtime="1221954210" type="int" value="5">
+                                        <entry name="position" mtime="1221954210" type="int" value="4">
                                         </entry>
                                         <entry name="panel_right_stick" mtime="1221954210" type="bool" value="false">
                                         </entry>
@@ -41,23 +41,6 @@
                                         <entry name="toplevel_id" mtime="1221954210" type="string">
                                                 <stringvalue>bottom_panel</stringvalue>
                                         </entry>
-                                        <entry name="position" mtime="1221954210" type="int" value="4">
-                                        </entry>
-                                        <entry name="panel_right_stick" mtime="1221954210" type="bool" value="false">
-                                        </entry>
-                                        <entry name="object_type" mtime="1221954210" type="string">
-                                                <stringvalue>launcher-object</stringvalue>
-                                        </entry>
-                                        <entry name="locked" mtime="1221954210" type="bool" value="true">
-                                        </entry>
-                                        <entry name="launcher_location" mtime="1221954210" type="string">
-                                                <stringvalue>evolution-mail.desktop</stringvalue>
-                                        </entry>
-                                </dir>
-                                <dir name="object_icedove_launcher">
-                                        <entry name="toplevel_id" mtime="1221954210" type="string">
-                                                <stringvalue>bottom_panel</stringvalue>
-                                        </entry>
                                         <entry name="position" mtime="1221954210" type="int" value="3">
                                         </entry>
                                         <entry name="panel_right_stick" mtime="1221954210" type="bool" value="false">
@@ -68,7 +51,7 @@
                                         <entry name="locked" mtime="1221954210" type="bool" value="true">
                                         </entry>
                                         <entry name="launcher_location" mtime="1221954210" type="string">
-                                                <stringvalue>icedove.desktop</stringvalue>
+                                                <stringvalue>evolution-mail.desktop</stringvalue>
                                         </entry>
                                 </dir>
                                 <dir name="object_iceweasel_launcher">
@@ -194,7 +177,7 @@
                                         <entry name="toplevel_id" mtime="1221954210" type="string">
                                                 <stringvalue>bottom_panel</stringvalue>
                                         </entry>
-                                        <entry name="position" mtime="1221954210" type="int" value="7">
+                                        <entry name="position" mtime="1221954210" type="int" value="6">
                                         </entry>
                                         <entry name="panel_right_stick" mtime="1221954210" type="bool" value="false">
                                         </entry>
@@ -244,9 +227,6 @@
                                         </li>
                                         <li type="string">
                                                 <stringvalue>object_iceweasel_launcher</stringvalue>
-                                        </li>
-                                        <li type="string">
-                                                <stringvalue>object_icedove_launcher</stringvalue>
                                         </li>
                                         <li type="string">
                                                 <stringvalue>object_evolution_launcher</stringvalue>

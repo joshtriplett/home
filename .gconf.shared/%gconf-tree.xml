@@ -364,6 +364,17 @@
         </dir>
         <dir name="desktop">
                 <dir name="gnome">
+                        <dir name="applications">
+                                <dir name="browser">
+                                        <entry name="nremote" mtime="1224218441" type="bool" value="true">
+                                        </entry>
+                                        <entry name="needs_term" mtime="1224218433" type="bool" value="false">
+                                        </entry>
+                                        <entry name="exec" mtime="1224218419" type="string">
+                                                <stringvalue>firefox</stringvalue>
+                                        </entry>
+                                </dir>
+                        </dir>
                         <dir name="interface">
                                 <entry name="cursor_blink" mtime="1202954016" type="bool" value="false">
                                 </entry>

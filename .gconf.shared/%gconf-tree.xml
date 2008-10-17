@@ -300,6 +300,19 @@
                         </dir>
                 </dir>
                 <dir name="metacity">
+                        <dir name="keybinding_commands">
+                                <entry name="command_1" mtime="1224221748" type="string">
+                                        <stringvalue>firefox -new-tab &quot;about:blank&quot;</stringvalue>
+                                </entry>
+                        </dir>
+                        <dir name="global_keybindings">
+                                <entry name="run_command_1" mtime="1224221563" type="string">
+                                        <stringvalue>&lt;Super&gt;b</stringvalue>
+                                </entry>
+                                <entry name="run_command_terminal" mtime="1224221171" type="string">
+                                        <stringvalue>&lt;Super&gt;n</stringvalue>
+                                </entry>
+                        </dir>
                         <dir name="general">
                                 <entry name="action_double_click_titlebar" mtime="1205819033" type="string">
                                         <stringvalue>toggle_maximize</stringvalue>

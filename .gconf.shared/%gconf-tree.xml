@@ -350,6 +350,8 @@
                 <dir name="gnome-terminal">
                         <dir name="profiles">
                                 <dir name="Default">
+                                        <entry name="default_show_menubar" mtime="1224287030" type="bool" value="false">
+                                        </entry>
                                         <entry name="use_theme_colors" mtime="1202977397" type="bool" value="false">
                                         </entry>
                                         <entry name="scrollbar_position" mtime="1202977397" type="string">

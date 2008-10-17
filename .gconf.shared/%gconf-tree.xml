@@ -281,6 +281,8 @@
                 </dir>
                 <dir name="nautilus">
                         <dir name="preferences">
+                                <entry name="show_desktop" mtime="1224204699" type="bool" value="false">
+                                </entry>
                                 <entry name="enable_delete" mtime="1202986157" type="bool" value="true">
                                 </entry>
                                 <entry name="desktop_is_home_dir" mtime="1202986157" type="bool" value="true">

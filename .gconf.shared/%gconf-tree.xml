@@ -300,6 +300,14 @@
                         </dir>
                 </dir>
                 <dir name="metacity">
+                        <dir name="window_keybindings">
+                                <entry name="toggle_fullscreen" mtime="1224222405" type="string">
+                                        <stringvalue>&lt;Super&gt;f</stringvalue>
+                                </entry>
+                                <entry name="toggle_maximized" mtime="1224222309" type="string">
+                                        <stringvalue>&lt;Super&gt;m</stringvalue>
+                                </entry>
+                        </dir>
                         <dir name="keybinding_commands">
                                 <entry name="command_1" mtime="1224221748" type="string">
                                         <stringvalue>firefox -new-tab &quot;about:blank&quot;</stringvalue>

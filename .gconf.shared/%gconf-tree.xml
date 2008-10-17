@@ -262,6 +262,14 @@
                         </dir>
                 </dir>
                 <dir name="gnome-power-manager">
+                        <dir name="backlight">
+                                <entry name="idle_dim_battery" mtime="1224205696" type="bool" value="false">
+                                </entry>
+                                <entry name="idle_dim_ac" mtime="1224205693" type="bool" value="false">
+                                </entry>
+                                <entry name="battery_reduce" mtime="1224205687" type="bool" value="false">
+                                </entry>
+                        </dir>
                         <dir name="lock">
                                 <entry name="gnome_keyring_hibernate" mtime="1212597290" type="bool" value="false">
                                 </entry>

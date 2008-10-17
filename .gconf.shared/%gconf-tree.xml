@@ -301,6 +301,18 @@
                 </dir>
                 <dir name="metacity">
                         <dir name="window_keybindings">
+                                <entry name="move_to_side_s" mtime="1224222866" type="string">
+                                        <stringvalue>&lt;Super&gt;Down</stringvalue>
+                                </entry>
+                                <entry name="move_to_side_n" mtime="1224222862" type="string">
+                                        <stringvalue>&lt;Super&gt;Up</stringvalue>
+                                </entry>
+                                <entry name="move_to_side_w" mtime="1224222858" type="string">
+                                        <stringvalue>&lt;Super&gt;Left</stringvalue>
+                                </entry>
+                                <entry name="move_to_side_e" mtime="1224222851" type="string">
+                                        <stringvalue>&lt;Super&gt;Right</stringvalue>
+                                </entry>
                                 <entry name="toggle_fullscreen" mtime="1224222405" type="string">
                                         <stringvalue>&lt;Super&gt;f</stringvalue>
                                 </entry>

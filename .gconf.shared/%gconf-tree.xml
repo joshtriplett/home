@@ -415,6 +415,9 @@
                                 </entry>
                         </dir>
                         <dir name="background">
+                                <entry name="picture_filename" mtime="1224303321" type="string">
+                                        <stringvalue></stringvalue>
+                                </entry>
                                 <entry name="primary_color" mtime="1202949904" type="string">
                                         <stringvalue>#46468282b4b4</stringvalue>
                                 </entry>

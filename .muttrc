@@ -1,3 +1,3 @@
-set spoolfile=imaps://josh@josh.homelinux.net/INBOX
-set folder=imaps://josh@josh.homelinux.net/
+set spoolfile=imaps://josh@joshtriplett.org/INBOX
+set folder=imaps://josh@joshtriplett.org/
 set move=no

@@ -222,6 +222,11 @@
                         </dir>
                 </dir>
                 <dir name="gnome-power-manager">
+                        <dir name="buttons">
+                                <entry name="lid_battery" mtime="1224387386" type="string">
+                                        <stringvalue>blank</stringvalue>
+                                </entry>
+                        </dir>
                         <dir name="backlight">
                                 <entry name="idle_dim_battery" mtime="1224205696" type="bool" value="false">
                                 </entry>

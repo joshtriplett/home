@@ -21,7 +21,7 @@ shopt -s no_empty_cmd_completion
 [ -x /usr/bin/lesspipe ] && eval "$(lesspipe)"
 
 export HISTSIZE=100000
-export HISTFILESIZE=100000
+unset HISTFILESIZE
 
 export EMAIL='josh@freedesktop.org'
 export DEBEMAIL=$EMAIL

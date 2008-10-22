@@ -1,7 +1,4 @@
 export PATH="$HOME/local/bin:/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
-if [ -d $HOME/local/lib ] ; then
-    export LD_LIBRARY_PATH="$HOME/local/lib${LD_LIBRARY_PATH:+:}$LD_LIBRARY_PATH"
-fi
 export LC_COLLATE=C
 
 # If not running interactively, don't do anything

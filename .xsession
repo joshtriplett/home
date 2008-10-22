@@ -1,3 +1,4 @@
+#!/bin/sh
 # Useful on ThinkPads, and shouldn't break any other keyboards.
 xmodmap -e "keycode 77 = Num_Lock" \
         -e "keycode 227 = Multi_key" \

@@ -61,6 +61,9 @@ user_pref("extensions.customizegoogle.web.removeclicktrack", true);
 user_pref("extensions.customizegoogle.web.search-links", false);
 user_pref("extensions.customizegoogle.web.weather-links", false);
 
+// It's All Text
+user_pref("extensions.itsalltext.editor", "/usr/bin/emacs");
+
 // Foxmarks
 user_pref("foxmarks.username", "JoshTriplett");
 user_pref("foxmarks.securityLevel", 1);

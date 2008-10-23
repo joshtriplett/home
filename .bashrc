@@ -16,7 +16,7 @@ shopt -s no_empty_cmd_completion
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(lesspipe)"
 
-export HISTSIZE=100000
+HISTSIZE=100000
 unset HISTFILESIZE
 
 # enable color support of ls and also add handy aliases

@@ -1,5 +1,4 @@
-export PATH="$HOME/local/bin:/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
-export LC_COLLATE=C
+. ~/.environment
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
@@ -20,18 +19,6 @@ shopt -s no_empty_cmd_completion
 export HISTSIZE=100000
 unset HISTFILESIZE
 
-export EMAIL='josh@freedesktop.org'
-export DEBEMAIL=$EMAIL
-export GIT_AUTHOR_NAME='Josh Triplett'
-export GIT_AUTHOR_EMAIL=$EMAIL
-export GIT_COMMITTER_NAME='Josh Triplett'
-export GIT_COMMITTER_EMAIL=$EMAIL
-export EDITOR=emacs
-export ENSCRIPT='--header=|$n --highlight --media=letter --color'
-export LESS='-R'
-export LESSHISTFILE=-
-export GZIP='-9'
-
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     eval "`dircolors -b`"
@@ -40,9 +27,6 @@ else
     alias ls='ls -v'
 fi
 
-# enable color in grep
-export GREP_OPTIONS='--color=auto'
-export GREP_COLOR='1;32'
 # For use when piping into something like less that can handle color
 alias cgrep='grep --color=always'
 

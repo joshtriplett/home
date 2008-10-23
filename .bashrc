@@ -51,7 +51,7 @@ case "$TERM" in
 xterm*|rxvt*)
     # Using PS1 seems to cause the cursor to flash to the beginning of the line.
     # PS1="\[\e]0;\u@\h: \w\a\]$PS1"
-    export PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD/#$HOME/~}\007"'
+    PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD/#$HOME/~}\007"'
     ;;
 esac
 

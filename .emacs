@@ -29,8 +29,6 @@
 (let (email (getenv "EMAIL"))
   (when email (setq user-mail-address email)))
 
-(server-start)
-
 (when (require 'bar-cursor nil t)
   (bar-cursor-mode 1))
 (when (fboundp 'blink-cursor-mode)

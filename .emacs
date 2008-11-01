@@ -67,7 +67,7 @@
   "Kill current buffer, and tell any emacsclient pending on the
 buffer to finish."
   (interactive)
-  (if server-buffer-clients
+  (if (and (boundp 'server-buffer-clients) server-buffer-clients)
       (server-edit)
     (kill-buffer (current-buffer))))
 (global-set-key (kbd "C-x k") 'my-kill)

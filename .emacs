@@ -16,6 +16,7 @@
 
 (setq inhibit-startup-message t
       inhibit-startup-buffer-menu t
+      ispell-program-name "aspell"
       make-backup-files nil
       diff-switches "-u"
       scroll-margin 8
@@ -94,6 +95,10 @@ optional argument."
 (when (require 'tabbar nil t)
   (setq tabbar-buffer-groups-function
 	(lambda (&optional b) (list "All Buffers")) )
+  (setq tabbar-buffer-home-button '(("") "")
+        tabbar-home-button '(("") "")
+        tabbar-scroll-left-button '(("") "")
+        tabbar-scroll-right-button '(("") ""))
   (tabbar-mode)
   (define-key esc-map (kbd "<left>") 'tabbar-backward)
   (define-key esc-map (kbd "<right>") 'tabbar-forward)
@@ -143,6 +148,7 @@ optional argument."
   (push '("\\.xsd\\'" . nxml-mode) auto-mode-alist)
   (push '("\\.html\\'" . nxml-mode) auto-mode-alist)
   (push '("\\.kid\\'" . nxml-mode) auto-mode-alist)
+  (setq nxml-slash-auto-complete-flag t)
   (fset 'html-mode 'nxml-mode)
   (fset 'xml-mode 'nxml-mode))
 
@@ -160,28 +166,6 @@ optional argument."
 ;; Disable whitespace cleanup in Makefiles
 (setq makefile-cleanup-continuations-p nil
       makefile-cleanup-continuations nil)
-
-(custom-set-variables
-  ;; custom-set-variables was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
- '(column-number-mode t)
- '(ecb-directories-menu-user-extension-function nil)
- '(ecb-history-menu-user-extension-function nil)
- '(ecb-methods-menu-user-extension-function nil)
- '(ecb-options-version "2.27")
- '(ecb-sources-menu-user-extension-function nil)
- '(global-font-lock-mode t)
- '(ispell-choices-win-default-height 4)
- '(ispell-program-name "aspell")
- '(nxml-slash-auto-complete-flag t)
- '(rng-schema-locating-files (quote ("schemas.xml" "~/.nxml-mode/schemas.xml" "/usr/share/emacs/site-lisp/nxml-mode/schema/schemas.xml")))
- '(tabbar-buffer-home-button (quote (("") "")))
- '(tabbar-home-button (quote (("") "")))
- '(tabbar-scroll-left-button (quote (("") "")))
- '(tabbar-scroll-right-button (quote (("") "")))
- '(transient-mark-mode t))
 
 (custom-set-faces
   ;; custom-set-faces was added by Custom.

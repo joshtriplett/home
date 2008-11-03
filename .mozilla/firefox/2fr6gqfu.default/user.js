@@ -25,6 +25,9 @@ user_pref("browser.shell.checkDefaultBrowser", false);
 // Use blank homepage.
 user_pref("browser.startup.page", 0);
 
+// Zoom text only, not images
+user_pref("browser.zoom.full", false);
+
 // Don't remember zoom levels.
 user_pref("browser.zoom.siteSpecific", false);
 

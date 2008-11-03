@@ -173,8 +173,5 @@ optional argument."
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  '(tabbar-default ((t (:inherit variable-pitch :background "gray" :foreground "black" :height 0.8))))
- '(tabbar-default-face ((t (:inherit variable-pitch :background "gray" :foreground "black" :height 0.8))))
  '(tabbar-selected ((t (:inherit tabbar-default :background "white" :foreground "blue"))))
- '(tabbar-selected-face ((t (:inherit tabbar-default-face :background "white" :foreground "blue"))))
- '(tabbar-unselected ((t (:inherit tabbar-default))))
- '(tabbar-unselected-face ((t (:inherit tabbar-default-face)))))
+ '(tabbar-unselected ((t (:inherit tabbar-default)))))

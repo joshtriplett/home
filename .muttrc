@@ -3,4 +3,6 @@ set spoolfile=imaps://josh@joshtriplett.org/INBOX
 set folder=imaps://josh@joshtriplett.org/
 set move=no
 
+alternates josh@joshtriplett.org, josh@freedesktop.org, josh@kernel.org, josh@psas.pdx.edu, tripletj@cs.pdx.edu, jtriplett@openoffice.org
+
 macro index,pager A <save-message>=Archive<enter><enter> "Archive mail"

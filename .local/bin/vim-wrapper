@@ -1,0 +1,14 @@
+#!/bin/bash
+if tty -s; then
+    exec vim "$@"
+elif [ -n "$DISPLAY" ]; then
+    shopt -s execfail
+    exec gnome-terminal -x vim "$@"
+    exec xterm -e vim "$@"
+    exec x-terminal-emulator -e vim "$@"
+    echo Cannot start editor: not on a terminal and no X terminal emulator >&2
+    exit 1
+else
+    echo Cannot start an editor: not on a terminal and no DISPLAY. >&2
+    exit 1
+fi

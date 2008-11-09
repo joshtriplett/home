@@ -1,7 +1,7 @@
 #!/bin/sh
 PATH="$HOME/.local/bin:/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
 LC_COLLATE=C
-EDITOR=emacs
+EDITOR="$HOME/.local/bin/vim-wrapper"
 PAGER=less
 LESS='-R'
 LESSHISTFILE=-

@@ -68,6 +68,7 @@
 .gphoto
 .hplip.conf
 .ivtv*
+.local/bin/do-getmail*
 .lpoptions
 .maildir
 .minirc.dfl

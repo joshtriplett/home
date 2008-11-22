@@ -3,7 +3,7 @@ PATH="$HOME/.local/bin:/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:
 LC_COLLATE=C
 EDITOR="$HOME/.local/bin/vim-wrapper"
 PAGER=less
-LESS='-R'
+LESS='-iR'
 LESSHISTFILE=-
 GZIP='-9'
 ENSCRIPT='--header=|$n --highlight --media=letter --color'

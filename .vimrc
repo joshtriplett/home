@@ -9,6 +9,13 @@ set showcmd
 set wildmode=longest,list,full
 syn on
 
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+command! T setlocal noexpandtab shiftwidth=8 softtabstop=0
+command! S setlocal expandtab shiftwidth=4 softtabstop=4
+au BufNewFile,BufRead */linux-2.6/* T
+
 let g:debchangelog_fold_enable = 1
 let g:debcontrol_fold_enable = 1
 let g:xml_syntax_folding = 1

@@ -9,6 +9,7 @@ set postponed="=Drafts"
 set move=no
 
 set edit_headers=yes
+set pgp_use_gpg_agent=yes
 
 alternates josh@joshtriplett.org, josh@freedesktop.org, josh@kernel.org, josh@psas.pdx.edu, tripletj@cs.pdx.edu, jtriplett@openoffice.org
 

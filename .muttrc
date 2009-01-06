@@ -1,7 +1,14 @@
-set tunnel="ssh -q joshtriplett.org dovecot --exec-mail imap"
+account-hook . 'unset tunnel'
+account-hook ^imaps://josh@joshtriplett.org/ 'set tunnel="ssh -q joshtriplett.org dovecot --exec-mail imap"'
+
+set smtp_url=smtps://josh@joshtriplett.org@mail.gandi.net/
 set spoolfile=imaps://josh@joshtriplett.org/INBOX
 set folder=imaps://josh@joshtriplett.org/
+set record="=Sent"
+set postponed="=Drafts"
 set move=no
+
+set edit_headers=yes
 
 alternates josh@joshtriplett.org, josh@freedesktop.org, josh@kernel.org, josh@psas.pdx.edu, tripletj@cs.pdx.edu, jtriplett@openoffice.org
 

@@ -65,6 +65,7 @@
 .dovecot.sieve
 .drirc
 .forward
+.ghc
 .gphoto
 .hplip.conf
 .ivtv*

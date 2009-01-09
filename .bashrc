@@ -44,7 +44,7 @@ if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
 fi
 
-PS1='${debian_chroot:+($debian_chroot)}\[\e[01;32m\]\u@\h$(e="$?";[ "$e" -ne 0 ] && echo -n "\[\e[01;31m\]($e)")\[\e[00m\]:\[\e[01;34m\]\w\[\e[00m\]\$ '
+PS1='${debian_chroot:+\[\e[01;37m\]($debian_chroot)\[\e[00m\]}\[\e[01;32m\]\u@\h$(e="$?";[ "$e" -ne 0 ] && echo -n "\[\e[01;31m\]($e)")\[\e[00m\]:\[\e[01;34m\]\w\[\e[00m\]\$ '
 
 # If this is an xterm or rxvt set the title to user@host:dir
 case "$TERM" in

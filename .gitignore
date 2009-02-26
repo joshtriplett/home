@@ -43,13 +43,10 @@
 .xsession-errors
 
 # Private
-.cia_key
-.crm114
 .cvspass
 .getmail
 .gnome2_private
 .listadmin.ini
-.pam
 .ssh/id_rsa
 .ssh/id_rsa_work
 .ssh/id_dsa
@@ -73,7 +70,6 @@
 .lpoptions
 .maildir
 .minirc.dfl
-.rss2email
 .ssh/authorized_keys
 .ssh/*.pub
 
@@ -83,8 +79,6 @@
 # Some transient, some configuration files, but configuration files get written
 # out every time, and not just the changed values.  Some also contain
 # machine-specific configuration, and private data.
-.AbiWord
-.BitTornado
 .config/Trolltech.conf
 .config/enchant/*.dic
 .config/enchant/*.exc
@@ -95,7 +89,6 @@
 .config/totem
 .config/transmission
 .evolution
-.gaim
 .gconf
 .gimp*
 .gitk
@@ -104,7 +97,6 @@
 .gobby
 .inkscape
 .kde
-.mozilla/default
 .mozilla/firefox
 .mozilla-thunderbird
 .mythtv/mysql.txt
@@ -116,12 +108,10 @@
 .quodlibet
 .sane
 .stellarium
-.transmission
 .vlc
 .wireshark/recent
 .xdvirc
 .xine
-.xmms
 
 # For now, ignore all the game directories.  Many use binary files, many use
 # unintelligible text formats, many mix high scores in with the preferences,
@@ -247,7 +237,6 @@
 .toppler
 .trackballs
 .tumiki-fighters.prf
-.tuxracer
 .tuxtype
 .tworld
 .val-and-rick

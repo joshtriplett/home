@@ -11,6 +11,10 @@ GREP_OPTIONS='--color=auto'
 GREP_COLOR='1;32'
 export PATH LC_COLLATE EDITOR LESS LESSHISTFILE GZIP ENSCRIPT GREP_OPTIONS GREP_COLOR
 
+if [ -r "$HOME/.ssh/agent-$HOSTNAME" ] ; then
+    . "$HOME/.ssh/agent-$HOSTNAME" > /dev/null
+fi
+
 EMAIL='josh@freedesktop.org'
 NAME='Josh Triplett'
 DEBEMAIL=$EMAIL

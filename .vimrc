@@ -1,6 +1,7 @@
 set nocompatible
 filetype plugin indent on
 set bg=dark
+set history=1000
 set laststatus=2
 set listchars=tab:>-
 set scrolloff=4

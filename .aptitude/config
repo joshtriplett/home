@@ -9,4 +9,6 @@ aptitude::UI::Advance-On-Action "true";
 aptitude::UI::Default-Grouping "status,section";
 aptitude::Ignore-Recommends-Important "true";
 APT "";
+APT::AutoRemove "";
+APT::AutoRemove::RecommendsImportant "false";
 APT::Install-Recommends "false";

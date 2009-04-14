@@ -31,3 +31,6 @@ function! s:headertemplate(name)
     return "#ifndef " . guard . "\n#define " . guard . "\n\n\n\n#endif /* " . guard . " */"
 endfunction
 au BufNewFile *.h s@^$@\=s:headertemplate(expand('<afile>'))@ | 4
+
+iabbrev jj Josh Triplett and Jamey Sharp
+iabbrev cjj Commit by Josh Triplett and Jamey Sharp

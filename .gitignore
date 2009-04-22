@@ -99,6 +99,7 @@
 .kde
 .mozilla/firefox
 .mozilla-thunderbird
+.mythtv/config.xml
 .mythtv/mysql.txt
 .ncftp
 .openoffice.org*

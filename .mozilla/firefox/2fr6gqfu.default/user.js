@@ -1,6 +1,5 @@
 // Use system DPI.
-user_pref("browser.display.screen_resolution", 0); // Firefox 2
-user_pref("layout.css.dpi", 0);                    // Firefox 3
+user_pref("layout.css.dpi", 0);
 
 // Clear the download manager on exit.
 user_pref("browser.download.manager.retention", 1);

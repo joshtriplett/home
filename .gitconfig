@@ -1,6 +1,9 @@
 [color]
 	ui=auto
 
+[color "grep"]
+	match = bold green
+
 [imap]
 	folder="Drafts"
 	tunnel="ssh -q joshtriplett.org dovecot --exec-mail imap"

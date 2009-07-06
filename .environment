@@ -15,7 +15,7 @@ if [ -r "$HOME/.ssh/agent-$HOSTNAME" ] ; then
     . "$HOME/.ssh/agent-$HOSTNAME" > /dev/null
 fi
 
-EMAIL='josh@freedesktop.org'
+EMAIL='josh@joshtriplett.org'
 NAME='Josh Triplett'
 DEBEMAIL=$EMAIL
 DEBFULLNAME="$NAME"

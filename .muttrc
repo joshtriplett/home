@@ -6,7 +6,10 @@ set spoolfile=imaps://josh@joshtriplett.org/INBOX
 set folder=imaps://josh@joshtriplett.org/
 set record="=Sent"
 set postponed="=Drafts"
+set confirmappend=no
 set move=no
+
+save-hook ~A =Archive
 
 set edit_headers=yes
 set pgp_use_gpg_agent=yes
@@ -17,5 +20,3 @@ alternates josh@kernel.org
 alternates josh@psas.pdx.edu
 alternates tripletj@cs.pdx.edu
 alternates jtriplett@openoffice.org
-
-macro index,pager A <save-message>=Archive<enter><enter> "Archive mail"

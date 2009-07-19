@@ -4,4 +4,5 @@ fixed-vo=yes
 fontconfig=yes
 prefer-ipv4=yes
 slang=en
+stop-xscreensaver=yes
 zoom=yes

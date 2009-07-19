@@ -1,7 +1,7 @@
 ao=alsa,oss,
-fixed-vo=yes
-prefer-ipv4=yes
-fontconfig=yes
-slang=en
 doubleclick-time=0
+fixed-vo=yes
+fontconfig=yes
+prefer-ipv4=yes
+slang=en
 zoom=yes

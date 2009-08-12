@@ -8,6 +8,7 @@ set record="=Sent"
 set postponed="=Drafts"
 set confirmappend=no
 set move=no
+set imap_check_subscribed=yes
 
 save-hook ~A =Archive
 

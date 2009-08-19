@@ -1,3 +1,4 @@
+af=scaletempo
 ao=alsa,oss,
 doubleclick-time=0
 fixed-vo=yes

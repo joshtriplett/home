@@ -149,10 +149,6 @@ optional argument."
   (fset 'html-mode 'nxml-mode)
   (fset 'xml-mode 'nxml-mode))
 
-;; sieve-mode
-(when (fboundp 'sieve-mode)
-  (push '("\\.sieve\\'" . sieve-mode) auto-mode-alist))
-
 ;; makefile-mode
 ;; Disable whitespace cleanup in Makefiles
 (setq makefile-cleanup-continuations-p nil

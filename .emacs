@@ -140,15 +140,6 @@ optional argument."
             (TeX-PDF-mode)))
 (setq tex-dvi-view-command "xdvi")
 
-;; nxml-mode
-(when (require 'nxml-mode nil t)
-  (push '("\\.xsd\\'" . nxml-mode) auto-mode-alist)
-  (push '("\\.html\\'" . nxml-mode) auto-mode-alist)
-  (push '("\\.kid\\'" . nxml-mode) auto-mode-alist)
-  (setq nxml-slash-auto-complete-flag t)
-  (fset 'html-mode 'nxml-mode)
-  (fset 'xml-mode 'nxml-mode))
-
 ;; makefile-mode
 ;; Disable whitespace cleanup in Makefiles
 (setq makefile-cleanup-continuations-p nil

@@ -156,12 +156,6 @@ optional argument."
 (when (fboundp 'sieve-mode)
   (push '("\\.sieve\\'" . sieve-mode) auto-mode-alist))
 
-;; css-mode
-(defun my-css-mode-hook ()
-  ;; Turn off mirror mode
-  (cssm-leave-mirror-mode))
-(add-hook 'css-mode-hook 'my-css-mode-hook)
-
 ;; makefile-mode
 ;; Disable whitespace cleanup in Makefiles
 (setq makefile-cleanup-continuations-p nil

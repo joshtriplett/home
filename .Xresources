@@ -1,7 +1,5 @@
 Emacs.font: neep-alt-14
 Emacs.fullscreen: fullheight
-Emacs.pane.menubar.font: lucidasans-10
-Emacs.pane.menubar.shadowThickness: 1
 Emacs.toolBar: 0
 
 xpdf.initialZoom: width

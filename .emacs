@@ -39,10 +39,7 @@
 (mouse-wheel-mode t)
 (when (fboundp 'set-scroll-bar-mode)
   (set-scroll-bar-mode 'right))
-
-;; Don't show the menu in a terminal
-(unless window-system
-  (menu-bar-mode -1))
+(menu-bar-mode -1)
 
 ;; Don't wait for window manager when changing font - avoids long delays.
 (modify-frame-parameters nil '((wait-for-wm . nil)))

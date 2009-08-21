@@ -1,5 +1,6 @@
 Emacs.font: neep-alt-14
 Emacs.fullscreen: fullheight
+Emacs.menuBar: 0
 Emacs.toolBar: 0
 
 xpdf.initialZoom: width

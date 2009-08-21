@@ -159,6 +159,6 @@ optional argument."
   ;; If you edit it by hand, you could mess it up, so be careful.
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
- '(tabbar-default ((t (:inherit variable-pitch :background "gray" :foreground "black" :height 0.8))))
+ '(tabbar-default ((t (:inherit variable-pitch :background "gray" :foreground "black"))))
  '(tabbar-selected ((t (:inherit tabbar-default :background "white" :foreground "blue"))))
  '(tabbar-unselected ((t (:inherit tabbar-default)))))

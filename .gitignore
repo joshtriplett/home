@@ -80,6 +80,7 @@
 # out every time, and not just the changed values.  Some also contain
 # machine-specific configuration, and private data.
 .config/Trolltech.conf
+.config/brasero/brasero.session
 .config/enchant/*.dic
 .config/enchant/*.exc
 .config/gnome-hearts/gnome-hearts.cfg

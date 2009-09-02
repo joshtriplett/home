@@ -47,14 +47,17 @@ if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
 fi
 
-PS1='${debian_chroot:+\[\e[01;37m\]($debian_chroot)\[\e[00m\]}\[\e[01;32m\]\u@\h$(e="$?";[ "$e" -ne 0 ] && echo -n "\[\e[01;31m\]($e)")\[\e[00m\]:\[\e[01;34m\]\w\[\e[00m\]\$ '
+# Only show username and hostname if remote or unusual
+if [ -n "$SSH_CONNECTION" ] || [ "$(id -un)" != "josh" ] ; then
+    prompt_remote=true
+fi
 
-# If this is an xterm or rxvt set the title to user@host:dir
+PS1='$(e="$?";[ "$e" -ne 0 ] && echo -n "\[\e[01;31m\]($e) ")${debian_chroot:+\[\e[01;37m\]($debian_chroot) }${prompt_remote:+\[\e[01;32m\]\u@\h\[\e[00m\]:}\[\e[01;34m\]\w\[\e[00m\]\$ '
+
+# If this is an xterm or rxvt, set the title
 case "$TERM" in
 xterm*|rxvt*)
-    # Using PS1 seems to cause the cursor to flash to the beginning of the line.
-    # PS1="\[\e]0;\u@\h: \w\a\]$PS1"
-    PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD/#$HOME/~}\007"'
+    PS1="\[\e]0;${prompt_remote:+\u@\h: }\w\a\]$PS1"
     ;;
 esac
 

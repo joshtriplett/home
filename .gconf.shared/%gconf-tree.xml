@@ -284,6 +284,9 @@
                                 </entry>
                                 <entry name="num_workspaces" mtime="1202980906" type="int" value="1">
                                 </entry>
+                                <entry name="titlebar_font" mtime="1224310795" type="string">
+                                        <stringvalue>Sans Bold 8</stringvalue>
+                                </entry>
                         </dir>
                 </dir>
                 <dir name="gksu">
@@ -358,6 +361,15 @@
                         </dir>
                         <dir name="interface">
                                 <entry name="cursor_blink" mtime="1202954016" type="bool" value="false">
+                                </entry>
+                                <entry name="monospace_font_name" mtime="1222975371" type="string">
+                                        <stringvalue>Monospace 8</stringvalue>
+                                </entry>
+                                <entry name="document_font_name" mtime="1222975359" type="string">
+                                        <stringvalue>Sans 8</stringvalue>
+                                </entry>
+                                <entry name="font_name" mtime="1222975354" type="string">
+                                        <stringvalue>Sans 8</stringvalue>
                                 </entry>
                         </dir>
                         <dir name="background">

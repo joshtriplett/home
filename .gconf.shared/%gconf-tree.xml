@@ -388,6 +388,13 @@
                                         <stringvalue>none</stringvalue>
                                 </entry>
                         </dir>
+                        <dir name="peripherals">
+                                <dir name="keyboard">
+                                        <entry name="bell_mode" mtime="1253293012" type="string">
+                                                <stringvalue>off</stringvalue>
+                                        </entry>
+                                </dir>
+                        </dir>
                 </dir>
         </dir>
 </gconf>

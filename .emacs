@@ -40,6 +40,7 @@
 (when (fboundp 'set-scroll-bar-mode)
   (set-scroll-bar-mode 'right))
 (menu-bar-mode -1)
+(scroll-bar-mode -1)
 
 ;; Don't wait for window manager when changing font - avoids long delays.
 (modify-frame-parameters nil '((wait-for-wm . nil)))

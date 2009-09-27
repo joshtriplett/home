@@ -138,6 +138,7 @@ optional argument."
 (add-hook 'LaTeX-mode-hook
           (lambda ()
             (TeX-PDF-mode)))
+(setq bibtex-align-at-equal-sign t)
 (setq tex-dvi-view-command "xdvi")
 
 ;; makefile-mode

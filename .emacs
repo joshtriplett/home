@@ -139,7 +139,6 @@ optional argument."
           (lambda ()
             (TeX-PDF-mode)))
 (setq bibtex-align-at-equal-sign t)
-(setq tex-dvi-view-command "xdvi")
 
 ;; makefile-mode
 ;; Disable whitespace cleanup in Makefiles

@@ -5,8 +5,6 @@ Emacs.toolBar: 0
 
 xpdf.initialZoom: width
 
-xdvi.paper: us
-
 *vt100.Foreground: #B2B2B2
 *vt100.Background: #000000
 *vt100.Color0: #000000

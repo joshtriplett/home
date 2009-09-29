@@ -54,10 +54,13 @@ fi
 
 PS1='$(e="$?";[ "$e" -ne 0 ] && echo -n "\[\e[01;31m\]($e) ")${debian_chroot:+\[\e[01;37m\]($debian_chroot) }${prompt_remote:+\[\e[01;32m\]\u@\h\[\e[00m\]:}\[\e[01;34m\]\w\[\e[00m\]\$ '
 
-# If this is an xterm or rxvt, set the title
+# Set title as appropriate for terminal
 case "$TERM" in
 xterm*|rxvt*)
     PS1="\[\e]0;${prompt_remote:+\u@\h: }\w\a\]$PS1"
+    ;;
+screen)
+    PS1="\[\ek${prompt_remote:+\u@\h: }\w\e"'\\'"\]$PS1"
     ;;
 esac
 

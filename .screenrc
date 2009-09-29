@@ -1,2 +1,3 @@
 startup_message off
 altscreen on
+caption always "%{= KW}%-w%{= bW}%50L>%n %t%{-}%+w%<${-}"

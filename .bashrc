@@ -10,6 +10,9 @@ set +o posix
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
+# Enable the recursive wildcard **
+shopt -s globstar 2>/dev/null
+
 # Append history rather than replacing it
 shopt -s histappend
 

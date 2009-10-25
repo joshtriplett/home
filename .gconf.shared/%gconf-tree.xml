@@ -203,6 +203,9 @@
                 </dir>
                 <dir name="gnome-power-manager">
                         <dir name="buttons">
+                                <entry name="lid_ac" mtime="1256429681" type="string">
+                                        <stringvalue>blank</stringvalue>
+                                </entry>
                                 <entry name="lid_battery" mtime="1224387386" type="string">
                                         <stringvalue>blank</stringvalue>
                                 </entry>

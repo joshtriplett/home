@@ -3,6 +3,7 @@
 .ICEauthority
 .Trash
 .Xauthority
+.aptitude/cache
 .ash_history
 .bash_history
 .camel_certs

@@ -16,6 +16,7 @@ set move=no
 set pager_stop=yes
 set pgp_use_gpg_agent=yes
 set recall=ask-no
+set sleep_time=0
 
 save-hook ~A =Archive
 

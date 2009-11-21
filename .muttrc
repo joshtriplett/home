@@ -6,14 +6,14 @@ set folder=imaps://josh@joshtriplett.org
 set spoolfile="=INBOX"
 set record="=Sent"
 set postponed="=Drafts"
+
 set confirmappend=no
-set move=no
+set edit_headers=yes
 set imap_check_subscribed=yes
+set move=no
+set pgp_use_gpg_agent=yes
 
 save-hook ~A =Archive
-
-set edit_headers=yes
-set pgp_use_gpg_agent=yes
 
 alternates josh@joshtriplett.org
 alternates josh@freedesktop.org

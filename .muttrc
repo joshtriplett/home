@@ -13,10 +13,14 @@ set edit_headers=yes
 set imap_check_subscribed=yes
 set include=yes
 set move=no
+set pager_stop=yes
 set pgp_use_gpg_agent=yes
 set recall=ask-no
 
 save-hook ~A =Archive
+
+bind pager <up> previous-line
+bind pager <down> next-line
 
 alternates josh@joshtriplett.org
 alternates josh@freedesktop.org

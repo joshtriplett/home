@@ -10,6 +10,7 @@ set postponed="=Drafts"
 set confirmappend=no
 set edit_headers=yes
 set imap_check_subscribed=yes
+set include=yes
 set move=no
 set pgp_use_gpg_agent=yes
 

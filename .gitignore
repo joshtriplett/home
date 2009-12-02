@@ -20,6 +20,7 @@
 .evolution-composer.autosave-*
 .fontconfig
 .gconfd/saved_state
+.gnuplot_history
 .gstreamer-0.10/registry.*
 .gtkrc-1.2-gnome2
 .ipython/*.pyc
@@ -97,6 +98,7 @@
 .gnome
 .gnome2
 .gobby
+.gnuplot-wxt
 .inkscape
 .kde
 .mozilla/firefox

@@ -10,3 +10,6 @@
 
 [push]
 	default=matching
+
+[url "ssh://joshtriplett.org/"]
+	pushInsteadOf = "git://joshtriplett.org/"

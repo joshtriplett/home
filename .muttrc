@@ -1,5 +1,5 @@
 account-hook . 'unset tunnel'
-account-hook ^imaps://josh@joshtriplett.org/ 'set tunnel="ssh -q -C joshtriplett.org dovecot --exec-mail imap"'
+account-hook ^imaps://josh@joshtriplett.org/ 'set tunnel="cloud-imap"'
 
 set smtp_url=smtps://josh@joshtriplett.org@mail.gandi.net/
 set folder=imaps://josh@joshtriplett.org

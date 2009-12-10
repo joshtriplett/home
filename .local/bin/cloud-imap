@@ -1,0 +1,5 @@
+#!/bin/sh
+if [ "$(hostname)" != cloud ]; then
+    sshcloud="ssh -q -C joshtriplett.org"
+fi
+exec $sshcloud dovecot --exec-mail imap

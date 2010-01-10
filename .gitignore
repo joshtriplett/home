@@ -85,6 +85,7 @@
 .config/brasero/brasero.session
 .config/enchant/*.dic
 .config/enchant/*.exc
+.config/gobby-*
 .config/gnome-hearts/gnome-hearts.cfg
 .config/gtk-2.0/gtkfilechooser.ini
 .config/menus/gnome-applications.menu
@@ -97,7 +98,6 @@
 .gitk
 .gnome
 .gnome2
-.gobby
 .gnuplot-wxt
 .inkscape
 .kde

@@ -31,7 +31,9 @@
 /.mcop
 /.mcoprc
 /.mutt_certificates
+/.mythtv/channels
 /.mythtv/osdcache
+/.mythtv/remotecache
 /.mythtv/themecache
 /.nautilus/metafiles
 /.nautilus/saved-session-*

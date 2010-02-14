@@ -340,6 +340,9 @@
                                 <entry name="help" mtime="1202977397" type="string">
                                         <stringvalue>disabled</stringvalue>
                                 </entry>
+                                <entry name="zoom_in" mtime="1202977397" type="string">
+                                        <stringvalue>&lt;Control&gt;equal</stringvalue>
+                                </entry>
                         </dir>
                         <dir name="global">
                                 <entry name="use_mnemonics" mtime="1202977397" type="bool" value="false">

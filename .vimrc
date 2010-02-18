@@ -17,6 +17,18 @@ command! T setlocal noexpandtab shiftwidth=8 softtabstop=0
 command! S setlocal expandtab shiftwidth=4 softtabstop=4
 au BufNewFile,BufRead */linux-2.6/* T
 
+if &term == "xterm"
+    let &t_ti = &t_ti . "\e[?2004h"
+    let &t_te = "\e[?2004l" . &t_te
+    function XTermPasteBegin(ret)
+        set pastetoggle=<Esc>[201~
+        set paste
+        return a:ret
+    endfunction
+    map <expr> <Esc>[200~ XTermPasteBegin("i")
+    imap <expr> <Esc>[200~ XTermPasteBegin("")
+endif
+
 let g:debchangelog_fold_enable = 1
 let g:debcontrol_fold_enable = 1
 let g:xml_syntax_folding = 1

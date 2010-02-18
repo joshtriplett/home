@@ -147,7 +147,7 @@
                         </dir>
                         <dir name="toplevels">
                                 <dir name="bottom_panel">
-                                        <entry name="size" mtime="1221954210" type="int" value="48">
+                                        <entry name="size" mtime="1221954210" type="int" value="32">
                                         </entry>
                                         <entry name="orientation" mtime="1221954210" type="string">
                                                 <stringvalue>bottom</stringvalue>

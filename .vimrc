@@ -26,6 +26,7 @@ endfunction
 command! T setlocal noexpandtab shiftwidth=8 softtabstop=0
 command! -nargs=? S call Spaces(<args>)
 autocmd BufNewFile,BufRead */linux-2.6/* T
+autocmd FileType html S 2
 
 if &term == "xterm"
     let &t_ti = &t_ti . "\e[?2004h"

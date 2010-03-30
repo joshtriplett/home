@@ -15,7 +15,7 @@ set shiftwidth=4
 set softtabstop=4
 command! T setlocal noexpandtab shiftwidth=8 softtabstop=0
 command! S setlocal expandtab shiftwidth=4 softtabstop=4
-au BufNewFile,BufRead */linux-2.6/* T
+autocmd BufNewFile,BufRead */linux-2.6/* T
 
 if &term == "xterm"
     let &t_ti = &t_ti . "\e[?2004h"

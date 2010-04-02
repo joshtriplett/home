@@ -1,0 +1,10 @@
+[DEFAULT]
+default_host_main = josh
+
+[josh]
+fqdn = joshtriplett.org
+login = josh
+incoming = /srv/reprepro/incoming
+method = scp
+allow_unsigned_uploads = 1
+post_upload_command = ssh josh@joshtriplett.org '/srv/reprepro/process-all >/dev/null && cat /srv/reprepro/dists/sid/Release' | gpg --armor --detach-sign | ssh josh@joshtriplett.org sponge /srv/reprepro/dists/sid/Release.gpg

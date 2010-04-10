@@ -7,6 +7,7 @@ aptitude::Get-Root-Command "sudo:/usr/bin/sudo";
 aptitude::UI "";
 aptitude::UI::Advance-On-Action "true";
 aptitude::UI::Default-Grouping "status,section";
+aptitude::UI::Package-Display-Format "%c%a%M%S %p %t %Z %v %V";
 aptitude::Ignore-Recommends-Important "true";
 APT "";
 APT::AutoRemove "";

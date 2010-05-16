@@ -6,6 +6,9 @@
 /.aptitude/cache
 /.ash_history
 /.bash_history
+/.cabal/install
+/.cabal/logs
+/.cabal/packages
 /.camel_certs
 /.ccache
 /.config/metacity/sessions

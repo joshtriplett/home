@@ -49,6 +49,7 @@
 /.thumbnails
 /.viminfo
 /.xsession-errors
+/.xsession-errors.old
 
 # Private
 /.cvspass

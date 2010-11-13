@@ -315,7 +315,7 @@
                                                 <stringvalue>#000000000000:#AAAA00000000:#0000AAAA0000:#AAAA55550000:#00000000AAAA:#AAAA0000AAAA:#0000AAAAAAAA:#AAAAAAAAAAAA:#555555555555:#FFFF55555555:#5555FFFF5555:#FFFFFFFF5555:#55555555FFFF:#FFFF5555FFFF:#5555FFFFFFFF:#FFFFFFFFFFFF</stringvalue>
                                         </entry>
                                         <entry name="foreground_color" mtime="1202977397" type="string">
-                                                <stringvalue>#AAAAAA</stringvalue>
+                                                <stringvalue>#FFFFFFFFFFFF</stringvalue>
                                         </entry>
                                         <entry name="cursor_blink" mtime="1202977397" type="bool" value="false">
                                         </entry>
@@ -323,7 +323,7 @@
                                                 <stringvalue>solid</stringvalue>
                                         </entry>
                                         <entry name="background_color" mtime="1202977397" type="string">
-                                                <stringvalue>#000000</stringvalue>
+                                                <stringvalue>#000000000000</stringvalue>
                                         </entry>
                                 </dir>
                         </dir>

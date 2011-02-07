@@ -8,6 +8,9 @@
 	folder="Drafts"
 	tunnel="cloud-imap"
 
+[log]
+	decorate=short
+
 [push]
 	default=matching
 

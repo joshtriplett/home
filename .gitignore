@@ -58,6 +58,7 @@
 /.getmail
 /.gnome2_private
 /.listadmin.ini
+/.pam-*
 /.private
 /.ssh/id_rsa
 /.ssh/id_rsa_work

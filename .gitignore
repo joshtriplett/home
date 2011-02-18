@@ -17,6 +17,7 @@
 /.distcc/state
 /.dmrc
 /.dovecot.sievec
+/.dovecot.svbin
 /.dvdcss
 /.emacs.d
 /.esd_auth

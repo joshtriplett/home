@@ -102,6 +102,7 @@
 /.config/gnome-hearts/gnome-hearts.cfg
 /.config/gtk-2.0/gtkfilechooser.ini
 /.config/inkscape
+/.config/libimobiledevice
 /.config/menus/gnome-applications.menu
 /.config/menus/gnome-settings.menu
 /.config/totem

@@ -1,4 +1,5 @@
 # Transient
+.*.swp
 /.DCOPserver*
 /.ICEauthority
 /.Trash

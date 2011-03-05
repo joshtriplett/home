@@ -1,5 +1,12 @@
 gtk-enable-animations = 0
 
+style "scroll"
+{
+    GtkScrollbar::has-forward-stepper = 0
+    GtkScrollbar::has-backward-stepper = 0
+}
+class "*" style "scroll"
+
 style "notebook-borderless" = "default"
 {
     xthickness = 0

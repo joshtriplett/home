@@ -51,7 +51,7 @@ if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
 fi
 
 # Only show username and hostname if remote or unusual
-if [ -n "$SSH_CONNECTION" ] || [ "$(id -un)" != "josh" ] ; then
+if [ -n "$SSH_CONNECTION" ] || [ "$USER" != "josh" ] ; then
     prompt_remote=true
 fi
 

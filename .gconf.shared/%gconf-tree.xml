@@ -3,23 +3,6 @@
         <dir name="apps">
                 <dir name="panel">
                         <dir name="objects">
-                                <dir name="object_quodlibet_launcher">
-                                        <entry name="toplevel_id" mtime="1221954210" type="string">
-                                                <stringvalue>bottom_panel</stringvalue>
-                                        </entry>
-                                        <entry name="position" mtime="1221954210" type="int" value="3">
-                                        </entry>
-                                        <entry name="panel_right_stick" mtime="1221954210" type="bool" value="false">
-                                        </entry>
-                                        <entry name="object_type" mtime="1221954210" type="string">
-                                                <stringvalue>launcher-object</stringvalue>
-                                        </entry>
-                                        <entry name="locked" mtime="1221954210" type="bool" value="true">
-                                        </entry>
-                                        <entry name="launcher_location" mtime="1221954210" type="string">
-                                                <stringvalue>quodlibet.desktop</stringvalue>
-                                        </entry>
-                                </dir>
                                 <dir name="object_pidgin_launcher">
                                         <entry name="toplevel_id" mtime="1221954210" type="string">
                                                 <stringvalue>bottom_panel</stringvalue>
@@ -173,9 +156,6 @@
                                         </li>
                                         <li type="string">
                                                 <stringvalue>object_pidgin_launcher</stringvalue>
-                                        </li>
-                                        <li type="string">
-                                                <stringvalue>object_quodlibet_launcher</stringvalue>
                                         </li>
                                 </entry>
                                 <entry name="applet_id_list" mtime="1221954210" type="list" ltype="string">

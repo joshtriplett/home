@@ -10,6 +10,7 @@
 /.cabal/install
 /.cabal/logs
 /.cabal/packages
+/.cabal/world
 /.camel_certs
 /.ccache
 /.config/metacity/sessions

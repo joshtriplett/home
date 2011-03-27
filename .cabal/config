@@ -6,4 +6,3 @@ build-summary: /home/josh/.cabal/logs/build.log
 remote-build-reporting: none
 
 install-dirs user
-  prefix: /home/josh/.cabal/install/$arch-$os-$compiler

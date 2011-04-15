@@ -3,7 +3,7 @@ Emacs.fullscreen: fullheight
 Emacs.menuBar: 0
 Emacs.toolBar: 0
 
-*vt100.Foreground: #B2B2B2
+*vt100.Foreground: #FFFFFF
 *vt100.Background: #000000
 *vt100.Color0: #000000
 *vt100.Color1: #B21818

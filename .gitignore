@@ -7,9 +7,10 @@
 /.aptitude/cache
 /.ash_history
 /.bash_history
-/.cabal/install
-/.cabal/logs
+/.cabal/bin
+/.cabal/lib
 /.cabal/packages
+/.cabal/share
 /.cabal/world
 /.camel_certs
 /.ccache

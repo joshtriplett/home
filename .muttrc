@@ -20,6 +20,8 @@ set move=no
 set pager_stop=yes
 set pgp_use_gpg_agent=yes
 set recall=ask-no
+set reverse_name=yes
+set reverse_realname=no
 set sleep_time=0
 
 unignore List-Id

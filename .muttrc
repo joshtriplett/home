@@ -32,6 +32,7 @@ bind pager <down> next-line
 alternates josh@joshtriplett.org
 alternates josh@freedesktop.org
 alternates josh@kernel.org
+alternates josh@apters.com
 alternates josh@psas.pdx.edu
 alternates josh@serialist.net
 alternates tripletj@cs.pdx.edu

@@ -26,6 +26,7 @@ endfunction
 command! T setlocal noexpandtab shiftwidth=8 softtabstop=0
 command! -nargs=? S call Spaces(<args>)
 autocmd BufNewFile,BufRead */linux-2.6/* T
+autocmd BufNewFile,BufRead ~/src/git/* T
 autocmd FileType html S 2
 
 let g:debchangelog_fold_enable = 1

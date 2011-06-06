@@ -41,7 +41,7 @@ function! s:headertemplate(name)
     let guard=toupper(substitute(substitute(a:name, '[^[:alnum:]]', '_', 'g'), '^[^[:alpha:]]', '_&', ''))
     return "#ifndef " . guard . "\n#define " . guard . "\n\n\n\n#endif /* " . guard . " */"
 endfunction
-au BufNewFile *.h s@^$@\=s:headertemplate(expand('<afile>'))@ | 4
+au BufNewFile *.h s@^$@\=s:headertemplate(expand('<afile>:t'))@ | 4
 
 iabbrev jj Josh Triplett and Jamey Sharp
 iabbrev cjj Commit by Josh Triplett and Jamey Sharp

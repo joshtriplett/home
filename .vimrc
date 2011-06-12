@@ -8,7 +8,7 @@ set scrolloff=4
 set shortmess+=I
 set showcmd
 set wildmode=longest,list,full
-syn on
+syntax on
 
 set expandtab
 set shiftwidth=4
@@ -32,16 +32,16 @@ autocmd FileType html S 2
 let g:debchangelog_fold_enable = 1
 let g:debcontrol_fold_enable = 1
 let g:xml_syntax_folding = 1
-au FileType xml setlocal foldmethod=syntax
+autocmd FileType xml setlocal foldmethod=syntax
 
-hi link localWhitespaceError Error
-autocmd Syntax * syn match localWhitespaceError excludenl /\s\+\%#\@<!$\| \+\ze\t/ display containedin=ALL
+highlight link localWhitespaceError Error
+autocmd Syntax * syntax match localWhitespaceError excludenl /\s\+\%#\@<!$\| \+\ze\t/ display containedin=ALL
 
 function! s:headertemplate(name)
     let guard=toupper(substitute(substitute(a:name, '[^[:alnum:]]', '_', 'g'), '^[^[:alpha:]]', '_&', ''))
     return "#ifndef " . guard . "\n#define " . guard . "\n\n\n\n#endif /* " . guard . " */"
 endfunction
-au BufNewFile *.h s@^$@\=s:headertemplate(expand('<afile>:t'))@ | 4
+autocmd BufNewFile *.h s@^$@\=s:headertemplate(expand('<afile>:t'))@ | 4
 
 iabbrev jj Josh Triplett and Jamey Sharp
 iabbrev cjj Commit by Josh Triplett and Jamey Sharp

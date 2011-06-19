@@ -118,7 +118,11 @@
 /.gnuplot-wxt
 /.kde
 /.libreoffice
-/.mozilla/firefox
+/.mozilla/firefox/2fr6gqfu.default/*
+!/.mozilla/firefox/2fr6gqfu.default/adblockplus/
+/.mozilla/firefox/2fr6gqfu.default/adblockplus/cache.js
+/.mozilla/firefox/2fr6gqfu.default/adblockplus/elemhide.css
+!/.mozilla/firefox/2fr6gqfu.default/adblockplus/patterns.ini
 /.mozilla-thunderbird
 /.mythtv/config.xml
 /.mythtv/mysql.txt

@@ -1,3 +1,10 @@
+# Non-dotfiles, which I currently don't track in git
+/Downloads/
+/archive/
+/doc/
+/media/
+/src/
+
 # Transient
 .*.swp
 /.DCOPserver*

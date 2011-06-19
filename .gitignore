@@ -12,6 +12,7 @@
 /.cabal/packages
 /.cabal/share
 /.cabal/world
+/.cache
 /.camel_certs
 /.ccache
 /.config/metacity/sessions

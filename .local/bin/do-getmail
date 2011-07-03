@@ -2,5 +2,5 @@
 if [ "$(hostname)" != cloud ]; then
     sshcloud="ssh -q joshtriplett.org"
 fi
-exec $sshcloud flock -n /home/josh/.getmail/gandi.lock \
-    getmail -q -g /home/josh/.getmail/ -r getmailrc-gandi
+exec $sshcloud flock -n ~/.getmail/gandi.lock \
+    getmail -q -g ~/.getmail/ -r getmailrc-gandi

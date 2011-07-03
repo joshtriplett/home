@@ -16,6 +16,15 @@ if [ -r "$HOME/.ssh/agent-$HOSTNAME" ] ; then
     . "$HOME/.ssh/agent-$HOSTNAME" > /dev/null
 fi
 
+case " $(echo $(locale -a)) " in
+    *\ C.UTF-8\ *) LANG=C.UTF-8 ;;
+    *\ C.utf8\ *) LANG=C.utf8 ;;
+    *\ en_US.utf8\ *) LANG=en_US.utf8 ;;
+    *\ en_US.UTF-8\ *) LANG=en_US.UTF-8 ;;
+    *) LANG=C ;;
+esac
+export LANG
+
 EMAIL='josh@joshtriplett.org'
 NAME='Josh Triplett'
 DEBEMAIL=$EMAIL

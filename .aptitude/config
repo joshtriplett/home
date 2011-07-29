@@ -12,4 +12,5 @@ aptitude::Ignore-Recommends-Important "true";
 APT "";
 APT::AutoRemove "";
 APT::AutoRemove::RecommendsImportant "false";
+APT::AutoRemove::SuggestsImportant "false";
 APT::Install-Recommends "false";

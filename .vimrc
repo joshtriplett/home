@@ -34,6 +34,8 @@ let g:debcontrol_fold_enable = 1
 let g:xml_syntax_folding = 1
 autocmd FileType xml setlocal foldmethod=syntax
 
+let g:netrw_dirhistmax = 0
+
 highlight link localWhitespaceError Error
 autocmd Syntax * syntax match localWhitespaceError excludenl /\s\+\%#\@<!$\| \+\ze\t/ display containedin=ALL
 

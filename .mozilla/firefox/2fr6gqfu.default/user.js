@@ -65,4 +65,4 @@ user_pref("extensions.customizegoogle.web.search-links", false);
 user_pref("extensions.customizegoogle.web.weather-links", false);
 
 // It's All Text
-user_pref("extensions.itsalltext.editor", "/usr/bin/emacs");
+user_pref("extensions.itsalltext.editor", "/home/josh/.local/bin/vim-wrapper");

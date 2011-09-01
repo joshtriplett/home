@@ -28,6 +28,7 @@ command! -nargs=? S call Spaces(<args>)
 autocmd BufNewFile,BufRead ~/src/linux-2.6/* T
 autocmd BufNewFile,BufRead ~/src/git/* T
 autocmd FileType html S 2
+autocmd FileType tex S 2
 
 let g:debchangelog_fold_enable = 1
 let g:debcontrol_fold_enable = 1

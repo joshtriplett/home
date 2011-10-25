@@ -71,13 +71,6 @@ buffer to finish."
     (kill-buffer (current-buffer))))
 (global-set-key (kbd "C-x k") 'my-kill)
 
-(defun my-join-line ()
-  "Join the next line to this line, using join-line with an
-optional argument."
-  (interactive)
-  (join-line 1))
-(global-set-key (kbd "C-j") 'my-join-line)
-
 (global-set-key (kbd "C-a") 'mark-whole-buffer)
 
 ;; Enable some disabled commands

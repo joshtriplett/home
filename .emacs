@@ -72,6 +72,7 @@ buffer to finish."
 (global-set-key (kbd "C-x k") 'my-kill)
 
 (global-set-key (kbd "C-a") 'mark-whole-buffer)
+(global-set-key (kbd "C-w") 'backward-kill-word)
 
 ;; Enable some disabled commands
 (put 'downcase-region 'disabled nil)

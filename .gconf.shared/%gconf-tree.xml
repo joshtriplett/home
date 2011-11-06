@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <gconf>
         <dir name="apps">
+                <dir name="gnome-screensaver">
+                        <entry name="lock_enabled" mtime="1320604993" type="bool" value="true"/>
+                </dir>
                 <dir name="panel">
                         <dir name="objects">
                                 <dir name="object_pidgin_launcher">

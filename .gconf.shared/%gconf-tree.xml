@@ -1,389 +1,339 @@
 <?xml version="1.0"?>
 <gconf>
-        <dir name="apps">
-                <dir name="gnome-screensaver">
-                        <entry name="lock_enabled" mtime="1320604993" type="bool" value="true"/>
-                </dir>
-                <dir name="panel">
-                        <dir name="objects">
-                                <dir name="object_pidgin_launcher">
-                                        <entry name="toplevel_id" mtime="1221954210" type="string">
-                                                <stringvalue>bottom_panel</stringvalue>
-                                        </entry>
-                                        <entry name="position" mtime="1221954210" type="int" value="2">
-                                        </entry>
-                                        <entry name="panel_right_stick" mtime="1221954210" type="bool" value="false">
-                                        </entry>
-                                        <entry name="object_type" mtime="1221954210" type="string">
-                                                <stringvalue>launcher-object</stringvalue>
-                                        </entry>
-                                        <entry name="locked" mtime="1221954210" type="bool" value="true">
-                                        </entry>
-                                        <entry name="launcher_location" mtime="1221954210" type="string">
-                                                <stringvalue>pidgin.desktop</stringvalue>
-                                        </entry>
-                                </dir>
-                                <dir name="object_menu">
-                                        <entry name="toplevel_id" mtime="1221954210" type="string">
-                                                <stringvalue>bottom_panel</stringvalue>
-                                        </entry>
-                                        <entry name="position" mtime="1221954210" type="int" value="0">
-                                        </entry>
-                                        <entry name="panel_right_stick" mtime="1221954210" type="bool" value="false">
-                                        </entry>
-                                        <entry name="object_type" mtime="1221954210" type="string">
-                                                <stringvalue>menu-object</stringvalue>
-                                        </entry>
-                                        <entry name="menu_path" mtime="1221954210" type="string">
-                                                <stringvalue>applications:/</stringvalue>
-                                        </entry>
-                                        <entry name="locked" mtime="1221954210" type="bool" value="true">
-                                        </entry>
-                                </dir>
-                        </dir>
-                        <dir name="applets">
-                                <dir name="applet_clock">
-                                        <entry name="toplevel_id" mtime="1221954210" type="string">
-                                                <stringvalue>bottom_panel</stringvalue>
-                                        </entry>
-                                        <entry name="position" mtime="1221954210" type="int" value="0">
-                                        </entry>
-                                        <entry name="panel_right_stick" mtime="1221954210" type="bool" value="true">
-                                        </entry>
-                                        <entry name="object_type" mtime="1221954210" type="string">
-                                                <stringvalue>bonobo-applet</stringvalue>
-                                        </entry>
-                                        <entry name="locked" mtime="1221954210" type="bool" value="true">
-                                        </entry>
-                                        <entry name="bonobo_iid" mtime="1221954210" type="string">
-                                                <stringvalue>OAFIID:GNOME_ClockApplet</stringvalue>
-                                        </entry>
-                                        <dir name="prefs">
-                                                <entry name="show_week_numbers" mtime="1221954210" type="bool" value="false">
-                                                </entry>
-                                                <entry name="show_timezones" mtime="1221954210" type="bool" value="false">
-                                                </entry>
-                                                <entry name="show_seconds" mtime="1221954210" type="bool" value="false">
-                                                </entry>
-                                                <entry name="show_date" mtime="1221954210" type="bool" value="true">
-                                                </entry>
-                                                <entry name="gmt_time" mtime="1221954210" type="bool" value="false">
-                                                </entry>
-                                                <entry name="format" mtime="1221954210" type="string">
-                                                        <stringvalue>12-hour</stringvalue>
-                                                </entry>
-                                        </dir>
-                                </dir>
-                                <dir name="applet_volume">
-                                        <entry name="toplevel_id" mtime="1221954210" type="string">
-                                                <stringvalue>bottom_panel</stringvalue>
-                                        </entry>
-                                        <entry name="position" mtime="1221954210" type="int" value="1">
-                                        </entry>
-                                        <entry name="panel_right_stick" mtime="1221954210" type="bool" value="true">
-                                        </entry>
-                                        <entry name="object_type" mtime="1221954210" type="string">
-                                                <stringvalue>bonobo-applet</stringvalue>
-                                        </entry>
-                                        <entry name="locked" mtime="1221954210" type="bool" value="true">
-                                        </entry>
-                                        <entry name="bonobo_iid" mtime="1221954210" type="string">
-                                                <stringvalue>OAFIID:GNOME_MixerApplet</stringvalue>
-                                        </entry>
-                                </dir>
-                                <dir name="applet_tray">
-                                        <entry name="toplevel_id" mtime="1221954210" type="string">
-                                                <stringvalue>bottom_panel</stringvalue>
-                                        </entry>
-                                        <entry name="position" mtime="1221954210" type="int" value="2">
-                                        </entry>
-                                        <entry name="panel_right_stick" mtime="1221954210" type="bool" value="true">
-                                        </entry>
-                                        <entry name="object_type" mtime="1221954210" type="string">
-                                                <stringvalue>bonobo-applet</stringvalue>
-                                        </entry>
-                                        <entry name="locked" mtime="1221954210" type="bool" value="true">
-                                        </entry>
-                                        <entry name="bonobo_iid" mtime="1221954210" type="string">
-                                                <stringvalue>OAFIID:GNOME_NotificationAreaApplet</stringvalue>
-                                        </entry>
-                                </dir>
-                                <dir name="applet_window_list">
-                                        <entry name="toplevel_id" mtime="1221954210" type="string">
-                                                <stringvalue>bottom_panel</stringvalue>
-                                        </entry>
-                                        <entry name="position" mtime="1221954210" type="int" value="4">
-                                        </entry>
-                                        <entry name="panel_right_stick" mtime="1221954210" type="bool" value="false">
-                                        </entry>
-                                        <entry name="object_type" mtime="1221954210" type="string">
-                                                <stringvalue>bonobo-applet</stringvalue>
-                                        </entry>
-                                        <entry name="locked" mtime="1221954210" type="bool" value="true">
-                                        </entry>
-                                        <entry name="bonobo_iid" mtime="1221954210" type="string">
-                                                <stringvalue>OAFIID:GNOME_WindowListApplet</stringvalue>
-                                        </entry>
-                                        <dir name="prefs">
-                                                <entry name="group_windows" mtime="1221954210" type="string">
-                                                        <stringvalue>never</stringvalue>
-                                                </entry>
-                                        </dir>
-                                </dir>
-                        </dir>
-                        <dir name="toplevels">
-                                <dir name="bottom_panel">
-                                        <entry name="size" mtime="1221954210" type="int" value="24">
-                                        </entry>
-                                        <entry name="orientation" mtime="1221954210" type="string">
-                                                <stringvalue>bottom</stringvalue>
-                                        </entry>
-                                        <entry name="name" mtime="1221954210" type="string">
-                                                <stringvalue>Panel</stringvalue>
-                                        </entry>
-                                        <entry name="expand" mtime="1221954210" type="bool" value="true">
-                                        </entry>
-                                        <entry name="enable_buttons" mtime="1221954210" type="bool" value="false">
-                                        </entry>
-                                        <dir name="background">
-                                                <entry name="type" mtime="1221954210" type="string">
-                                                        <stringvalue>gtk</stringvalue>
-                                                </entry>
-                                        </dir>
-                                </dir>
-                        </dir>
-                        <dir name="general">
-                                <entry name="object_id_list" mtime="1221954210" type="list" ltype="string">
-                                        <li type="string">
-                                                <stringvalue>object_menu</stringvalue>
-                                        </li>
-                                        <li type="string">
-                                                <stringvalue>object_pidgin_launcher</stringvalue>
-                                        </li>
-                                </entry>
-                                <entry name="applet_id_list" mtime="1221954210" type="list" ltype="string">
-                                        <li type="string">
-                                                <stringvalue>applet_window_list</stringvalue>
-                                        </li>
-                                        <li type="string">
-                                                <stringvalue>applet_tray</stringvalue>
-                                        </li>
-                                        <li type="string">
-                                                <stringvalue>applet_volume</stringvalue>
-                                        </li>
-                                        <li type="string">
-                                                <stringvalue>applet_clock</stringvalue>
-                                        </li>
-                                </entry>
-                                <entry name="toplevel_id_list" mtime="1221954210" type="list" ltype="string">
-                                        <li type="string">
-                                                <stringvalue>bottom_panel</stringvalue>
-                                        </li>
-                                </entry>
-                                <entry name="profiles_migrated" mtime="1221954209" type="bool" value="true">
-                                </entry>
-                        </dir>
-                </dir>
-                <dir name="gnome-power-manager">
-                        <dir name="buttons">
-                                <entry name="lid_ac" mtime="1256429681" type="string">
-                                        <stringvalue>blank</stringvalue>
-                                </entry>
-                                <entry name="lid_battery" mtime="1224387386" type="string">
-                                        <stringvalue>blank</stringvalue>
-                                </entry>
-                        </dir>
-                        <dir name="backlight">
-                                <entry name="idle_dim_battery" mtime="1224205696" type="bool" value="false">
-                                </entry>
-                                <entry name="idle_dim_ac" mtime="1224205693" type="bool" value="false">
-                                </entry>
-                                <entry name="battery_reduce" mtime="1224205687" type="bool" value="false">
-                                </entry>
-                        </dir>
-                        <dir name="lock">
-                                <entry name="gnome_keyring_hibernate" mtime="1212597290" type="bool" value="false">
-                                </entry>
-                        </dir>
-                </dir>
-                <dir name="gnome-keyring">
-                        <dir name="daemon-components">
-                                <entry name="ssh" mtime="1207100701" type="bool" value="false">
-                                </entry>
-                        </dir>
-                </dir>
-                <dir name="gnome-session">
-                        <dir name="options">
-                                <entry name="show_splash_screen" mtime="1203118005" type="bool" value="false">
-                                </entry>
-                        </dir>
-                </dir>
-                <dir name="nautilus">
-                        <dir name="preferences">
-                                <entry name="show_desktop" mtime="1224204699" type="bool" value="false">
-                                </entry>
-                                <entry name="enable_delete" mtime="1202986157" type="bool" value="true">
-                                </entry>
-                                <entry name="desktop_is_home_dir" mtime="1202986157" type="bool" value="true">
-                                </entry>
-                                <entry name="always_use_browser" mtime="1202986157" type="bool" value="true">
-                                </entry>
-                        </dir>
-                </dir>
-                <dir name="metacity">
-                        <dir name="window_keybindings">
-                                <entry name="move_to_side_s" mtime="1224222866" type="string">
-                                        <stringvalue>&lt;Super&gt;Down</stringvalue>
-                                </entry>
-                                <entry name="move_to_side_n" mtime="1224222862" type="string">
-                                        <stringvalue>&lt;Super&gt;Up</stringvalue>
-                                </entry>
-                                <entry name="move_to_side_w" mtime="1224222858" type="string">
-                                        <stringvalue>&lt;Super&gt;Left</stringvalue>
-                                </entry>
-                                <entry name="move_to_side_e" mtime="1224222851" type="string">
-                                        <stringvalue>&lt;Super&gt;Right</stringvalue>
-                                </entry>
-                                <entry name="toggle_fullscreen" mtime="1224222405" type="string">
-                                        <stringvalue>&lt;Super&gt;f</stringvalue>
-                                </entry>
-                                <entry name="toggle_maximized" mtime="1224222309" type="string">
-                                        <stringvalue>&lt;Super&gt;m</stringvalue>
-                                </entry>
-                        </dir>
-                        <dir name="keybinding_commands">
-                                <entry name="command_1" mtime="1224221748" type="string">
-                                        <stringvalue>firefox -new-tab &quot;about:blank&quot;</stringvalue>
-                                </entry>
-                        </dir>
-                        <dir name="global_keybindings">
-                                <entry name="run_command_1" mtime="1224221563" type="string">
-                                        <stringvalue>&lt;Super&gt;b</stringvalue>
-                                </entry>
-                                <entry name="run_command_terminal" mtime="1224221171" type="string">
-                                        <stringvalue>&lt;Super&gt;n</stringvalue>
-                                </entry>
-                        </dir>
-                        <dir name="general">
-                                <entry name="action_double_click_titlebar" mtime="1205819033" type="string">
-                                        <stringvalue>toggle_maximize</stringvalue>
-                                </entry>
-                                <entry name="num_workspaces" mtime="1202980906" type="int" value="1">
-                                </entry>
-                                <entry name="titlebar_font" mtime="1224310795" type="string">
-                                        <stringvalue>Sans Bold 8</stringvalue>
-                                </entry>
-                        </dir>
-                </dir>
-                <dir name="gksu">
-                        <entry name="sudo-mode" mtime="1202980086" type="bool" value="true">
-                        </entry>
-                        <entry name="save-to-keyring" mtime="1202980086" type="bool" value="false">
-                        </entry>
-                </dir>
-                <dir name="gnome-terminal">
-                        <dir name="profiles">
-                                <dir name="Default">
-                                        <entry name="silent_bell" mtime="1253207831" type="bool" value="true"/>
-                                        <entry name="default_show_menubar" mtime="1224287030" type="bool" value="false">
-                                        </entry>
-                                        <entry name="use_theme_colors" mtime="1202977397" type="bool" value="false">
-                                        </entry>
-                                        <entry name="scrollbar_position" mtime="1202977397" type="string">
-                                                <stringvalue>hidden</stringvalue>
-                                        </entry>
-                                        <entry name="scrollback_lines" mtime="1202977397" type="int" value="50000">
-                                        </entry>
-                                        <entry name="palette" mtime="1202977397" type="string">
-                                                <stringvalue>#000000000000:#AAAA00000000:#0000AAAA0000:#AAAA55550000:#00000000AAAA:#AAAA0000AAAA:#0000AAAAAAAA:#AAAAAAAAAAAA:#555555555555:#FFFF55555555:#5555FFFF5555:#FFFFFFFF5555:#55555555FFFF:#FFFF5555FFFF:#5555FFFFFFFF:#FFFFFFFFFFFF</stringvalue>
-                                        </entry>
-                                        <entry name="foreground_color" mtime="1202977397" type="string">
-                                                <stringvalue>#FFFFFFFFFFFF</stringvalue>
-                                        </entry>
-                                        <entry name="cursor_blink" mtime="1202977397" type="bool" value="false">
-                                        </entry>
-                                        <entry name="background_type" mtime="1202977397" type="string">
-                                                <stringvalue>solid</stringvalue>
-                                        </entry>
-                                        <entry name="background_color" mtime="1202977397" type="string">
-                                                <stringvalue>#000000000000</stringvalue>
-                                        </entry>
-                                </dir>
-                        </dir>
-                        <dir name="keybindings">
-                                <entry name="prev_tab" mtime="1202977397" type="string">
-                                        <stringvalue>&lt;Alt&gt;Left</stringvalue>
-                                </entry>
-                                <entry name="next_tab" mtime="1202977397" type="string">
-                                        <stringvalue>&lt;Alt&gt;Right</stringvalue>
-                                </entry>
-                                <entry name="new_tab" mtime="1202977397" type="string">
-                                        <stringvalue>&lt;Control&gt;&lt;Alt&gt;n</stringvalue>
-                                </entry>
-                                <entry name="help" mtime="1202977397" type="string">
-                                        <stringvalue>disabled</stringvalue>
-                                </entry>
-                                <entry name="zoom_in" mtime="1202977397" type="string">
-                                        <stringvalue>&lt;Control&gt;equal</stringvalue>
-                                </entry>
-                        </dir>
-                        <dir name="global">
-                                <entry name="use_mnemonics" mtime="1202977397" type="bool" value="false">
-                                </entry>
-                                <entry name="use_menu_accelerators" mtime="1202977397" type="bool" value="false">
-                                </entry>
-                        </dir>
-                </dir>
-        </dir>
-        <dir name="desktop">
-                <dir name="gnome">
-                        <dir name="applications">
-                                <dir name="browser">
-                                        <entry name="nremote" mtime="1224218441" type="bool" value="true">
-                                        </entry>
-                                        <entry name="needs_term" mtime="1224218433" type="bool" value="false">
-                                        </entry>
-                                        <entry name="exec" mtime="1224218419" type="string">
-                                                <stringvalue>firefox</stringvalue>
-                                        </entry>
-                                </dir>
-                        </dir>
-                        <dir name="interface">
-                                <entry name="cursor_blink" mtime="1202954016" type="bool" value="false">
-                                </entry>
-                                <entry name="monospace_font_name" mtime="1222975371" type="string">
-                                        <stringvalue>Monospace 8</stringvalue>
-                                </entry>
-                                <entry name="document_font_name" mtime="1222975359" type="string">
-                                        <stringvalue>Sans 8</stringvalue>
-                                </entry>
-                                <entry name="font_name" mtime="1222975354" type="string">
-                                        <stringvalue>Sans 8</stringvalue>
-                                </entry>
-                        </dir>
-                        <dir name="background">
-                                <entry name="picture_filename" mtime="1224303321" type="string">
-                                        <stringvalue></stringvalue>
-                                </entry>
-                                <entry name="primary_color" mtime="1202949904" type="string">
-                                        <stringvalue>#46468282b4b4</stringvalue>
-                                </entry>
-                                <entry name="draw_background" mtime="1202949904" type="bool" value="true">
-                                </entry>
-                                <entry name="color_shading_type" mtime="1202949904" type="string">
-                                        <stringvalue>solid</stringvalue>
-                                </entry>
-                                <entry name="picture_options" mtime="1202949904" type="string">
-                                        <stringvalue>none</stringvalue>
-                                </entry>
-                        </dir>
-                        <dir name="peripherals">
-                                <dir name="keyboard">
-                                        <entry name="bell_mode" mtime="1253293012" type="string">
-                                                <stringvalue>off</stringvalue>
-                                        </entry>
-                                </dir>
-                        </dir>
-                </dir>
-        </dir>
+	<dir name="apps">
+		<dir name="gnome-screensaver">
+			<entry name="lock_enabled" mtime="1320604993" type="bool" value="true"/>
+		</dir>
+		<dir name="panel">
+			<dir name="objects">
+				<dir name="object_pidgin_launcher">
+					<entry name="toplevel_id" mtime="1221954210" type="string">
+						<stringvalue>bottom_panel</stringvalue>
+					</entry>
+					<entry name="position" mtime="1221954210" type="int" value="2"/>
+					<entry name="panel_right_stick" mtime="1221954210" type="bool" value="false"/>
+					<entry name="object_type" mtime="1221954210" type="string">
+						<stringvalue>launcher-object</stringvalue>
+					</entry>
+					<entry name="locked" mtime="1221954210" type="bool" value="true"/>
+					<entry name="launcher_location" mtime="1221954210" type="string">
+						<stringvalue>pidgin.desktop</stringvalue>
+					</entry>
+				</dir>
+				<dir name="object_menu">
+					<entry name="toplevel_id" mtime="1221954210" type="string">
+						<stringvalue>bottom_panel</stringvalue>
+					</entry>
+					<entry name="position" mtime="1221954210" type="int" value="0"/>
+					<entry name="panel_right_stick" mtime="1221954210" type="bool" value="false"/>
+					<entry name="object_type" mtime="1221954210" type="string">
+						<stringvalue>menu-object</stringvalue>
+					</entry>
+					<entry name="menu_path" mtime="1221954210" type="string">
+						<stringvalue>applications:/</stringvalue>
+					</entry>
+					<entry name="locked" mtime="1221954210" type="bool" value="true"/>
+				</dir>
+			</dir>
+			<dir name="applets">
+				<dir name="applet_clock">
+					<entry name="toplevel_id" mtime="1221954210" type="string">
+						<stringvalue>bottom_panel</stringvalue>
+					</entry>
+					<entry name="position" mtime="1221954210" type="int" value="0"/>
+					<entry name="panel_right_stick" mtime="1221954210" type="bool" value="true"/>
+					<entry name="object_type" mtime="1221954210" type="string">
+						<stringvalue>bonobo-applet</stringvalue>
+					</entry>
+					<entry name="locked" mtime="1221954210" type="bool" value="true"/>
+					<entry name="bonobo_iid" mtime="1221954210" type="string">
+						<stringvalue>OAFIID:GNOME_ClockApplet</stringvalue>
+					</entry>
+					<dir name="prefs">
+						<entry name="show_week_numbers" mtime="1221954210" type="bool" value="false"/>
+						<entry name="show_timezones" mtime="1221954210" type="bool" value="false"/>
+						<entry name="show_seconds" mtime="1221954210" type="bool" value="false"/>
+						<entry name="show_date" mtime="1221954210" type="bool" value="true"/>
+						<entry name="gmt_time" mtime="1221954210" type="bool" value="false"/>
+						<entry name="format" mtime="1221954210" type="string">
+							<stringvalue>12-hour</stringvalue>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applet_volume">
+					<entry name="toplevel_id" mtime="1221954210" type="string">
+						<stringvalue>bottom_panel</stringvalue>
+					</entry>
+					<entry name="position" mtime="1221954210" type="int" value="1"/>
+					<entry name="panel_right_stick" mtime="1221954210" type="bool" value="true"/>
+					<entry name="object_type" mtime="1221954210" type="string">
+						<stringvalue>bonobo-applet</stringvalue>
+					</entry>
+					<entry name="locked" mtime="1221954210" type="bool" value="true"/>
+					<entry name="bonobo_iid" mtime="1221954210" type="string">
+						<stringvalue>OAFIID:GNOME_MixerApplet</stringvalue>
+					</entry>
+				</dir>
+				<dir name="applet_tray">
+					<entry name="toplevel_id" mtime="1221954210" type="string">
+						<stringvalue>bottom_panel</stringvalue>
+					</entry>
+					<entry name="position" mtime="1221954210" type="int" value="2"/>
+					<entry name="panel_right_stick" mtime="1221954210" type="bool" value="true"/>
+					<entry name="object_type" mtime="1221954210" type="string">
+						<stringvalue>bonobo-applet</stringvalue>
+					</entry>
+					<entry name="locked" mtime="1221954210" type="bool" value="true"/>
+					<entry name="bonobo_iid" mtime="1221954210" type="string">
+						<stringvalue>OAFIID:GNOME_NotificationAreaApplet</stringvalue>
+					</entry>
+				</dir>
+				<dir name="applet_window_list">
+					<entry name="toplevel_id" mtime="1221954210" type="string">
+						<stringvalue>bottom_panel</stringvalue>
+					</entry>
+					<entry name="position" mtime="1221954210" type="int" value="4"/>
+					<entry name="panel_right_stick" mtime="1221954210" type="bool" value="false"/>
+					<entry name="object_type" mtime="1221954210" type="string">
+						<stringvalue>bonobo-applet</stringvalue>
+					</entry>
+					<entry name="locked" mtime="1221954210" type="bool" value="true"/>
+					<entry name="bonobo_iid" mtime="1221954210" type="string">
+						<stringvalue>OAFIID:GNOME_WindowListApplet</stringvalue>
+					</entry>
+					<dir name="prefs">
+						<entry name="group_windows" mtime="1221954210" type="string">
+							<stringvalue>never</stringvalue>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="toplevels">
+				<dir name="bottom_panel">
+					<entry name="size" mtime="1221954210" type="int" value="24"/>
+					<entry name="orientation" mtime="1221954210" type="string">
+						<stringvalue>bottom</stringvalue>
+					</entry>
+					<entry name="name" mtime="1221954210" type="string">
+						<stringvalue>Panel</stringvalue>
+					</entry>
+					<entry name="expand" mtime="1221954210" type="bool" value="true"/>
+					<entry name="enable_buttons" mtime="1221954210" type="bool" value="false"/>
+					<dir name="background">
+						<entry name="type" mtime="1221954210" type="string">
+							<stringvalue>gtk</stringvalue>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="general">
+				<entry name="object_id_list" mtime="1221954210" type="list" ltype="string">
+					<li type="string">
+						<stringvalue>object_menu</stringvalue>
+					</li>
+					<li type="string">
+						<stringvalue>object_pidgin_launcher</stringvalue>
+					</li>
+				</entry>
+				<entry name="applet_id_list" mtime="1221954210" type="list" ltype="string">
+					<li type="string">
+						<stringvalue>applet_window_list</stringvalue>
+					</li>
+					<li type="string">
+						<stringvalue>applet_tray</stringvalue>
+					</li>
+					<li type="string">
+						<stringvalue>applet_volume</stringvalue>
+					</li>
+					<li type="string">
+						<stringvalue>applet_clock</stringvalue>
+					</li>
+				</entry>
+				<entry name="toplevel_id_list" mtime="1221954210" type="list" ltype="string">
+					<li type="string">
+						<stringvalue>bottom_panel</stringvalue>
+					</li>
+				</entry>
+				<entry name="profiles_migrated" mtime="1221954209" type="bool" value="true"/>
+			</dir>
+		</dir>
+		<dir name="gnome-power-manager">
+			<dir name="buttons">
+				<entry name="lid_ac" mtime="1256429681" type="string">
+					<stringvalue>blank</stringvalue>
+				</entry>
+				<entry name="lid_battery" mtime="1224387386" type="string">
+					<stringvalue>blank</stringvalue>
+				</entry>
+			</dir>
+			<dir name="backlight">
+				<entry name="idle_dim_battery" mtime="1224205696" type="bool" value="false"/>
+				<entry name="idle_dim_ac" mtime="1224205693" type="bool" value="false"/>
+				<entry name="battery_reduce" mtime="1224205687" type="bool" value="false"/>
+			</dir>
+			<dir name="lock">
+				<entry name="gnome_keyring_hibernate" mtime="1212597290" type="bool" value="false"/>
+			</dir>
+		</dir>
+		<dir name="gnome-keyring">
+			<dir name="daemon-components">
+				<entry name="ssh" mtime="1207100701" type="bool" value="false"/>
+			</dir>
+		</dir>
+		<dir name="gnome-session">
+			<dir name="options">
+				<entry name="show_splash_screen" mtime="1203118005" type="bool" value="false"/>
+			</dir>
+		</dir>
+		<dir name="nautilus">
+			<dir name="preferences">
+				<entry name="show_desktop" mtime="1224204699" type="bool" value="false"/>
+				<entry name="enable_delete" mtime="1202986157" type="bool" value="true"/>
+				<entry name="desktop_is_home_dir" mtime="1202986157" type="bool" value="true"/>
+				<entry name="always_use_browser" mtime="1202986157" type="bool" value="true"/>
+			</dir>
+		</dir>
+		<dir name="metacity">
+			<dir name="window_keybindings">
+				<entry name="move_to_side_s" mtime="1224222866" type="string">
+					<stringvalue>&lt;Super&gt;Down</stringvalue>
+				</entry>
+				<entry name="move_to_side_n" mtime="1224222862" type="string">
+					<stringvalue>&lt;Super&gt;Up</stringvalue>
+				</entry>
+				<entry name="move_to_side_w" mtime="1224222858" type="string">
+					<stringvalue>&lt;Super&gt;Left</stringvalue>
+				</entry>
+				<entry name="move_to_side_e" mtime="1224222851" type="string">
+					<stringvalue>&lt;Super&gt;Right</stringvalue>
+				</entry>
+				<entry name="toggle_fullscreen" mtime="1224222405" type="string">
+					<stringvalue>&lt;Super&gt;f</stringvalue>
+				</entry>
+				<entry name="toggle_maximized" mtime="1224222309" type="string">
+					<stringvalue>&lt;Super&gt;m</stringvalue>
+				</entry>
+			</dir>
+			<dir name="keybinding_commands">
+				<entry name="command_1" mtime="1224221748" type="string">
+					<stringvalue>firefox -new-tab &quot;about:blank&quot;</stringvalue>
+				</entry>
+			</dir>
+			<dir name="global_keybindings">
+				<entry name="run_command_1" mtime="1224221563" type="string">
+					<stringvalue>&lt;Super&gt;b</stringvalue>
+				</entry>
+				<entry name="run_command_terminal" mtime="1224221171" type="string">
+					<stringvalue>&lt;Super&gt;n</stringvalue>
+				</entry>
+			</dir>
+			<dir name="general">
+				<entry name="action_double_click_titlebar" mtime="1205819033" type="string">
+					<stringvalue>toggle_maximize</stringvalue>
+				</entry>
+				<entry name="num_workspaces" mtime="1202980906" type="int" value="1"/>
+				<entry name="titlebar_font" mtime="1224310795" type="string">
+					<stringvalue>Sans Bold 8</stringvalue>
+				</entry>
+			</dir>
+		</dir>
+		<dir name="gksu">
+			<entry name="sudo-mode" mtime="1202980086" type="bool" value="true"/>
+			<entry name="save-to-keyring" mtime="1202980086" type="bool" value="false"/>
+		</dir>
+		<dir name="gnome-terminal">
+			<dir name="profiles">
+				<dir name="Default">
+					<entry name="silent_bell" mtime="1253207831" type="bool" value="true"/>
+					<entry name="default_show_menubar" mtime="1224287030" type="bool" value="false"/>
+					<entry name="use_theme_colors" mtime="1202977397" type="bool" value="false"/>
+					<entry name="scrollbar_position" mtime="1202977397" type="string">
+						<stringvalue>hidden</stringvalue>
+					</entry>
+					<entry name="scrollback_lines" mtime="1202977397" type="int" value="50000"/>
+					<entry name="palette" mtime="1202977397" type="string">
+						<stringvalue>#000000000000:#AAAA00000000:#0000AAAA0000:#AAAA55550000:#00000000AAAA:#AAAA0000AAAA:#0000AAAAAAAA:#AAAAAAAAAAAA:#555555555555:#FFFF55555555:#5555FFFF5555:#FFFFFFFF5555:#55555555FFFF:#FFFF5555FFFF:#5555FFFFFFFF:#FFFFFFFFFFFF</stringvalue>
+					</entry>
+					<entry name="foreground_color" mtime="1202977397" type="string">
+						<stringvalue>#FFFFFFFFFFFF</stringvalue>
+					</entry>
+					<entry name="cursor_blink" mtime="1202977397" type="bool" value="false"/>
+					<entry name="background_type" mtime="1202977397" type="string">
+						<stringvalue>solid</stringvalue>
+					</entry>
+					<entry name="background_color" mtime="1202977397" type="string">
+						<stringvalue>#000000000000</stringvalue>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="keybindings">
+				<entry name="prev_tab" mtime="1202977397" type="string">
+					<stringvalue>&lt;Alt&gt;Left</stringvalue>
+				</entry>
+				<entry name="next_tab" mtime="1202977397" type="string">
+					<stringvalue>&lt;Alt&gt;Right</stringvalue>
+				</entry>
+				<entry name="new_tab" mtime="1202977397" type="string">
+					<stringvalue>&lt;Control&gt;&lt;Alt&gt;n</stringvalue>
+				</entry>
+				<entry name="help" mtime="1202977397" type="string">
+					<stringvalue>disabled</stringvalue>
+				</entry>
+				<entry name="zoom_in" mtime="1202977397" type="string">
+					<stringvalue>&lt;Control&gt;equal</stringvalue>
+				</entry>
+			</dir>
+			<dir name="global">
+				<entry name="use_mnemonics" mtime="1202977397" type="bool" value="false"/>
+				<entry name="use_menu_accelerators" mtime="1202977397" type="bool" value="false"/>
+			</dir>
+		</dir>
+	</dir>
+	<dir name="desktop">
+		<dir name="gnome">
+			<dir name="applications">
+				<dir name="browser">
+					<entry name="nremote" mtime="1224218441" type="bool" value="true"/>
+					<entry name="needs_term" mtime="1224218433" type="bool" value="false"/>
+					<entry name="exec" mtime="1224218419" type="string">
+						<stringvalue>firefox</stringvalue>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="interface">
+				<entry name="cursor_blink" mtime="1202954016" type="bool" value="false"/>
+				<entry name="monospace_font_name" mtime="1222975371" type="string">
+					<stringvalue>Monospace 8</stringvalue>
+				</entry>
+				<entry name="document_font_name" mtime="1222975359" type="string">
+					<stringvalue>Sans 8</stringvalue>
+				</entry>
+				<entry name="font_name" mtime="1222975354" type="string">
+					<stringvalue>Sans 8</stringvalue>
+				</entry>
+			</dir>
+			<dir name="background">
+				<entry name="picture_filename" mtime="1224303321" type="string">
+					<stringvalue></stringvalue>
+				</entry>
+				<entry name="primary_color" mtime="1202949904" type="string">
+					<stringvalue>#46468282b4b4</stringvalue>
+				</entry>
+				<entry name="draw_background" mtime="1202949904" type="bool" value="true"/>
+				<entry name="color_shading_type" mtime="1202949904" type="string">
+					<stringvalue>solid</stringvalue>
+				</entry>
+				<entry name="picture_options" mtime="1202949904" type="string">
+					<stringvalue>none</stringvalue>
+				</entry>
+			</dir>
+			<dir name="peripherals">
+				<dir name="keyboard">
+					<entry name="bell_mode" mtime="1253293012" type="string">
+						<stringvalue>off</stringvalue>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
 </gconf>

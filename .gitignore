@@ -102,10 +102,10 @@
 # Some transient, some configuration files, but configuration files get written
 # out every time, and not just the changed values.  Some also contain
 # machine-specific configuration, and private data.
-/.bsnes
 /.config/Mumble/Mumble.conf
 /.config/Trolltech.conf
 /.config/brasero/brasero.session
+/.config/bsnes
 /.config/enchant/*.dic
 /.config/enchant/*.exc
 /.config/gobby-*

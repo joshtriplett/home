@@ -175,11 +175,6 @@
 				<entry name="gnome_keyring_hibernate" mtime="1212597290" type="bool" value="false"/>
 			</dir>
 		</dir>
-		<dir name="gnome-keyring">
-			<dir name="daemon-components">
-				<entry name="ssh" mtime="1207100701" type="bool" value="false"/>
-			</dir>
-		</dir>
 		<dir name="gnome-session">
 			<dir name="options">
 				<entry name="show_splash_screen" mtime="1203118005" type="bool" value="false"/>

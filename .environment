@@ -13,10 +13,6 @@ GREP_COLOR='1;32'
 BZR_LOG=/dev/null
 export PATH LC_COLLATE EDITOR LESS LESSHISTFILE BROWSER GZIP ENSCRIPT GREP_OPTIONS GREP_COLOR BZR_LOG
 
-if [ -r "$HOME/.ssh/agent-$HOSTNAME" ] ; then
-    . "$HOME/.ssh/agent-$HOSTNAME" > /dev/null
-fi
-
 case " $(echo $(locale -a)) " in
     *\ C.UTF-8\ *) LANG=C.UTF-8 ;;
     *\ C.utf8\ *) LANG=C.utf8 ;;

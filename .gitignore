@@ -177,6 +177,7 @@
 /.config/pioneers
 /.config/pioneers-server
 /.config/pyscrabble
+/.config/wesnoth
 /.construo
 /.crack-attack
 /.crawl
@@ -230,6 +231,7 @@
 /.lincity
 /.lincityrc
 /.liquidwarrc
+/.local/share/wesnoth
 /.madbomber
 /.magicor
 /.mednafen
@@ -283,7 +285,6 @@
 /.vba
 /.vodovod
 /.warzone2100
-/.wesnoth*
 /.widelands
 /.wizznic
 /.wormux

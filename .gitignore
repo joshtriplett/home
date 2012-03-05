@@ -55,6 +55,7 @@
 /.nautilus/metafiles
 /.nautilus/saved-session-*
 /.psql_history
+/.pulse
 /.pulse-cookie
 /.recently-used
 /.recently-used.xbel

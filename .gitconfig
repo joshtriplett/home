@@ -12,7 +12,7 @@
 	decorate=short
 
 [push]
-	default=matching
+	default=tracking
 
 [url "ssh://joshtriplett.org/"]
 	pushInsteadOf = "git://joshtriplett.org/"

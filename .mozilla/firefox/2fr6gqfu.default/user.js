@@ -47,21 +47,5 @@ user_pref("privacy.popups.showBrowserMessage", false);
 user_pref("extensions.adblockplus.patternsbackups", 0);
 user_pref("extensions.adblockplus.savestats", false);
 
-// Customize Google
-user_pref("extensions.customizegoogle.images.image-links", false);
-user_pref("extensions.customizegoogle.froogle.products-links", false);
-user_pref("extensions.customizegoogle.misc.anonymizeUID", true);
-user_pref("extensions.customizegoogle.news.news-links", false);
-user_pref("extensions.customizegoogle.news.removeclicktrack", true);
-user_pref("extensions.customizegoogle.video.video-links", false);
-user_pref("extensions.customizegoogle.web.filter", false);
-user_pref("extensions.customizegoogle.web.history", true);
-user_pref("extensions.customizegoogle.web.movie-links", false);
-user_pref("extensions.customizegoogle.web.news-links", false);
-user_pref("extensions.customizegoogle.web.product-links", false);
-user_pref("extensions.customizegoogle.web.removeclicktrack", true);
-user_pref("extensions.customizegoogle.web.search-links", false);
-user_pref("extensions.customizegoogle.web.weather-links", false);
-
 // It's All Text
 user_pref("extensions.itsalltext.editor", "/home/josh/.local/bin/vim-wrapper");

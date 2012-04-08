@@ -46,7 +46,6 @@ user_pref("privacy.popups.showBrowserMessage", false);
 // Adblock Plus
 user_pref("extensions.adblockplus.patternsbackups", 0);
 user_pref("extensions.adblockplus.savestats", false);
-user_pref("extensions.adblockplus.showsubscriptions", false);
 
 // Customize Google
 user_pref("extensions.customizegoogle.images.image-links", false);

@@ -207,6 +207,8 @@
 /.glob2
 /.gltronrc
 /.gnome-hearts.cfg
+/.gnubg/gnubgautorc
+/.gnubg/gnubgmenurc
 /.gnubg/history
 /.gnurobborc
 /.golly

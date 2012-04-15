@@ -72,8 +72,7 @@
 /.pam-*
 /.private
 /.ssh/id_rsa
-/.ssh/id_rsa_work
-/.ssh/id_dsa
+/.ssh/non-agent/
 
 # Versioning the configuration files in .gnupg seems reasonable, but they have
 # some key-specific information.

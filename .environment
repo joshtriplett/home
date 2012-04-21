@@ -13,7 +13,7 @@ GREP_COLOR='1;32'
 BZR_LOG=/dev/null
 export PATH LC_COLLATE EDITOR LESS LESSHISTFILE BROWSER GZIP ENSCRIPT GREP_OPTIONS GREP_COLOR BZR_LOG
 
-case " $(echo $(locale -a)) " in
+case " $(echo $(LC_ALL=C locale -a)) " in
     *\ C.UTF-8\ *) LANG=C.UTF-8 ;;
     *\ C.utf8\ *) LANG=C.utf8 ;;
     *\ en_US.utf8\ *) LANG=en_US.utf8 ;;

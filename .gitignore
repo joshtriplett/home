@@ -47,11 +47,7 @@
 /.mcoprc
 /.mutt_certificates
 /.mutt-header-cache
-/.mythtv/MythBrowser
-/.mythtv/channels
-/.mythtv/osdcache
-/.mythtv/remotecache
-/.mythtv/themecache
+/.mythtv
 /.nautilus/metafiles
 /.nautilus/saved-session-*
 /.psql_history

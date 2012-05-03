@@ -9,6 +9,7 @@ set spoolfile="=INBOX"
 set record="=Sent"
 set postponed="=Drafts"
 
+set abort_unmodified=no
 set autoedit=yes
 set confirmappend=no
 set edit_headers=yes

@@ -147,6 +147,7 @@
 # unintelligible text formats, many mix high scores in with the preferences,
 # and many write their entire configuration out each time even if unmodified.
 /.BillardGL.conf.v7
+/.Maelstrom-data
 /.SearchAndRescue
 /.a7xpg.prf
 /.abe

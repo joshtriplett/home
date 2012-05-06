@@ -110,6 +110,7 @@
 /.config/libimobiledevice
 /.config/menus/gnome-applications.menu
 /.config/menus/gnome-settings.menu
+/.config/monitors.xml
 /.config/mupen64plus
 /.config/totem
 /.config/transmission

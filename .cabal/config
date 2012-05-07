@@ -1,5 +1,5 @@
 remote-repo: hackage.haskell.org:http://hackage.haskell.org/packages/archive
-remote-repo-cache: /home/josh/.cabal/packages
+remote-repo-cache: /home/josh/.cache/cabal-packages
 library-profiling: True
 user-install: True
 remote-build-reporting: none

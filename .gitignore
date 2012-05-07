@@ -16,7 +16,6 @@
 /.bash_history
 /.cabal/bin
 /.cabal/lib
-/.cabal/packages
 /.cabal/share
 /.cabal/world
 /.cache

@@ -32,7 +32,6 @@
 /.emacs.d
 /.esd_auth
 /.evolution-composer.autosave-*
-/.fontconfig
 /.gconfd/saved_state
 /.gnuplot_history
 /.gstreamer-0.10/registry.*

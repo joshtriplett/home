@@ -1,0 +1,4 @@
+:set -v0
+:add ~/.ghci.hs
+:m GHCI
+:set -v1

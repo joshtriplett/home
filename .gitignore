@@ -36,9 +36,6 @@
 /.gnuplot_history
 /.gstreamer-0.10/registry.*
 /.gtkrc-1.2-gnome2
-/.ipython/*.pyc
-/.ipython/db
-/.ipython/history
 /.ketchup
 /.lesshst
 /.mcop

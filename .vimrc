@@ -48,3 +48,6 @@ autocmd BufNewFile *.h s@^$@\=s:headertemplate(expand('<afile>:t'))@ | 4
 
 iabbrev jj Josh Triplett and Jamey Sharp
 iabbrev cjj Commit by Josh Triplett and Jamey Sharp
+iabbrev sb Signed-off-by: Josh Triplett <josh@joshtriplett.org>
+iabbrev ab Acked-by: Josh Triplett <josh@joshtriplett.org>
+iabbrev rb Reviewed-by: Josh Triplett <josh@joshtriplett.org>

@@ -1,7 +1,7 @@
 account-hook . 'unset tunnel'
 account-hook ^imaps://josh@joshtriplett.org/ 'set tunnel="cloud-imap"'
 
-`if [ -r ~/.private/muttrc ]; then echo source ~/.private/muttrc ; fi`
+source `if [ -r ~/.private/muttrc ]; then echo ~/.private/muttrc ; else echo /dev/null ; fi`
 
 set smtp_url=smtps://josh@joshtriplett.org@mail.gandi.net/
 set folder=imaps://josh@joshtriplett.org

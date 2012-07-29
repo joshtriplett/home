@@ -100,6 +100,7 @@
 /.config/enchant/*.exc
 /.config/evince/accels
 /.config/evince/print-settings
+/.config/gedit/accels
 /.config/gobby-*
 /.config/gnome-hearts/gnome-hearts.cfg
 /.config/gtk-2.0/gtkfilechooser.ini

@@ -38,6 +38,7 @@
 /.gtkrc-1.2-gnome2
 /.ketchup
 /.lesshst
+/.*.lock
 /.mcop
 /.mcoprc
 /.mutt_certificates

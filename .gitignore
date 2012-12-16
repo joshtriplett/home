@@ -171,6 +171,8 @@
 /.ceferino
 /.ceferinomarcas
 /.chromium
+/.chromium-bsu
+/.chromium-bsu-score
 /.chromium-score
 /.circuslinuxrc
 /.clanbomber
@@ -210,6 +212,7 @@
 /.gnubg/gnubgautorc
 /.gnubg/gnubgmenurc
 /.gnubg/history
+/.gnujump
 /.gnurobborc
 /.golly
 /.gtetrinet

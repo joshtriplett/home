@@ -128,6 +128,7 @@
 /.local/share/gnome-shell/application_state
 /.local/share/gnome-shell/extensions
 /.local/share/tracker
+/.mission-control/accounts/accounts.cfg
 /.mozilla/firefox/2fr6gqfu.default/*
 !/.mozilla/firefox/2fr6gqfu.default/adblockplus/
 /.mozilla/firefox/2fr6gqfu.default/adblockplus/cache.js

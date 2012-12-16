@@ -22,6 +22,7 @@
 /.camel_certs
 /.ccache
 /.config/metacity/sessions
+/.darcs/cache
 /.dbus/session-bus
 /.distcc/lock
 /.distcc/state

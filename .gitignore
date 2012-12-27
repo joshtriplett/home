@@ -83,6 +83,7 @@
 /.hplip.conf
 /.hplip/hplip.conf
 /.ivtv*
+/.local/share/icc
 /.lpoptions
 /.maildir
 /.minirc.dfl

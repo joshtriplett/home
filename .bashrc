@@ -67,6 +67,16 @@ screen)
     ;;
 esac
 
+if [ "${VTE_VERSION:-0}" -ge 3405 ]; then
+    if ! type __vte_osc7 >/dev/null 2>&1 && [ -f /etc/profile.d/vte.sh ]; then
+        . /etc/profile.d/vte.sh
+    fi
+    if type __vte_osc7 >/dev/null 2>&1; then
+        unset PROMPT_COMMAND
+        PS1="$PS1"'\[$(__vte_osc7)\]'
+    fi
+fi
+
 if [ -z "$BASH_COMPLETION_COMPAT_DIR" ] && [ -z "$BASH_COMPLETION" ]; then
     if [ -f /usr/share/bash-completion/bash_completion ]; then
         . /usr/share/bash-completion/bash_completion

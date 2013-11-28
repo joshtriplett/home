@@ -102,6 +102,8 @@
 /.config/Trolltech.conf
 /.config/brasero/brasero.session
 /.config/bsnes
+/.config/dconf/user
+/.config/dconf/user.txt-lock
 /.config/enchant/*.dic
 /.config/enchant/*.exc
 /.config/evince/accels

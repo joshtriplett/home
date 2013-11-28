@@ -1,0 +1,14 @@
+#!/bin/sh
+set -e
+
+if [ "$#" -ne 1 ] || [ "${1#/}" = "$1" ]; then
+    echo "Usage: dconfc PATH" >&2
+    exit 1
+fi
+
+if [ "${1%/}" != "$1" ]; then
+    dconf dump "$1" | dconfe dconf load "$1"
+else
+    dconfe dconf write "$1" "$(dconf read "$1")"
+fi
+dconf reset -f "$1"

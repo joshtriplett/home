@@ -1,0 +1,2 @@
+#!/bin/sh
+DCONF_PROFILE="${DCONF_PROFILE}-edit" exec "$@"

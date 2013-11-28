@@ -1,0 +1,25 @@
+/apps/cheese/*
+/apps/seahorse/*
+/ca/desrt/dconf-editor/*
+/org/gnome/Totem/*
+/org/gnome/charmap/*
+/org/gnome/desktop/notifications/application-children
+/org/gnome/desktop/notifications/application/*
+/org/gnome/eog/*
+/org/gnome/evince/*
+/org/gnome/evolution-data-server/calendar/*
+/org/gnome/file-roller/*
+/org/gnome/gedit/*
+/org/gnome/gnome-screenshot/*
+/org/gnome/gnome-system-monitor/*
+/org/gnome/gnote/*
+/org/gnome/nautilus/*
+/org/gnome/nm-applet/stamp
+/org/gnome/quadrapassel/*
+/org/gnome/simple-scan/*
+/org/gnome/solitaire/window-state/*
+/org/gnome/vinagre/show-accels
+/org/gtk/settings/file-chooser/*
+
+# Machine-specific
+/org/gnome/shell/favorite-apps

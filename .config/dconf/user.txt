@@ -2,3 +2,37 @@
 color-shading-type='solid'
 picture-options='none'
 primary-color='#4682b4'
+
+[org/gnome/desktop/input-sources]
+xkb-options=['caps:super', 'compose:menu']
+
+[org/gnome/desktop/interface]
+clock-format='12h'
+clock-show-date=true
+cursor-blink=false
+
+[org/gnome/desktop/notifications]
+show-in-lock-screen=false
+
+[org/gnome/desktop/sound]
+event-sounds=false
+
+[org/gnome/desktop/wm/keybindings]
+toggle-fullscreen=['<Super>f']
+
+[org/gnome/desktop/wm/preferences]
+mouse-button-modifier='<Alt>'
+num-workspaces=1
+titlebar-font='Sans Bold 8'
+
+[org/gnome/shell]
+enabled-extensions=['alternate-tab@gnome-shell-extensions.gcampax.github.com']
+
+[org/gnome/shell/extensions/alternate-tab]
+behaviour='workspace_icons'
+
+[org/gnome/shell/overrides]
+dynamic-workspaces=false
+
+[org/gtk/settings/file-chooser]
+location-mode='filename-entry'

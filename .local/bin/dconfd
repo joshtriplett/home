@@ -1,0 +1,63 @@
+#!/usr/bin/python
+import fnmatch, os, subprocess, sys
+
+def parse_ignore_patterns(l):
+    for p in l:
+        if p.startswith("#"):
+            continue
+        p = p.rstrip()
+        if not p:
+            continue
+        yield p
+
+def main(args):
+    if len(args) == 1:
+        root = "/"
+    elif len(args) == 2:
+        root = args[1]
+    else:
+        print >>sys.stderr, "Usage: dconfd [PATH]"
+        return 2
+
+    config_home = os.environ.get("XDG_CONFIG_HOME", os.path.expanduser("~/.config"))
+    try:
+        ignore_patterns = list(parse_ignore_patterns(open(os.path.join(config_home, "dconfd-ignore"))))
+        def ignored(name):
+            for p in ignore_patterns:
+                if fnmatch.fnmatch(name, p):
+                    return True
+            return False
+    except IOError:
+        def ignored(name):
+            return False
+
+    changed = False
+
+    if root.endswith("/"):
+        keys = set()
+        for prefix in [], ["dconfe"]:
+            keys |= set(key for key in subprocess.check_output(prefix + ["dconf-list-recursively", root]).split()
+                        if key and (prefix or not ignored(key)))
+        keys = sorted(keys)
+    else:
+        keys = [root]
+
+    for key in keys:
+        v1 = subprocess.check_output(["dconfe", "dconf", "read", key]).rstrip()
+        v2 = subprocess.check_output(["dconf", "read", key]).rstrip()
+        if v1 == v2:
+            continue
+        if not changed:
+            changed = True
+            print "--- service-db"
+            print "+++ user-db"
+        if v1:
+            print "- {} {}".format(key, v1)
+        if v2:
+            print "+ {} {}".format(key, v2)
+
+    if changed:
+        return 1
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv))

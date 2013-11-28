@@ -1,0 +1,11 @@
+#!/bin/sh
+l() {
+    dconf list "$1" | while read key ; do
+        if [ "${key%/}" != "$key" ] ; then
+            l "$1$key"
+        else
+            echo "$1$key"
+        fi
+    done
+}
+l "$1"

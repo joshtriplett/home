@@ -102,6 +102,7 @@
 /.config/Trolltech.conf
 /.config/brasero/brasero.session
 /.config/bsnes
+/.config/chromium
 /.config/dconf/user
 /.config/dconf/user.txt-lock
 /.config/enchant/*.dic
@@ -148,6 +149,7 @@
 /.mythtv/mysql.txt
 /.ncftp
 /.openoffice.org*
+/.pki
 /.purple
 /.qt/*.lock
 /.qt/qt_plugins_*rc

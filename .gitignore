@@ -101,7 +101,6 @@
 /.config/Mumble/Mumble.conf
 /.config/Trolltech.conf
 /.config/brasero/brasero.session
-/.config/bsnes
 /.config/chromium
 /.config/dconf/user
 /.config/dconf/user.txt-lock
@@ -113,6 +112,7 @@
 /.config/gobby-*
 /.config/gnome-hearts/gnome-hearts.cfg
 /.config/gtk-2.0/gtkfilechooser.ini
+/.config/higan
 /.config/inkscape
 /.config/libimobiledevice
 /.config/libreoffice

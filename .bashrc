@@ -33,9 +33,6 @@ else
     alias ls='ls -v'
 fi
 
-# For use when piping into something like less that can handle color
-alias cgrep='grep --color=always'
-
 # Make Control-v paste, if in X and if xsel available
 if [ -n "$DISPLAY" ] && [ -x /usr/bin/xsel ] ; then
     # Work around a bash bug: \C-@ does not work in a key binding

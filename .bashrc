@@ -33,15 +33,6 @@ else
     alias ls='ls -v'
 fi
 
-# Make Control-v paste, if in X and if xsel available
-if [ -n "$DISPLAY" ] && [ -x /usr/bin/xsel ] ; then
-    # Work around a bash bug: \C-@ does not work in a key binding
-    bind '"\C-x\C-m": set-mark'
-    # The '#' characters ensure that kill commands have text to work on; if
-    # not, this binding would malfunction at the start or end of a line.
-    bind 'Control-v: "#\C-b\C-k#\C-x\C-?\"$(xsel -b -o)\"\e\C-e\C-x\C-m\C-a\C-y\C-?\C-e\C-y\ey\C-x\C-x\C-d"'
-fi
-
 # set variable identifying the chroot you work in (used in the prompt below)
 if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)

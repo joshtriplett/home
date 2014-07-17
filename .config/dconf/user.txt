@@ -36,3 +36,6 @@ dynamic-workspaces=false
 
 [org/gtk/settings/file-chooser]
 location-mode='filename-entry'
+
+[org/gnome/settings-daemon/plugins/power]
+idle-dim=false

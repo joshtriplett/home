@@ -14,6 +14,11 @@ cursor-blink=false
 [org/gnome/desktop/notifications]
 show-in-lock-screen=false
 
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='none'
+primary-color='#4682b4'
+
 [org/gnome/desktop/sound]
 event-sounds=false
 

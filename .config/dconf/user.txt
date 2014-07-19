@@ -45,5 +45,8 @@ location-mode='filename-entry'
 [org/gnome/settings-daemon/plugins/power]
 idle-dim=false
 
+[org/gnome/settings-daemon/plugins/updates]
+active=false
+
 [org/gnome/shell/window-switcher]
 app-icon-mode='both'

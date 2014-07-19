@@ -13,6 +13,7 @@
 /org/gnome/gnome-screenshot/*
 /org/gnome/gnome-system-monitor/*
 /org/gnome/gnote/*
+/org/gnome/libgnomekbd/*
 /org/gnome/nautilus/*
 /org/gnome/nm-applet/stamp
 /org/gnome/quadrapassel/*

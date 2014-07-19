@@ -19,6 +19,8 @@
 /org/gnome/nautilus/*
 /org/gnome/nm-applet/stamp
 /org/gnome/quadrapassel/*
+/org/gnome/settings-daemon/plugins/power/sleep-inactive-ac-timeout
+/org/gnome/settings-daemon/plugins/power/sleep-inactive-battery-timeout
 /org/gnome/shell/command-history
 /org/gnome/simple-scan/*
 /org/gnome/solitaire/window-state/*

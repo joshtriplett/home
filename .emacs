@@ -1,9 +1,3 @@
-;;;; Early customizations, which need to happen before anything else.
-
-;; Add ~/.elisp to load-path early.  Some of the modes and features
-;; loaded later may come from this directory.
-(add-to-list 'load-path "~/.elisp")
-
 ;; Try to find and activate CUA mode early.  If something goes wrong
 ;; later, this ensures that CUA mode has already loaded before emacs
 ;; stops reading .emacs.
@@ -11,8 +5,6 @@
       ((fboundp 'CUA-mode) (CUA-mode t))
       ((require 'cua nil t) (CUA-mode t))
       (t (message "Can't find CUA mode")))
-
-;;;; Global customizations
 
 (setq inhibit-startup-message t
       inhibit-startup-buffer-menu t
@@ -26,19 +18,12 @@
 
 (setq-default indent-tabs-mode nil)
 
-;; Set email address based on $EMAIL
-(let (email (getenv "EMAIL"))
-  (when email (setq user-mail-address email)))
-
 (when (require 'bar-cursor nil t)
   (bar-cursor-mode 1))
 (when (fboundp 'blink-cursor-mode)
   (blink-cursor-mode 0))
 (column-number-mode t)
-(global-font-lock-mode t)
 (mouse-wheel-mode t)
-(when (fboundp 'set-scroll-bar-mode)
-  (set-scroll-bar-mode 'right))
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
 
@@ -111,8 +96,6 @@ buffer to finish."
 	(define-key function-key-map
 		    (concat prefix (car m) (car k))
 		    (read-kbd-macro (concat (cdr m) (cdr k))))))))
-
-;;;; Major mode customizations
 
 ;; cc-mode
 (defun my-c-mode-common-hook ()

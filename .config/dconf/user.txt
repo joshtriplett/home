@@ -52,3 +52,27 @@ active=false
 
 [org/gnome/shell/window-switcher]
 app-icon-mode='both'
+
+[org/gnome/terminal/legacy]
+dark-theme=true
+default-show-menubar=false
+menu-accelerator-enabled=false
+mnemonics-enabled=false
+new-terminal-mode='tab'
+
+[org/gnome/terminal/legacy/keybindings]
+help='disabled'
+new-tab='<Control><Alt>n'
+next-tab='<Alt>Right'
+prev-tab='<Alt>Left'
+zoom-in='<Control>equal'
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(0,0,0)'
+bold-color-same-as-fg=true
+foreground-color='rgb(255,255,255)'
+palette=['rgb(0,0,0)', 'rgb(170,0,0)', 'rgb(0,170,0)', 'rgb(170,85,0)', 'rgb(0,0,170)', 'rgb(170,0,170)', 'rgb(0,170,170)', 'rgb(170,170,170)', 'rgb(85,85,85)', 'rgb(255,85,85)', 'rgb(85,255,85)', 'rgb(255,255,85)', 'rgb(85,85,255)', 'rgb(255,85,255)', 'rgb(85,255,255)', 'rgb(255,255,255)']
+scrollback-unlimited=true
+scrollbar-policy='never'
+use-theme-colors=false
+visible-name='Default'

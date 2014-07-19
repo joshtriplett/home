@@ -23,6 +23,7 @@
 /.ccache
 /.config/metacity/sessions
 /.config/phoenix/gtk.cfg
+/.config/pulse
 /.darcs/cache
 /.dbus/session-bus
 /.distcc/lock

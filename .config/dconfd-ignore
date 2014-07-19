@@ -7,6 +7,7 @@
 /org/gnome/desktop/notifications/application/*
 /org/gnome/eog/*
 /org/gnome/evince/*
+/org/gnome/evolution/*
 /org/gnome/evolution-data-server/calendar/*
 /org/gnome/file-roller/*
 /org/gnome/gedit/*

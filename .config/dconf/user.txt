@@ -44,3 +44,6 @@ location-mode='filename-entry'
 
 [org/gnome/settings-daemon/plugins/power]
 idle-dim=false
+
+[org/gnome/shell/window-switcher]
+app-icon-mode='both'

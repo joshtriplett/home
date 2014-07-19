@@ -5,6 +5,7 @@
 /org/gnome/cheese/*
 /org/gnome/desktop/notifications/application-children
 /org/gnome/desktop/notifications/application/*
+/org/gnome/desktop/search-providers/sort-order
 /org/gnome/eog/*
 /org/gnome/evince/*
 /org/gnome/evolution/*
@@ -25,4 +26,10 @@
 /org/gtk/settings/file-chooser/*
 
 # Machine-specific
+/org/gnome/desktop/interface/scaling-factor
+/org/gnome/desktop/interface/text-scaling-factor
+/org/gnome/settings-daemon/peripherals/keyboard/numlock-state
+/org/gnome/settings-daemon/peripherals/mouse/motion-acceleration
+/org/gnome/settings-daemon/peripherals/touchpad/motion-acceleration
+/org/gnome/settings-daemon/plugins/xsettings/overrides
 /org/gnome/shell/favorite-apps

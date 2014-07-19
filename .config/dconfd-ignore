@@ -16,6 +16,7 @@
 /org/gnome/nautilus/*
 /org/gnome/nm-applet/stamp
 /org/gnome/quadrapassel/*
+/org/gnome/shell/command-history
 /org/gnome/simple-scan/*
 /org/gnome/solitaire/window-state/*
 /org/gnome/vinagre/show-accels

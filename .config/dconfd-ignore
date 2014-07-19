@@ -1,8 +1,8 @@
-/apps/cheese/*
 /apps/seahorse/*
 /ca/desrt/dconf-editor/*
 /org/gnome/Totem/*
 /org/gnome/charmap/*
+/org/gnome/cheese/*
 /org/gnome/desktop/notifications/application-children
 /org/gnome/desktop/notifications/application/*
 /org/gnome/eog/*

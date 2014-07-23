@@ -35,6 +35,8 @@ map <ESC>[1;5C <C-Right>
 map! <ESC>[1;5D <C-Left>
 map! <ESC>[1;5C <C-Right>
 
+runtime ftplugin/man.vim
+
 let g:debchangelog_fold_enable = 1
 let g:debcontrol_fold_enable = 1
 let g:xml_syntax_folding = 1

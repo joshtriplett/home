@@ -111,7 +111,7 @@
 /.config/evince/print-settings
 /.config/gedit/accels
 /.config/git/gitk
-/.config/gobby-*
+/.config/gobby
 /.config/gnome-hearts/gnome-hearts.cfg
 /.config/gtk-2.0/gtkfilechooser.ini
 /.config/higan

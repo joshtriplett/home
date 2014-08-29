@@ -66,6 +66,7 @@
 /.gnome2_private
 /.listadmin.ini
 /.local/share/folks/relationships.ini
+/.local/share/keyrings/
 /.pam-*
 /.private
 /.ssh/id_rsa

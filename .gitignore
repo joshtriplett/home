@@ -4,6 +4,7 @@
 /doc/
 /media/
 /src/
+/tmp/
 
 # Transient
 .*.swp

@@ -1,0 +1,50 @@
+#!/bin/sh
+set -e
+
+if [ "$#" -ne 1 ]; then
+    echo Need source directory as argument. 1>&2
+    exit 1
+fi
+
+if ! [ -d "$1" ]; then
+    echo Source directory does not exist. 1>&2
+    exit 1
+fi
+
+source="$1"
+
+host=$(hostname)
+if [ -z "$host" ]; then
+    echo Could not determine local hostname. 1>&2
+    exit 1
+fi
+
+target=ssh://${host}@backup.joshtriplett.org/duplicity/
+
+h=$(readlink -f "$HOME")
+
+sudo duplicity \
+    --name=backup \
+    --full-if-older-than=3M \
+    --asynchronous-upload \
+    --gpg-options="--trust-model=always" \
+    --encrypt-key=758E5042E3974BA33A9C1E670ED9A3DF8AFF873D \
+    --encrypt-key=337BB4911A6F2CFFDBF49F7690098C0343B115A7 \
+    --ssh-options="-oIdentityFile=$HOME/.ssh/non-agent/id_rsa_backup" \
+    --exclude-if-present=CACHEDIR.TAG \
+    --exclude-other-filesystems \
+    --exclude="$h/.aptitude/cache" \
+    --exclude="$h/.cache" \
+    --exclude="$h/.darcs/cache" \
+    --exclude="$h/.mozilla/firefox/*/Cache" \
+    --include="$h/.mythtv/*.*" \
+    --exclude="$h/.mythtv" \
+    --exclude="$h/.thumbnails" \
+    --exclude="$h/Downloads" \
+    "$source" "$target"
+
+duplicity \
+    --name=backup \
+    --ssh-options="-oIdentityFile=$HOME/.ssh/non-agent/id_rsa_backup" \
+    --force \
+    remove-all-but-n-full 2 $target

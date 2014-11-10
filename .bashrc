@@ -56,8 +56,12 @@ xterm*|rxvt*)
 esac
 
 if [ "${VTE_VERSION:-0}" -ge 3405 ]; then
-    if ! type __vte_osc7 >/dev/null 2>&1 && [ -f /etc/profile.d/vte.sh ]; then
-        . /etc/profile.d/vte.sh
+    if ! type __vte_osc7 >/dev/null 2>&1; then
+        for f in /etc/profile.d/vte*.sh; do
+            if [ -f "$f" ]; then
+                . "$f"
+            fi
+        done
     fi
     if type __vte_osc7 >/dev/null 2>&1; then
         unset PROMPT_COMMAND

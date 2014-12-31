@@ -19,18 +19,26 @@ if [ -z "$host" ]; then
     exit 1
 fi
 
-target=ssh://${host}@backup.joshtriplett.org/duplicity/
+target=s3+http://josh-backup-duplicity-${host}
 
 h=$(readlink -f "$HOME")
 
-sudo duplicity \
+. "$h/.private/aws"
+
+options=""
+if [ "$host" != "cloud" ]; then
+    options="--s3-use-rrs"
+fi
+
+sudo -E duplicity \
     --name=backup \
+    --s3-use-new-style \
+    $options \
     --full-if-older-than=3M \
     --asynchronous-upload \
     --gpg-options="--trust-model=always" \
     --encrypt-key=758E5042E3974BA33A9C1E670ED9A3DF8AFF873D \
     --encrypt-key=337BB4911A6F2CFFDBF49F7690098C0343B115A7 \
-    --ssh-options="-oIdentityFile=$HOME/.ssh/non-agent/id_rsa_backup" \
     --exclude-if-present=CACHEDIR.TAG \
     --exclude-other-filesystems \
     --exclude="$h/.aptitude/cache" \
@@ -45,6 +53,7 @@ sudo duplicity \
 
 duplicity \
     --name=backup \
-    --ssh-options="-oIdentityFile=$HOME/.ssh/non-agent/id_rsa_backup" \
+    --s3-use-new-style \
+    $options \
     --force \
     remove-all-but-n-full 2 $target

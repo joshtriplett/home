@@ -51,7 +51,7 @@ sudo -E duplicity \
     --exclude="$h/Downloads" \
     "$source" "$target"
 
-duplicity \
+sudo duplicity \
     --name=backup \
     --s3-use-new-style \
     $options \

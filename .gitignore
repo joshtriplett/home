@@ -21,6 +21,8 @@
 /.cabal/world
 /.cache
 /.camel_certs
+/.cargo/git
+/.cargo/registry
 /.ccache
 /.config/metacity/sessions
 /.config/phoenix/gtk.cfg

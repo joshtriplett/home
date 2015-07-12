@@ -124,6 +124,7 @@
 /.config/libreoffice
 /.config/menus/gnome-applications.menu
 /.config/menus/gnome-settings.menu
+/.config/mimeapps.list
 /.config/monitors.xml
 /.config/mupen64plus
 /.config/totem

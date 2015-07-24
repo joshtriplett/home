@@ -19,15 +19,20 @@ if [ -z "$host" ]; then
     exit 1
 fi
 
-target=s3+http://josh-backup-duplicity-${host}
-
+options=""
 h=$(readlink -f "$HOME")
 
-. "$h/.private/aws"
+if [ "$host" = "jet" ] || [ "$host" = "jtriplet-mobl1" ]; then
+    target=sftp://jtriplet@otc-chromeos2.jf.intel.com/backups/$host
+    options=--ssh-options="-oIdentityFile=$HOME/.ssh/non-agent/id_rsa_backup"
+else
+    target=s3+http://josh-backup-duplicity-${host}
 
-options=""
-if [ "$host" != "cloud" ]; then
-    options="--s3-use-rrs"
+    . "$h/.private/aws"
+
+    if [ "$host" != "cloud" ]; then
+        options="--s3-use-rrs"
+    fi
 fi
 
 sudo -E duplicity \

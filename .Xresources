@@ -1,4 +1,4 @@
-Emacs.font: Monospace-7
+Emacs.font: Monospace-11
 Emacs.fullscreen: fullheight
 Emacs.menuBar: 0
 Emacs.toolBar: 0
@@ -21,5 +21,5 @@ Emacs.toolBar: 0
 *vt100.Color13: #FF54FF
 *vt100.Color14: #54FFFF
 *vt100.Color15: #FFFFFF
-XTerm*faceName: Monospace-7
-UXTerm*faceName: Monospace-7
+XTerm*faceName: Monospace-11
+UXTerm*faceName: Monospace-11

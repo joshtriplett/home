@@ -39,6 +39,7 @@ sudo -E duplicity \
     --name=backup \
     --s3-use-new-style \
     $options \
+    --volsize=100 \
     --full-if-older-than=3M \
     --asynchronous-upload \
     --gpg-options="--trust-model=always" \

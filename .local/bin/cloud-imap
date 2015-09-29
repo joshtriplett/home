@@ -2,4 +2,4 @@
 if [ "$(hostname)" != cloud ]; then
     sshcloud="ssh -q -C joshtriplett.org"
 fi
-exec $sshcloud dovecot --exec-mail imap
+exec $sshcloud /usr/lib/dovecot/imap

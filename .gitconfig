@@ -16,7 +16,6 @@
 
 [url "ssh://joshtriplett.org/"]
 	pushInsteadOf = "https://joshtriplett.org/"
-	pushInsteadOf = "git://joshtriplett.org/"
 
 [url "ssh://git@github.com/"]
 	pushInsteadOf = "https://github.com/"

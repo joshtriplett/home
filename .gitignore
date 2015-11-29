@@ -113,6 +113,7 @@
 /.config/enchant/*.exc
 /.config/evince/accels
 /.config/evince/print-settings
+/.config/evolution/sources/system-proxy.source
 /.config/gedit/accels
 /.config/git/gitk
 /.config/gobby

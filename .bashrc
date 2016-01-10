@@ -19,6 +19,9 @@ shopt -s histappend
 # Do not complete an empty command (listing every program in $PATH)
 shopt -s no_empty_cmd_completion
 
+# Disable flow control, so Ctrl-s and Ctrl-q work
+stty -ixon
+
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(lesspipe)"
 

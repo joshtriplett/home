@@ -23,18 +23,14 @@ primary-color='#4682b4'
 event-sounds=false
 
 [org/gnome/desktop/wm/keybindings]
+switch-applications=@as []
+switch-windows=['<Alt>Tab']
 toggle-fullscreen=['<Super>f']
 
 [org/gnome/desktop/wm/preferences]
 mouse-button-modifier='<Alt>'
 num-workspaces=1
 titlebar-font='Sans Bold 8'
-
-[org/gnome/shell]
-enabled-extensions=['alternate-tab@gnome-shell-extensions.gcampax.github.com']
-
-[org/gnome/shell/extensions/alternate-tab]
-behaviour='workspace_icons'
 
 [org/gnome/shell/overrides]
 dynamic-workspaces=false

@@ -22,14 +22,17 @@ fi
 options=""
 h=$(readlink -f "$HOME")
 
-if [ "$host" = "jet" ] || [ "$host" = "jtriplet-mobl1" ]; then
+case "$host" in
+jet|jtriplet-mobl*)
     target=sftp://jtriplet@otc-chromeos2.jf.intel.com/backups/$host
     options=--ssh-options="-oIdentityFile=$HOME/.ssh/non-agent/id_rsa_backup"
-else
+    ;;
+*)
     target=s3+http://josh-backup-duplicity-${host}
     options="--s3-use-rrs"
     . "$h/.private/aws"
-fi
+    ;;
+esac
 
 sudo -E duplicity \
     --name=backup \

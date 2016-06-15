@@ -30,6 +30,7 @@ autocmd BufNewFile,BufRead ~/src/git/* T
 autocmd FileType html S 2
 autocmd FileType tex S 2
 
+set ttimeout
 set ttimeoutlen=100
 set <C-Left>=[1;5D
 set <C-Right>=[1;5C

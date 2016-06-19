@@ -7,6 +7,7 @@ set listchars=tab:>-
 set scrolloff=4
 set shortmess+=I
 set showcmd
+set viminfo=
 set wildmode=longest,list,full
 syntax on
 

@@ -27,6 +27,8 @@ set sleep_time=0
 
 unignore List-Id
 
+mailto_allow In-Reply-To References
+
 save-hook ~A =Archive
 
 bind pager <up> previous-line

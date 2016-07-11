@@ -1,14 +1,17 @@
 set nocompatible
 filetype plugin indent on
 set bg=dark
-set history=1000
+set hlsearch
 set laststatus=2
 set listchars=tab:>-
+set noincsearch
+set mouse=
 set scrolloff=4
 set shortmess+=I
 set showcmd
 set viminfo=
 set wildmode=longest,list,full
+set wildmenu
 syntax on
 
 set expandtab
@@ -37,6 +40,7 @@ set <C-Left>=[1;5D
 set <C-Right>=[1;5C
 
 runtime ftplugin/man.vim
+runtime macros/matchit.vim
 
 let g:debchangelog_fold_enable = 1
 let g:debcontrol_fold_enable = 1
@@ -60,3 +64,18 @@ function s:gitabbrevs()
     iabbrev <buffer> ab Acked-by: Josh Triplett <josh@joshtriplett.org>
     iabbrev <buffer> rb Reviewed-by: Josh Triplett <josh@joshtriplett.org>
 endfunction
+
+if has('nvim')
+    set shada=
+
+    function TermTitle()
+        if exists('b:term_title')
+            return b:term_title
+        else
+            return bufname('%')
+        endif
+    endfunction
+    autocmd TermOpen * setlocal statusline=%{TermTitle()}
+
+    tnoremap <Esc> <C-\><C-n>
+endif

@@ -45,6 +45,7 @@
 /.ketchup
 /.lesshst
 /.*.lock
+/.local/share/nvim/swap/*.swp
 /.mcop
 /.mcoprc
 /.mutt_certificates

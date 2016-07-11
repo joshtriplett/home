@@ -4,12 +4,18 @@
 [color "grep"]
 	match = bold green
 
+[diff]
+	tool=vimdiff
+
 [imap]
 	folder="Drafts"
 	tunnel="cloud-imap"
 
 [log]
 	decorate=short
+
+[merge]
+	tool=vimdiff
 
 [push]
 	default=current

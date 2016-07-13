@@ -6,6 +6,7 @@ set laststatus=2
 set listchars=tab:>-
 set noincsearch
 set mouse=
+set ruler
 set scrolloff=4
 set shortmess+=I
 set showcmd

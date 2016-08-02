@@ -1,6 +1,0 @@
-#!/bin/sh
-if [ "$(hostname)" != cloud ]; then
-    sshcloud="ssh -q joshtriplett.org"
-fi
-exec $sshcloud flock -n ~/.getmail/gandi.lock \
-    getmail -q -g ~/.getmail/ -r getmailrc-gandi

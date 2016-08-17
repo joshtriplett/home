@@ -3,6 +3,8 @@
 
 [color "grep"]
 	match = bold green
+	filename = magenta
+	separator = cyan
 
 [diff]
 	tool=vimdiff

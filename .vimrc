@@ -67,6 +67,7 @@ function s:gitabbrevs()
 endfunction
 
 if has('nvim')
+    let &packpath=&runtimepath
     set shada=
 
     function TermTitle()

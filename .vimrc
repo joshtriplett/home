@@ -1,6 +1,7 @@
 set nocompatible
 filetype plugin indent on
 set bg=dark
+set diffopt+=vertical
 set hlsearch
 set laststatus=2
 set listchars=tab:>-

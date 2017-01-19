@@ -75,3 +75,6 @@ scrollback-unlimited=true
 scrollbar-policy='never'
 use-theme-colors=false
 visible-name='Default'
+
+[org/gnome/software]
+download-updates=false

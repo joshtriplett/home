@@ -64,6 +64,7 @@
 /.xsession-errors.old
 
 # Private
+/.cargo/config
 /.cvspass
 /.getmail
 /.gnome2_private

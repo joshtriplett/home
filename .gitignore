@@ -133,6 +133,7 @@
 /.config/mupen64plus
 /.config/totem
 /.config/transmission
+/.dosbox/*.conf
 /.evolution
 /.gconf
 /.gimp*

@@ -34,6 +34,8 @@ jet|jtriplet-mobl*)
     ;;
 esac
 
+sudo rm -f $h/.cache/duplicity/backup/lockfile.lock
+
 sudo -E duplicity \
     --name=backup \
     --s3-use-new-style \

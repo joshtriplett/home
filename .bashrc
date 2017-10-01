@@ -35,6 +35,7 @@ if [ -x /usr/bin/dircolors ]; then
 else
     alias ls='ls -v'
 fi
+alias tree='tree -v'
 
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'

@@ -14,6 +14,7 @@ set autoedit=yes
 set confirmappend=no
 set edit_headers=yes
 set header_cache=~/.cache/mutt-header-cache
+set hostname=localhost
 set imap_check_subscribed=yes
 set include=yes
 set index_format="%Z  %{%Y %b %d}  %-20.20F  %s"
@@ -24,6 +25,7 @@ set recall=ask-no
 set reverse_name=yes
 set reverse_realname=no
 set sleep_time=0
+set use_domain=no
 
 unignore List-Id
 

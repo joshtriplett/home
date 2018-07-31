@@ -46,6 +46,8 @@ runtime macros/matchit.vim
 
 let g:debchangelog_fold_enable = 1
 let g:debcontrol_fold_enable = 1
+let g:ft_man_open_mode = "vert"
+
 let g:xml_syntax_folding = 1
 autocmd FileType xml setlocal foldmethod=syntax
 

@@ -57,6 +57,8 @@
 /.pulse-cookie
 /.recently-used
 /.recently-used.xbel
+/.rustup/toolchains/
+/.rustup/update-hashes/
 /.speech-dispatcher
 /.thumbnails
 /.viminfo
@@ -166,6 +168,7 @@
 /.qt/*.lock
 /.qt/qt_plugins_*rc
 /.quodlibet
+/.rustup/settings.toml
 /.sane
 /.stellarium
 /.vlc

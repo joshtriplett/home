@@ -4,6 +4,7 @@ set editing-mode emacs
 
 set bell-style none
 set colored-completion-prefix On
+set colored-stats On
 set revert-all-at-newline On
 
 "\e[1~": beginning-of-line

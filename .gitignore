@@ -88,6 +88,8 @@
 /.ssh/known_hosts
 
 # Machine-specific
+/.cargo/bin
+/.cargo/env
 /.dovecot.sieve
 /.drirc
 /.forward

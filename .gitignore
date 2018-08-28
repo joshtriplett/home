@@ -123,6 +123,7 @@
 /.config/gedit/accels
 /.config/git/gitk
 /.config/gobby
+/.config/gnome-games/
 /.config/gnome-hearts/gnome-hearts.cfg
 /.config/gtk-2.0/gtkfilechooser.ini
 /.config/higan

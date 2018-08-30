@@ -10,6 +10,14 @@
 	filename = magenta
 	separator = cyan
 
+[color "status"]
+	added = green bold
+	branch = cyan bold
+	changed = red bold
+	nobranch = red bold
+	unmerged = red bold
+	untracked = red bold
+
 [diff]
 	tool=vimdiff
 

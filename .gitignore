@@ -67,6 +67,7 @@
 
 # Private
 /.cargo/config
+/.cargo/credentials
 /.cvspass
 /.getmail
 /.gnome2_private

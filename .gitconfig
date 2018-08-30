@@ -1,6 +1,10 @@
 [color]
 	ui=auto
 
+[color "diff"]
+	old = red bold
+	new = green bold
+
 [color "grep"]
 	match = bold green
 	filename = magenta

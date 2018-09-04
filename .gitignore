@@ -249,6 +249,8 @@
 /.lincityrc
 /.liquidwarrc
 /.local/share/mupen64plus
+/.local/share/supertux2/
+/.local/share/tali/
 /.local/share/wesnoth
 /.madbomber
 /.magicor
@@ -278,7 +280,6 @@
 /.solarwolf
 /.starvoyager
 /.supertransball2
-/.supertux2
 /.supertuxkart
 /.titanion
 /.tomatoes

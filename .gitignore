@@ -36,12 +36,9 @@
 /.dovecot.svbin
 /.dvdcss
 /.emacs.d
-/.esd_auth
 /.evolution-composer.autosave-*
-/.gconfd/saved_state
 /.gnuplot_history
 /.gstreamer-0.10/registry.*
-/.gtkrc-1.2-gnome2
 /.ketchup
 /.lesshst
 /.*.lock
@@ -70,7 +67,6 @@
 /.cargo/credentials
 /.cvspass
 /.getmail
-/.gnome2_private
 /.listadmin.ini
 /.local/share/folks/relationships.ini
 /.local/share/keyrings/
@@ -97,7 +93,6 @@
 /.gphoto
 /.hplip.conf
 /.hplip/hplip.conf
-/.ivtv*
 /.local/share/icc
 /.lpoptions
 /.maildir
@@ -111,7 +106,6 @@
 # Some transient, some configuration files, but configuration files get written
 # out every time, and not just the changed values.  Some also contain
 # machine-specific configuration, and private data.
-/.config/Mumble/Mumble.conf
 /.config/Trolltech.conf
 /.config/brasero/brasero.session
 /.config/chromium
@@ -142,13 +136,8 @@
 /.config/transmission
 /.dosbox/*.conf
 /.evolution
-/.gconf
 /.gimp*
-/.gitk
-/.gnome
-/.gnome2
 /.gnuplot-wxt
-/.kde
 /.libreoffice
 /.local/share/data/Mumble/Mumble/.mumble.sqlite
 /.local/share/evolution
@@ -166,8 +155,6 @@
 /.mozilla-thunderbird
 /.mythtv/config.xml
 /.mythtv/mysql.txt
-/.ncftp
-/.openoffice.org*
 /.pki
 /.purple
 /.qt/*.lock
@@ -178,8 +165,6 @@
 /.stellarium
 /.vlc
 /.wireshark/recent
-/.xdvirc
-/.xine
 
 # For now, ignore all the game directories.  Many use binary files, many use
 # unintelligible text formats, many mix high scores in with the preferences,

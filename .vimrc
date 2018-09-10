@@ -73,14 +73,7 @@ if has('nvim')
     let &packpath=&runtimepath
     set shada=
 
-    function TermTitle()
-        if exists('b:term_title')
-            return b:term_title
-        else
-            return bufname('%')
-        endif
-    endfunction
-    autocmd TermOpen * setlocal statusline=%{TermTitle()}
-
     tnoremap <Esc> <C-\><C-n>
+    autocmd TermOpen * setlocal statusline=%{b:term_title}
+    autocmd TermOpen * startinsert
 endif

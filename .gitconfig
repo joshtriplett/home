@@ -22,6 +22,9 @@
 	status = auto dense
 	tag = auto dense
 
+[commit]
+	verbose = true
+
 [diff]
 	tool=vimdiff
 

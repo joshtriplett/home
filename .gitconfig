@@ -18,6 +18,10 @@
 	unmerged = red bold
 	untracked = red bold
 
+[column]
+	status = auto dense
+	tag = auto dense
+
 [diff]
 	tool=vimdiff
 

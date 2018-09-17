@@ -1,6 +1,5 @@
 #!/bin/sh
 PATH="$HOME/.local/bin:$HOME/.cargo/bin:/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
-LC_COLLATE=C
 EDITOR=vim
 PAGER=less
 LESS='-iQR'
@@ -11,7 +10,7 @@ ENSCRIPT='--header=|$n --highlight --media=letter --color'
 GREP_COLOR='1;32'
 BZR_LOG=/dev/null
 DCONF_PROFILE=$HOME/.config/dconf/profile
-export PATH LC_COLLATE EDITOR LESS LESSHISTFILE NVIM_LOG_FILE BROWSER ENSCRIPT GREP_COLOR BZR_LOG DCONF_PROFILE
+export PATH EDITOR LESS LESSHISTFILE NVIM_LOG_FILE BROWSER ENSCRIPT GREP_COLOR BZR_LOG DCONF_PROFILE
 
 case " $(echo $(LC_ALL=C locale -a)) " in
     *\ C.UTF-8\ *) LANG=C.UTF-8 ;;
@@ -20,7 +19,18 @@ case " $(echo $(LC_ALL=C locale -a)) " in
     *\ en_US.UTF-8\ *) LANG=en_US.UTF-8 ;;
     *) LANG=C ;;
 esac
-export LANG
+LC_ADDRESS=C
+LC_COLLATE=C
+LC_IDENTIFICATION=C
+LC_MEASUREMENT=C
+LC_MESSAGES=C
+LC_MONETARY=C
+LC_NAME=C
+LC_NUMERIC=C
+LC_PAPER=C
+LC_TELEPHONE=C
+LC_TIME=C
+export LANG LC_ADDRESS LC_COLLATE LC_IDENTIFICATION LC_MEASUREMENT LC_MESSAGES LC_MONETARY LC_NAME LC_NUMERIC LC_PAPER LC_TELEPHONE LC_TIME
 
 EMAIL='josh@joshtriplett.org'
 NAME='Josh Triplett'

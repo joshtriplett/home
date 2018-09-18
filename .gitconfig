@@ -46,6 +46,9 @@
 [push]
 	default=current
 
+[rebase]
+	autoSquash=true
+
 [url "ssh://joshtriplett.org/"]
 	pushInsteadOf = "https://joshtriplett.org/"
 

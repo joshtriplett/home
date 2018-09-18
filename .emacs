@@ -8,6 +8,7 @@
 
 (setq inhibit-startup-message t
       inhibit-startup-buffer-menu t
+      package-enable-at-startup nil
       ispell-program-name "aspell"
       make-backup-files nil
       diff-switches "-u"

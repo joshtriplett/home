@@ -1,5 +1,5 @@
 BTS_SMTP_HELO=joshtriplett.org
 BTS_SMTP_HOST=reportbug.debian.org:587
 BTS_SUPPRESS_ACKS=yes
-DEBUILD_DPKG_BUILDPACKAGE_OPTS="-us -uc"
+DEBUILD_DPKG_BUILDPACKAGE_OPTS="--no-sign"
 DEBUILD_PREPEND_PATH=/usr/lib/ccache

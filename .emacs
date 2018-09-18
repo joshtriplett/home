@@ -30,23 +30,6 @@
 ;; Don't wait for window manager when changing font - avoids long delays.
 (modify-frame-parameters nil '((wait-for-wm . nil)))
 
-;; Make cut/copy/paste set/use the X CLIPBOARD (for use with C-v) in
-;; preference to the X PRIMARY (for use with middle-mouse-button).
-(setq x-select-enable-clipboard t)
-
-;; Make mouse-based cut/copy/paste use the X PRIMARY
-(defadvice mouse-yank-at-click (around yank-from-primary last act)
-  (let ((x-select-enable-clipboard nil))
-        ad-do-it))
-
-(defadvice mouse-set-region (around kill-to-primary last act)
-  (let ((x-select-enable-clipboard nil))
-        ad-do-it))
-
-(defadvice mouse-drag-region (around kill-to-primary last act)
-  (let ((x-select-enable-clipboard nil))
-        ad-do-it))
-
 (defun my-kill ()
   "Kill current buffer, and tell any emacsclient pending on the
 buffer to finish."
@@ -58,10 +41,6 @@ buffer to finish."
 
 (global-set-key (kbd "C-a") 'mark-whole-buffer)
 (global-set-key (kbd "C-w") 'backward-kill-word)
-
-;; Enable some disabled commands
-(put 'downcase-region 'disabled nil)
-(put 'upcase-region   'disabled nil)
 
 ;; Disable VC mode
 (remove-hook `find-file-hooks `vc-find-file-hook)
@@ -97,31 +76,11 @@ buffer to finish."
 		    (concat prefix (car m) (car k))
 		    (read-kbd-macro (concat (cdr m) (cdr k))))))))
 
-;; cc-mode
-(defun my-c-mode-common-hook ()
-  ;; Make enter automatically indent the next line
-  (define-key c-mode-base-map (kbd "RET") 'c-context-line-break)
-  ;; Use "linux" indentation style for files in a linux-2.6 directory
-  (when (and buffer-file-name
-             (string-match "/linux-2.6/" buffer-file-name))
-    (c-set-style "linux"))
-  )
-(add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
-(c-add-style "bsd4" '("bsd"
-                      (c-basic-offset . 4)
-                      (c-hanging-braces-alist . nil)))
-(setq c-default-style "bsd4")
-
 ;; TeX
 (add-hook 'LaTeX-mode-hook
           (lambda ()
             (TeX-PDF-mode)))
 (setq bibtex-align-at-equal-sign t)
-
-;; makefile-mode
-;; Disable whitespace cleanup in Makefiles
-(setq makefile-cleanup-continuations-p nil
-      makefile-cleanup-continuations nil)
 
 (custom-set-faces
   ;; custom-set-faces was added by Custom.

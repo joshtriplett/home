@@ -36,6 +36,7 @@
 	decorate=short
 
 [merge]
+	conflictStyle=diff3
 	tool=vimdiff
 
 [pager]

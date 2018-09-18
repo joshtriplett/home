@@ -49,6 +49,9 @@
 [rebase]
 	autoSquash=true
 
+[status]
+	showStash=true
+
 [url "ssh://joshtriplett.org/"]
 	pushInsteadOf = "https://joshtriplett.org/"
 

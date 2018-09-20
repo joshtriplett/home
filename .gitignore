@@ -65,6 +65,7 @@
 # Private
 /.cargo/config
 /.cargo/credentials
+/.cert/
 /.config/asciinema/install-id
 /.cvspass
 /.getmail

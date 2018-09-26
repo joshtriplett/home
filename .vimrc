@@ -64,9 +64,9 @@ autocmd BufNewFile *.h s@^$@\=s:headertemplate(expand('<afile>:t'))@ | 4
 
 autocmd FileType gitcommit,mail call s:gitabbrevs()
 function s:gitabbrevs()
-    iabbrev <buffer> sb Signed-off-by: Josh Triplett <josh@joshtriplett.org>
-    iabbrev <buffer> ab Acked-by: Josh Triplett <josh@joshtriplett.org>
-    iabbrev <buffer> rb Reviewed-by: Josh Triplett <josh@joshtriplett.org>
+    iabbrev <buffer> sb Signed-off-by: <C-R>=$NAME . " <" . $EMAIL . ">"<CR>
+    iabbrev <buffer> ab Acked-by: <C-R>=$NAME . " <" . $EMAIL . ">"<CR>
+    iabbrev <buffer> rb Reviewed-by: <C-R>=$NAME . " <" . $EMAIL . ">"<CR>
 endfunction
 
 if has('nvim')

@@ -46,6 +46,3 @@ user_pref("privacy.popups.showBrowserMessage", false);
 // Adblock Plus
 user_pref("extensions.adblockplus.patternsbackups", 0);
 user_pref("extensions.adblockplus.savestats", false);
-
-// It's All Text
-user_pref("extensions.itsalltext.editor", "/home/josh/.local/bin/vim-wrapper");

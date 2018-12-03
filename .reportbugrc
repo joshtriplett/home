@@ -2,6 +2,6 @@ reportbug_version "3.21.2"
 mode expert
 ui text
 no-cc
-header "X-Debbugs-CC: josh@joshtriplett.org"
+list-cc-me
 smtphost reportbug.debian.org:587
 header "X-Debbugs-No-Ack: ack!"

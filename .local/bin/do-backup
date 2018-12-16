@@ -1,3 +1,0 @@
-#!/bin/sh
-set -e
-flock -n ~/.do-backup.lock ~/.local/bin/do-backup-internal "$@" 2>&1 | logger -t backup

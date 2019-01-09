@@ -83,6 +83,7 @@
 /.gnupg
 
 # Hard to version
+/.config/freerdp/known_hosts2
 /.ssh/known_hosts
 
 # Machine-specific

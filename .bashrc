@@ -25,7 +25,7 @@ stty -ixon
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(lesspipe)"
 
-HISTSIZE=100000
+HISTSIZE=-1
 unset HISTFILESIZE
 
 # enable color support of ls and also add handy aliases

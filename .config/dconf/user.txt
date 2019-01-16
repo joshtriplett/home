@@ -10,6 +10,11 @@ xkb-options=['caps:super', 'compose:menu']
 clock-format='12h'
 clock-show-date=true
 cursor-blink=false
+document-font-name='Sans 11'
+font-name='Cantarell 11'
+gtk-theme='Adwaita'
+icon-theme='Adwaita'
+monospace-font-name='Monospace 11'
 
 [org/gnome/desktop/notifications]
 show-in-lock-screen=false
@@ -31,9 +36,13 @@ switch-windows=['<Alt>Tab']
 toggle-fullscreen=['<Super>f']
 
 [org/gnome/desktop/wm/preferences]
+button-layout=appmenu:close
 mouse-button-modifier='<Alt>'
 num-workspaces=1
 titlebar-font='Sans Bold 8'
+
+[org/gnome/mutter]
+dynamic-workspaces=false
 
 [org/gnome/shell/overrides]
 dynamic-workspaces=false
@@ -48,6 +57,10 @@ sleep-inactive-battery-type='nothing'
 
 [org/gnome/settings-daemon/plugins/updates]
 active=false
+
+[org/gnome/settings-daemon/plugins/xsettings]
+hinting='slight'
+antialiasing='grayscale'
 
 [org/gnome/shell/window-switcher]
 app-icon-mode='both'

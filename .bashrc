@@ -62,18 +62,27 @@ xterm*|rxvt*)
     ;;
 esac
 
+unset PROMPT_COMMAND
+
 if [ "${VTE_VERSION:-0}" -ge 3405 ]; then
-    if ! type __vte_osc7 >/dev/null 2>&1; then
-        for f in /etc/profile.d/vte*.sh; do
-            if [ -f "$f" ]; then
-                . "$f"
-            fi
-        done
-    fi
-    if type __vte_osc7 >/dev/null 2>&1; then
-        unset PROMPT_COMMAND
-        PS1="$PS1"'\[$(__vte_osc7)\]'
-    fi
+    # Based on vte-2.91.sh from vte
+    vte_urlencode() (
+      # This is important to make sure string manipulation is handled
+      # byte-by-byte.
+      LC_ALL=C
+      str="$1"
+      while [ -n "$str" ]; do
+        safe="${str%%[!a-zA-Z0-9/:_\.\-\!\'\(\)~]*}"
+        printf "%s" "$safe"
+        str="${str#"$safe"}"
+        if [ -n "$str" ]; then
+          printf "%%%02X" "'$str"
+          str="${str#?}"
+        fi
+      done
+    )
+
+    PS1='\[\e]7;file://\h$(vte_urlencode "{PWD}")\e\\\]'"$PS1"
 fi
 
 if [ -z "$BASH_COMPLETION_COMPAT_DIR" ] && [ -z "$BASH_COMPLETION" ]; then

@@ -47,15 +47,6 @@ temperature-unit='fahrenheit'
 [org/gnome/mutter]
 dynamic-workspaces=false
 
-[org/gnome/shell]
-enabled-extensions=['TopIcons@phocean.net']
-
-[org/gnome/shell/overrides]
-dynamic-workspaces=false
-
-[org/gtk/settings/file-chooser]
-location-mode='filename-entry'
-
 [org/gnome/settings-daemon/plugins/power]
 idle-dim=false
 sleep-inactive-ac-type='nothing'
@@ -68,8 +59,17 @@ active=false
 hinting='slight'
 antialiasing='grayscale'
 
+[org/gnome/shell]
+enabled-extensions=['TopIcons@phocean.net']
+
+[org/gnome/shell/overrides]
+dynamic-workspaces=false
+
 [org/gnome/shell/window-switcher]
 app-icon-mode='both'
+
+[org/gnome/software]
+download-updates=false
 
 [org/gnome/terminal/legacy]
 dark-theme=true
@@ -95,5 +95,5 @@ scrollbar-policy='never'
 use-theme-colors=false
 visible-name='Default'
 
-[org/gnome/software]
-download-updates=false
+[org/gtk/settings/file-chooser]
+location-mode='filename-entry'

@@ -41,6 +41,9 @@ mouse-button-modifier='<Alt>'
 num-workspaces=1
 titlebar-font='Sans Bold 8'
 
+[org/gnome/GWeather]
+temperature-unit='fahrenheit'
+
 [org/gnome/mutter]
 dynamic-workspaces=false
 

@@ -44,6 +44,9 @@ titlebar-font='Sans Bold 8'
 [org/gnome/mutter]
 dynamic-workspaces=false
 
+[org/gnome/shell]
+enabled-extensions=['TopIcons@phocean.net']
+
 [org/gnome/shell/overrides]
 dynamic-workspaces=false
 

@@ -82,7 +82,7 @@ if [ "${VTE_VERSION:-0}" -ge 3405 ]; then
       done
     )
 
-    PS1='\[\e]7;file://\h$(vte_urlencode "{PWD}")\e\\\]'"$PS1"
+    PS1="$PS1"'\[\e]7;file://\h$(vte_urlencode "${PWD}")\e\\\]'
 fi
 
 if [ -z "$BASH_COMPLETION_COMPAT_DIR" ] && [ -z "$BASH_COMPLETION" ]; then

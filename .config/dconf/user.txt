@@ -25,6 +25,7 @@ tap-to-click=false
 
 [org/gnome/desktop/screensaver]
 color-shading-type='solid'
+lock-enabled=true
 picture-options='none'
 primary-color='#4682b4'
 

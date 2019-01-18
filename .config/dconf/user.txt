@@ -29,6 +29,7 @@ picture-options='none'
 primary-color='#4682b4'
 
 [org/gnome/desktop/sound]
+allow-volume-above-100-percent=true
 event-sounds=false
 
 [org/gnome/desktop/wm/keybindings]

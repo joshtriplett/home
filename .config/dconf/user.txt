@@ -29,6 +29,9 @@ lock-enabled=true
 picture-options='none'
 primary-color='#4682b4'
 
+[org/gnome/desktop/session]
+idle-delay=uint32 300
+
 [org/gnome/desktop/sound]
 allow-volume-above-100-percent=true
 event-sounds=false

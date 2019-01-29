@@ -39,6 +39,7 @@ alias tree='tree -v'
 
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
 
 # set variable identifying the chroot you work in (used in the prompt below)
 if [ -r /etc/debian_chroot ]; then

@@ -24,6 +24,7 @@ show-in-lock-screen=false
 [org/gnome/desktop/peripherals/touchpad]
 natural-scroll=false
 tap-to-click=false
+two-finger-scrolling-enabled=true
 
 [org/gnome/desktop/screensaver]
 color-shading-type='solid'

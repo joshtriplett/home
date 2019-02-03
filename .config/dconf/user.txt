@@ -12,6 +12,7 @@ clock-show-date=true
 cursor-blink=false
 document-font-name='Sans 11'
 font-name='Cantarell 11'
+gtk-im-module='gtk-im-context-simple'
 gtk-theme='Adwaita'
 icon-theme='Adwaita'
 monospace-font-name='Monospace 11'

@@ -4,7 +4,8 @@ picture-options='none'
 primary-color='#4682b4'
 
 [org/gnome/desktop/input-sources]
-xkb-options=['caps:super', 'compose:menu']
+sources=[('xkb', 'us')]
+xkb-options=['caps:super']
 
 [org/gnome/desktop/interface]
 clock-format='12h'

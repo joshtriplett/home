@@ -3,6 +3,7 @@
 /org/gnome/Totem/*
 /org/gnome/charmap/*
 /org/gnome/cheese/*
+/org/gnome/clocks/state/window/*
 /org/gnome/control-center/last-panel
 /org/gnome/desktop/notifications/application-children
 /org/gnome/desktop/notifications/application/*

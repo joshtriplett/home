@@ -33,7 +33,7 @@ picture-options='none'
 primary-color='#4682b4'
 
 [org/gnome/desktop/search-providers]
-disabled=['org.gnome.Software.desktop']
+disabled=['org.gnome.Calendar.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.Software.desktop']
 
 [org/gnome/desktop/session]
 idle-delay=uint32 300

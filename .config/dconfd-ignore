@@ -1,6 +1,7 @@
 /apps/seahorse/*
 /ca/desrt/dconf-editor/*
 /org/gnome/Totem/*
+/org/gnome/boxes/window-*
 /org/gnome/charmap/*
 /org/gnome/cheese/*
 /org/gnome/clocks/state/window/*

@@ -40,3 +40,4 @@
 /org/gnome/settings-daemon/peripherals/touchpad/motion-acceleration
 /org/gnome/settings-daemon/plugins/xsettings/overrides
 /org/gnome/shell/favorite-apps
+/system/proxy/*

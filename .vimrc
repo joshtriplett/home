@@ -53,6 +53,8 @@ autocmd FileType xml setlocal foldmethod=syntax
 
 let g:netrw_dirhistmax = 0
 
+highlight DiffText ctermbg=DarkRed
+
 highlight link localWhitespaceError Error
 autocmd Syntax * syntax match localWhitespaceError excludenl /\s\+\%#\@<!$\| \+\ze\t/ display containedin=ALL
 

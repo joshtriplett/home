@@ -71,6 +71,9 @@ function s:gitabbrevs()
     iabbrev <buffer> rb Reviewed-by: <C-R>=$NAME . " <" . $EMAIL . ">"<CR>
 endfunction
 
+noremap <C-n> <Cmd>cnext<CR>
+noremap <C-p> <Cmd>cprev<CR>
+
 if has('nvim')
     let &packpath=&runtimepath
     set shada=

@@ -1,3 +1,6 @@
+[branch]
+	sort = v:refname
+
 [color]
 	ui=auto
 
@@ -52,6 +55,9 @@
 
 [status]
 	showStash=true
+
+[tag]
+	sort = v:refname
 
 [url "ssh://joshtriplett.org/"]
 	pushInsteadOf = "https://joshtriplett.org/"

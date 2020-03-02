@@ -1,6 +1,5 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 # SPDX-License-Identifier: GPL-3.0-or-later
-from __future__ import print_function
 import fnmatch, os, subprocess, sys
 
 def parse_ignore_patterns(l):
@@ -37,15 +36,15 @@ def main(args):
     if root.endswith("/"):
         keys = set()
         for prefix in [], ["dconfe"]:
-            keys |= set(key for key in subprocess.check_output(prefix + ["dconf-list-recursively", root]).split()
+            keys |= set(key for key in subprocess.check_output(prefix + ["dconf-list-recursively", root]).decode('utf-8').split()
                         if key and (prefix or not ignored(key)))
         keys = sorted(keys)
     else:
         keys = [root]
 
     for key in keys:
-        v1 = subprocess.check_output(["dconfe", "dconf", "read", key]).rstrip()
-        v2 = subprocess.check_output(["dconf", "read", key]).rstrip()
+        v1 = subprocess.check_output(["dconfe", "dconf", "read", key]).decode('utf-8').rstrip()
+        v2 = subprocess.check_output(["dconf", "read", key]).decode('utf-8').rstrip()
         if v1 == v2:
             continue
         if not changed:

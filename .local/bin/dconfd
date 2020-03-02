@@ -23,14 +23,13 @@ def main(args):
     config_home = os.environ.get("XDG_CONFIG_HOME", os.path.expanduser("~/.config"))
     try:
         ignore_patterns = list(parse_ignore_patterns(open(os.path.join(config_home, "dconfd-ignore"))))
-        def ignored(name):
-            for p in ignore_patterns:
-                if fnmatch.fnmatch(name, p):
-                    return True
-            return False
     except IOError:
-        def ignored(name):
-            return False
+        ignore_patterns = []
+    def ignored(name):
+        for p in ignore_patterns:
+            if fnmatch.fnmatch(name, p):
+                return True
+        return False
 
     changed = False
 

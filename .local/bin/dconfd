@@ -1,5 +1,6 @@
 #!/usr/bin/python2
 # SPDX-License-Identifier: GPL-3.0-or-later
+from __future__ import print_function
 import fnmatch, os, subprocess, sys
 
 def parse_ignore_patterns(l):
@@ -17,7 +18,7 @@ def main(args):
     elif len(args) == 2:
         root = args[1]
     else:
-        print >>sys.stderr, "Usage: dconfd [PATH]"
+        print("Usage: dconfd [PATH]", file=sys.stderr)
         return 2
 
     config_home = os.environ.get("XDG_CONFIG_HOME", os.path.expanduser("~/.config"))
@@ -49,12 +50,12 @@ def main(args):
             continue
         if not changed:
             changed = True
-            print "--- service-db"
-            print "+++ user-db"
+            print("--- service-db")
+            print("+++ user-db")
         if v1:
-            print "- {} {}".format(key, v1)
+            print("- {} {}".format(key, v1))
         if v2:
-            print "+ {} {}".format(key, v2)
+            print("+ {} {}".format(key, v2))
 
     if changed:
         return 1

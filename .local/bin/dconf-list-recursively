@@ -1,4 +1,5 @@
 #!/bin/sh
+# SPDX-License-Identifier: GPL-3.0-or-later
 l() {
     dconf list "$1" | while read key ; do
         if [ "${key%/}" != "$key" ] ; then

@@ -1,4 +1,5 @@
 #!/bin/sh
+# SPDX-License-Identifier: GPL-3.0-or-later
 set -e
 
 if [ "$#" -ne 1 ] || [ "${1#/}" = "$1" ]; then

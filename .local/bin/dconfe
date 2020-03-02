@@ -1,2 +1,3 @@
 #!/bin/sh
+# SPDX-License-Identifier: GPL-3.0-or-later
 DCONF_PROFILE="${DCONF_PROFILE}-edit" exec "$@"

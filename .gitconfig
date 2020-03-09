@@ -31,6 +31,9 @@
 [diff]
 	tool=vimdiff
 
+[format]
+	thread=true
+
 [imap]
 	folder="Drafts"
 	tunnel="cloud-imap"

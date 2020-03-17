@@ -51,7 +51,7 @@ if [ -n "$SSH_CONNECTION" ] || [ "$USER" != "josh" ] ; then
     prompt_remote=true
 fi
 
-PS1='$(e="$?";[ "$e" -ne 0 ] && echo -n "\[\e[01;31m\]($e) ")${debian_chroot:+\[\e[01;37m\]($debian_chroot) }${prompt_remote:+\[\e[01;32m\]\u@\h\[\e[00m\]:}\[\e[01;34m\]\w\[\e[00m\]\$ '
+PS1='$(e="$?";[ "$e" -ne 0 ] && echo -n "\[\e[1;31m\]($e) ")${debian_chroot:+\[\e[1;37m\]($debian_chroot) }${prompt_remote:+\[\e[1;32m\]\u@\h\[\e[0m\]:}\[\e[1;34m\]\w\[\e[0m\]\$ '
 
 # Set title as appropriate for terminal
 case "$TERM" in

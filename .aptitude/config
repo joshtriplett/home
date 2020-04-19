@@ -5,7 +5,7 @@ aptitude::Delete-Unused-Pattern "";
 aptitude::Get-Root-Command "sudo:/usr/bin/sudo";
 aptitude::UI "";
 aptitude::UI::Advance-On-Action "true";
-aptitude::UI::Default-Grouping "status,section";
+aptitude::UI::Default-Grouping "pattern(?not(?section(debug) ?archive(-debug$)) ||, ?true => Debug Symbols { status }),status,section";
 aptitude::UI::HelpBar "false";
 aptitude::UI::InfoAreaTabs "true";
 aptitude::UI::Menubar-Autohide "true";

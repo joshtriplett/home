@@ -1,6 +1,5 @@
 aptitude "";
 aptitude::Autoclean-After-Update "true";
-aptitude::Recommends-Important "false";
 aptitude::Keep-Unused-Pattern "";
 aptitude::Delete-Unused-Pattern "";
 aptitude::Get-Root-Command "sudo:/usr/bin/sudo";
@@ -12,7 +11,6 @@ aptitude::UI::InfoAreaTabs "true";
 aptitude::UI::Menubar-Autohide "true";
 aptitude::UI::Package-Display-Format "%c%a%M%S %p %t %Z %v %V";
 aptitude::UI::Prompt-On-Exit "false";
-aptitude::Ignore-Recommends-Important "true";
 APT "";
 APT::AutoRemove "";
 APT::AutoRemove::RecommendsImportant "false";

@@ -30,6 +30,7 @@ two-finger-scrolling-enabled=true
 
 [org/gnome/desktop/screensaver]
 color-shading-type='solid'
+lock-delay=uint32 0
 lock-enabled=true
 picture-options='none'
 primary-color='#4682b4'
@@ -38,7 +39,7 @@ primary-color='#4682b4'
 disabled=['org.gnome.Calendar.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.Software.desktop']
 
 [org/gnome/desktop/session]
-idle-delay=uint32 300
+idle-delay=uint32 600
 
 [org/gnome/desktop/sound]
 allow-volume-above-100-percent=true

@@ -62,10 +62,21 @@ temperature-unit='fahrenheit'
 [org/gnome/mutter]
 dynamic-workspaces=false
 
+[org/gnome/mutter/keybindings]
+rotate-monitor=['XF86RotateWindows', '<Super>r']
+
 [org/gnome/settings-daemon/plugins/color]
 night-light-enabled=true
 night-light-schedule-automatic=true
 night-light-temperature=uint32 2700
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>t'
+command='gnome-terminal --maximize --tab'
+name='Terminal'
 
 [org/gnome/settings-daemon/plugins/power]
 idle-dim=false

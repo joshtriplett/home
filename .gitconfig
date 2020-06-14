@@ -50,6 +50,9 @@
 	branch=false
 	tag=false
 
+[pull]
+	ff = only
+
 [push]
 	default=current
 

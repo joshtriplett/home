@@ -39,6 +39,14 @@ autocmd BufNewFile,BufRead ~/src/git/* T
 autocmd FileType html S 2
 autocmd FileType tex S 2
 
+let &titlestring = '%f%(  %h%m%r%)    '
+if has_key(environ(), 'SSH_CONNECTION') || has_key(environ(), 'SUDO_USER')
+    let &titlestring .= $USER . '@' . hostname() . ': '
+endif
+let &titlestring .= '%{fnamemodify(getcwd(),":~:s?/$??")}%( %a%)'
+set titlelen=0
+set title
+
 set ttimeout
 set ttimeoutlen=100
 set <C-Left>=[1;5D

@@ -15,6 +15,7 @@ set showcmd
 set viminfo=
 set wildmode=longest,list,full
 set wildmenu
+set winheight=5
 syntax on
 
 set expandtab

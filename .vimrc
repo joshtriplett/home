@@ -8,7 +8,7 @@ set listchars=tab:>-
 set noincsearch
 set mouse=
 set ruler
-set scrolloff=4
+set scrolloff=6
 set shortmess+=I
 set showcmd
 set viminfo=

@@ -58,12 +58,6 @@ highlight DiffText ctermbg=DarkRed
 highlight link localWhitespaceError Error
 autocmd Syntax * syntax match localWhitespaceError excludenl /\s\+\%#\@<!$\| \+\ze\t/ display containedin=ALL
 
-function s:headertemplate(name)
-    let guard=toupper(substitute(substitute(a:name, '[^[:alnum:]]', '_', 'g'), '^[^[:alpha:]_]', '_&', ''))
-    return "#ifndef " . guard . "\n#define " . guard . "\n\n\n\n#endif /* " . guard . " */"
-endfunction
-autocmd BufNewFile *.h s@^$@\=s:headertemplate(expand('<afile>:t'))@ | 4
-
 autocmd FileType gitcommit,mail call s:gitabbrevs()
 function s:gitabbrevs()
     iabbrev <buffer> sb Signed-off-by: <C-R>=$NAME . " <" . $EMAIL . ">"<CR>

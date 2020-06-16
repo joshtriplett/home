@@ -6,6 +6,7 @@ set hlsearch
 set laststatus=2
 set listchars=tab:>-
 set noincsearch
+set nomodeline
 set mouse=
 set ruler
 set scrolloff=6

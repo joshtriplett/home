@@ -1,6 +1,3 @@
-// Don't shrink images to fit.
-user_pref("browser.enable_automatic_image_resizing", false);
-
 // Don't try to "fix" URLs by adding www. and .com
 user_pref("browser.fixup.alternate.enabled", false);
 

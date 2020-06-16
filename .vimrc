@@ -2,6 +2,7 @@ set nocompatible
 filetype plugin indent on
 set bg=dark
 set diffopt+=vertical
+set fillchars=vert:\ " (space)
 set hlsearch
 set laststatus=2
 set listchars=tab:>-

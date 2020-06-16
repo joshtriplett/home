@@ -56,6 +56,8 @@ autocmd FileType xml setlocal foldmethod=syntax
 
 let g:netrw_dirhistmax = 0
 
+highlight StatusLine cterm=NONE ctermbg=white ctermfg=black
+highlight StatusLineNC cterm=NONE ctermbg=grey ctermfg=black
 highlight DiffText ctermbg=DarkRed
 
 highlight link localWhitespaceError Error

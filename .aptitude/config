@@ -1,8 +1,8 @@
 aptitude "";
 aptitude::Autoclean-After-Update "true";
-aptitude::Keep-Unused-Pattern "";
 aptitude::Delete-Unused-Pattern "";
 aptitude::Get-Root-Command "sudo:/usr/bin/sudo";
+aptitude::Keep-Unused-Pattern "";
 aptitude::UI "";
 aptitude::UI::Advance-On-Action "true";
 aptitude::UI::Default-Grouping "pattern(?not(?section(debug) ?archive(-debug$)) ||, ?true => Debug Symbols { status }),status,section";

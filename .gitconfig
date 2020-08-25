@@ -38,6 +38,9 @@
 	folder="Drafts"
 	tunnel="cloud-imap"
 
+[init]
+	defaultBranch="main"
+
 [log]
 	decorate=short
 	mailmap=true

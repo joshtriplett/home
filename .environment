@@ -12,13 +12,17 @@ BZR_LOG=/dev/null
 DCONF_PROFILE=$HOME/.config/dconf/profile
 export PATH EDITOR LESS LESSHISTFILE NVIM_LOG_FILE BROWSER ENSCRIPT GREP_COLOR BZR_LOG DCONF_PROFILE
 
-case " $(echo $(LC_ALL=C locale -a)) " in
-    *\ C.UTF-8\ *) LANG=C.UTF-8 ;;
-    *\ C.utf8\ *) LANG=C.utf8 ;;
-    *\ en_US.utf8\ *) LANG=en_US.utf8 ;;
-    *\ en_US.UTF-8\ *) LANG=en_US.UTF-8 ;;
-    *) LANG=C ;;
-esac
+if [ -d "/usr/lib/locale/C.UTF-8" ]; then
+    LANG=C.UTF-8
+else
+    case " $(echo $(LC_ALL=C locale -a)) " in
+        *\ C.UTF-8\ *) LANG=C.UTF-8 ;;
+        *\ C.utf8\ *) LANG=C.utf8 ;;
+        *\ en_US.utf8\ *) LANG=en_US.utf8 ;;
+        *\ en_US.UTF-8\ *) LANG=en_US.UTF-8 ;;
+        *) LANG=C ;;
+    esac
+fi
 LC_ADDRESS=C
 LC_COLLATE=C
 LC_IDENTIFICATION=C

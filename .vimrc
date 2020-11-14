@@ -47,8 +47,6 @@ let &titlestring .= '%{fnamemodify(getcwd(),":~:s?/$??")}%( %a%)'
 set titlelen=0
 set title
 
-set ttimeout
-set ttimeoutlen=100
 set <C-Left>=[1;5D
 set <C-Right>=[1;5C
 

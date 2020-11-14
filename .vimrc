@@ -50,9 +50,6 @@ set title
 set <C-Left>=[1;5D
 set <C-Right>=[1;5C
 
-runtime ftplugin/man.vim
-runtime macros/matchit.vim
-
 let g:debchangelog_fold_enable = 1
 let g:debcontrol_fold_enable = 1
 let g:ft_man_open_mode = "vert"

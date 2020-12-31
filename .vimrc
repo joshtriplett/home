@@ -13,6 +13,7 @@ set ruler
 set scrolloff=6
 set shortmess+=I
 set showcmd
+set termguicolors
 set viminfo=
 set wildmode=longest,list,full
 set wildmenu

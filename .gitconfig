@@ -31,6 +31,9 @@
 [diff]
 	tool=vimdiff
 
+[fetch]
+	parallel=0
+
 [format]
 	thread=true
 

@@ -12,7 +12,3 @@ user_pref("browser.zoom.siteSpecific", false);
 
 // Don't show a message when blocking a popup.
 user_pref("privacy.popups.showBrowserMessage", false);
-
-// Adblock Plus
-user_pref("extensions.adblockplus.patternsbackups", 0);
-user_pref("extensions.adblockplus.savestats", false);

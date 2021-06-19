@@ -35,8 +35,6 @@
 /.distcc/lock
 /.distcc/state
 /.dmrc
-/.dovecot.sievec
-/.dovecot.svbin
 /.dvdcss
 /.emacs.d
 /.evolution-composer.autosave-*
@@ -93,7 +91,6 @@
 # Machine-specific
 /.cargo/bin
 /.cargo/env
-/.dovecot.sieve
 /.drirc
 /.forward
 /.ghc

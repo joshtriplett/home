@@ -74,7 +74,6 @@
 /.listadmin.ini
 /.local/share/folks/relationships.ini
 /.local/share/keyrings/
-/.pam-*
 /.private
 /.ssh/id_ed25519
 /.ssh/id_rsa

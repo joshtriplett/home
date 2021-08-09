@@ -1,7 +1,7 @@
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='none'
-primary-color='#4682b4'
+primary-color='#000000'
 
 [org/gnome/desktop/input-sources]
 sources=[('xkb', 'us')]
@@ -33,7 +33,7 @@ color-shading-type='solid'
 lock-delay=uint32 0
 lock-enabled=true
 picture-options='none'
-primary-color='#4682b4'
+primary-color='#000000'
 
 [org/gnome/desktop/search-providers]
 disabled=['org.gnome.Calendar.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.Software.desktop']

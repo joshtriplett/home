@@ -1,6 +1,9 @@
 [branch]
 	sort = v:refname
 
+[checkout]
+	workers = 0
+
 [color]
 	ui=auto
 

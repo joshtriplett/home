@@ -7,6 +7,7 @@ set formatoptions+=n
 set hlsearch
 set laststatus=2
 set listchars=tab:>-
+set nohidden
 set noincsearch
 set nomodeline
 set mouse=

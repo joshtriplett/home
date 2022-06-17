@@ -64,6 +64,7 @@
 /.xsession-errors.old
 
 # Private
+/.aws/cli/cache/
 /.aws/credentials
 /.cargo/config
 /.cargo/credentials

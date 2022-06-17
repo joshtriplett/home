@@ -102,6 +102,7 @@
 /.minirc.dfl
 /.ssh/authorized_keys
 /.ssh/*.pub
+/.sudo_as_admin_successful
 
 # I don't keep any configuration in .subversion
 /.subversion

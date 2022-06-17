@@ -88,6 +88,7 @@
 /.ssh/known_hosts
 
 # Machine-specific
+/.aws/config
 /.cargo/bin
 /.cargo/env
 /.drirc

@@ -65,6 +65,7 @@
 [push]
 	default=current
 	followTags=true
+	recurseSubmodules=check
 
 [rebase]
 	autoSquash=true

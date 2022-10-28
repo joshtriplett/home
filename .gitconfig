@@ -31,6 +31,14 @@
 [commit]
 	verbose = true
 
+[credential "https://github.com"]
+	helper =
+	helper = !/usr/bin/gh auth git-credential
+
+[credential "https://gist.github.com"]
+	helper =
+	helper = !/usr/bin/gh auth git-credential
+
 [diff]
 	tool=vimdiff
 
@@ -82,9 +90,7 @@
 [url "ssh://joshtriplett.org/"]
 	pushInsteadOf = "https://joshtriplett.org/"
 
-[url "ssh://git@github.com/"]
-	pushInsteadOf = "https://github.com/"
+[url "https://github.com/"]
+	pushInsteadOf = "git@github.com:"
+	pushInsteadOf = "ssh://git@github.com/"
 	pushInsteadOf = "git://github.com/"
-
-[include]
-	path = ~/.private/gitconfig

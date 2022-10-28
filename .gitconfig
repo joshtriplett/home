@@ -87,9 +87,6 @@
 [tag]
 	sort = v:refname
 
-[url "ssh://joshtriplett.org/"]
-	pushInsteadOf = "https://joshtriplett.org/"
-
 [url "https://github.com/"]
 	pushInsteadOf = "git@github.com:"
 	pushInsteadOf = "ssh://git@github.com/"

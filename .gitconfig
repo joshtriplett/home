@@ -88,6 +88,6 @@
 	sort = v:refname
 
 [url "https://github.com/"]
-	pushInsteadOf = "git@github.com:"
-	pushInsteadOf = "ssh://git@github.com/"
-	pushInsteadOf = "git://github.com/"
+	insteadOf = "git@github.com:"
+	insteadOf = "ssh://git@github.com/"
+	insteadOf = "git://github.com/"

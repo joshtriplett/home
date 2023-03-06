@@ -31,6 +31,9 @@
 [commit]
 	verbose = true
 
+[core]
+	pager = delta
+
 [credential "https://github.com"]
 	helper =
 	helper = !/usr/bin/gh auth git-credential
@@ -38,6 +41,12 @@
 [credential "https://gist.github.com"]
 	helper =
 	helper = !/usr/bin/gh auth git-credential
+
+[delta]
+	color-only = true
+	navigate = true
+	pager = less -iQR
+	tabs = 8
 
 [diff]
 	tool=vimdiff

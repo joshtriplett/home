@@ -20,6 +20,8 @@ set viminfo=
 set wildmode=longest,list,full
 set wildmenu
 set winheight=5
+set winminheight=0
+set winminwidth=0
 syntax on
 
 set expandtab

@@ -49,6 +49,7 @@
 	tabs = 8
 
 [diff]
+	algorithm=histogram
 	tool=vimdiff
 
 [fetch]

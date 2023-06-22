@@ -39,8 +39,9 @@ function Spaces(...)
 endfunction
 command! T setlocal noexpandtab shiftwidth=8 softtabstop=0
 command! -nargs=? S call Spaces(<args>)
-autocmd BufNewFile,BufRead ~/src/linux/* T
 autocmd BufNewFile,BufRead ~/src/git/* T
+autocmd BufNewFile,BufRead ~/src/liburing/* T
+autocmd BufNewFile,BufRead ~/src/linux/* T
 autocmd FileType html S 2
 autocmd FileType tex S 2
 

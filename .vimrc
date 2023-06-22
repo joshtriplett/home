@@ -45,6 +45,8 @@ autocmd BufNewFile,BufRead ~/src/linux/* T
 autocmd FileType html S 2
 autocmd FileType tex S 2
 
+autocmd FileType markdown syntax sync fromstart
+
 let &titlestring = '%f%(  %h%m%r%)    '
 if $SSH_CONNECTION != '' || $SUDO_USER != ''
     let &titlestring .= $USER . '@' . hostname() . ': '

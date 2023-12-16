@@ -32,11 +32,13 @@ HISTTIMEFORMAT='%F %T: '
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     eval "`dircolors -b`"
-    alias ls='ls --color=auto -v'
+    alias ls="LS_COLORS='$LS_COLORS' ls --color=auto -v"
+    alias tree="LS_COLORS='$LS_COLORS' tree -v"
+    unset LS_COLORS
 else
     alias ls='ls -v'
+    alias tree='tree -v'
 fi
-alias tree='tree -v'
 
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'

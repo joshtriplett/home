@@ -46,11 +46,11 @@ autocmd FileType tex S 2
 
 autocmd FileType markdown syntax sync fromstart
 
-let &titlestring = '%f%(  %h%m%r%)    '
+let &titlestring = 'VIM %f%(  %h%m%r%)    '
 if $SSH_CONNECTION != '' || $SUDO_USER != ''
     let &titlestring .= $USER . '@' . hostname() . ': '
 endif
-let &titlestring .= '%{fnamemodify(getcwd(),":~:s?/$??")}%( %a%)'
+let &titlestring .= '(in %{fnamemodify(getcwd(),":~:s?/$??")})%( %a%)'
 set titlelen=0
 set title
 

@@ -24,6 +24,7 @@
 /.cargo/.crates.toml
 /.cargo/.crates2.json
 /.cargo/.package-cache
+/.cargo/.package-cache-mutate
 /.cargo/git
 /.cargo/registry
 /.ccache
@@ -69,8 +70,7 @@
 # Private
 /.aws/cli/cache/
 /.aws/credentials
-/.cargo/config
-/.cargo/credentials
+/.cargo/credentials.toml
 /.cert/
 /.config/asciinema/install-id
 /.cvspass

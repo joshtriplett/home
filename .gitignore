@@ -8,19 +8,10 @@
 
 # Transient
 .*.swp
-/.DCOPserver*
 /.ICEauthority
-/.Trash
-/.Xauthority
 /.aptitude/cache
-/.ash_history
 /.bash_history
-/.cabal/bin
-/.cabal/lib
-/.cabal/share
-/.cabal/world
 /.cache
-/.camel_certs
 /.cargo/.crates.toml
 /.cargo/.crates2.json
 /.cargo/.package-cache
@@ -28,44 +19,25 @@
 /.cargo/git
 /.cargo/registry
 /.ccache
-/.config/metacity/sessions
-/.config/phoenix/gtk.cfg
-/.config/pulse
-/.darcs/cache
 /.dbus/session-bus
 /.distcc/lock
 /.distcc/state
 /.dmrc
-/.dvdcss
 /.emacs.d
 /.evolution-composer.autosave-*
 /.gnuplot_history
 /.gstreamer-0.10/registry.*
-/.ketchup
 /.lesshst
 /.*.lock
 /.local/.crates.toml
 /.local/.crates2.json
 /.local/share/nvim/swap/*.swp
 /.local/state/wireplumber
-/.mcop
-/.mcoprc
 /.mutt_certificates
-/.mythtv
-/.nautilus/metafiles
-/.nautilus/saved-session-*
 /.psql_history
-/.pulse
-/.pulse-cookie
-/.recently-used
-/.recently-used.xbel
 /.rustup/toolchains/
 /.rustup/update-hashes/
 /.speech-dispatcher
-/.thumbnails
-/.viminfo
-/.xsession-errors
-/.xsession-errors.old
 
 # Private
 /.aws/cli/cache/
@@ -73,9 +45,6 @@
 /.cargo/credentials.toml
 /.cert/
 /.config/asciinema/install-id
-/.cvspass
-/.getmail
-/.listadmin.ini
 /.local/share/folks/relationships.ini
 /.local/share/keyrings/
 /.private
@@ -97,27 +66,16 @@
 /.cargo/env
 /.drirc
 /.forward
-/.ghc
-/.gphoto
-/.hplip.conf
-/.hplip/hplip.conf
 /.local/share/icc
-/.lpoptions
 /.maildir
-/.minirc.dfl
 /.ssh/authorized_keys
 /.ssh/*.pub
 /.sudo_as_admin_successful
-
-# I don't keep any configuration in .subversion
-/.subversion
 
 # Some transient, some configuration files, but configuration files get written
 # out every time, and not just the changed values.  Some also contain
 # machine-specific configuration, and private data.
 /.boto
-/.config/Trolltech.conf
-/.config/brasero/brasero.session
 /.config/chromium
 /.config/dconf/user
 /.config/dconf/user.txt-lock
@@ -128,28 +86,20 @@
 /.config/evolution/sources/system-proxy.source
 /.config/gedit/accels
 /.config/git/gitk
-/.config/gobby
 /.config/gnome-games/
 /.config/gnome-hearts/gnome-hearts.cfg
 /.config/gtk-2.0/gtkfilechooser.ini
 /.config/higan
 /.config/hiro/gtk.bml
 /.config/inkscape
-/.config/libimobiledevice
 /.config/libreoffice
-/.config/menus/gnome-applications.menu
-/.config/menus/gnome-settings.menu
 /.config/mimeapps.list
 /.config/monitors.xml
 /.config/mupen64plus
 /.config/totem
 /.config/transmission
 /.dosbox/*.conf
-/.evolution
-/.gimp*
-/.gnuplot-wxt
 /.libreoffice
-/.local/share/data/Mumble/Mumble/.mumble.sqlite
 /.local/share/evolution
 /.local/share/gnome-shell/application_state
 /.local/share/gnome-shell/extensions

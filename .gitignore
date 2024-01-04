@@ -43,6 +43,8 @@
 /.ketchup
 /.lesshst
 /.*.lock
+/.local/.crates.toml
+/.local/.crates2.json
 /.local/share/nvim/swap/*.swp
 /.local/state/wireplumber
 /.mcop

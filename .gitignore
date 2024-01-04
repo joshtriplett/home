@@ -44,6 +44,7 @@
 /.lesshst
 /.*.lock
 /.local/share/nvim/swap/*.swp
+/.local/state/wireplumber
 /.mcop
 /.mcoprc
 /.mutt_certificates

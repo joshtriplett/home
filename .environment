@@ -1,5 +1,5 @@
 #!/bin/sh
-PATH="$HOME/.local/bin:$HOME/.cargo/bin:/usr/lib/ccache:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
+PATH="$HOME/.local/bin:/usr/lib/ccache:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
 EDITOR=vim
 PAGER=less
 LESS='-iQR'

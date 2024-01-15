@@ -3,13 +3,11 @@ PATH="$HOME/.local/bin:/usr/lib/ccache:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
 EDITOR=vim
 PAGER=less
 LESS='-iQR'
-LESSHISTFILE=-
-NVIM_LOG_FILE=/dev/null
 BROWSER=firefox
 ENSCRIPT='--header=|$n --highlight --media=letter --color'
 GREP_COLORS='mt=1;32'
 DCONF_PROFILE=$HOME/.config/dconf/profile
-export PATH EDITOR LESS LESSHISTFILE NVIM_LOG_FILE BROWSER ENSCRIPT GREP_COLORS DCONF_PROFILE
+export PATH EDITOR LESS BROWSER ENSCRIPT GREP_COLORS DCONF_PROFILE
 
 if [ -d /usr/lib/locale/C.UTF-8 ] || [ -d /usr/lib/locale/C.utf8 ] ; then
     LANG=C.UTF-8

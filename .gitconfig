@@ -12,7 +12,8 @@
 	new = green bold
 
 [color "grep"]
-	match = bold green
+        # Temporarily disabled to make delta work better: https://github.com/dandavison/delta/issues/1635
+        #match = bold green
 	filename = magenta
 	separator = cyan
 

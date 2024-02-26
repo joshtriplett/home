@@ -74,6 +74,8 @@ highlight StatusLineNC cterm=NONE ctermbg=grey ctermfg=black gui=NONE guibg=grey
 highlight link localWhitespaceError Error
 autocmd Syntax * syntax match localWhitespaceError excludenl /\s\+\%#\@<!$\| \+\ze\t/ display containedin=ALL
 
+highlight NonText cterm=bold ctermfg=darkgrey ctermbg=black gui=NONE guifg=grey
+
 autocmd FileType gitcommit,mail call s:gitabbrevs()
 function s:gitabbrevs()
     iabbrev <buffer> sb Signed-off-by: <C-R>=$NAME . " <" . $EMAIL . ">"<CR>

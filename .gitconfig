@@ -66,6 +66,9 @@
 [init]
 	defaultBranch="main"
 
+[interactive]
+	diffFilter="delta --color-only"
+
 [log]
 	decorate=short
 	mailmap=true

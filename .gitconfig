@@ -30,6 +30,7 @@
 	tag = auto dense
 
 [commit]
+	cleanup = scissors
 	verbose = true
 
 [core]

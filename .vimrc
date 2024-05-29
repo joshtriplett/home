@@ -1,7 +1,6 @@
 set nocompatible
 filetype plugin indent on
 set diffopt+=vertical
-set fillchars=vert:\ " (space)
 set formatoptions+=n
 set hlsearch
 set laststatus=2

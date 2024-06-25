@@ -1,3 +1,6 @@
+[alias]
+	merged = !git branch --merged | grep -v '^[*]'
+
 [branch]
 	sort = v:refname
 

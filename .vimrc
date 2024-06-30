@@ -65,7 +65,10 @@ let g:ft_man_open_mode = "vert"
 let g:xml_syntax_folding = 1
 autocmd FileType xml setlocal foldmethod=syntax
 
+noremap <C-b> <Cmd>Explore */%:t<CR>
 let g:netrw_dirhistmax = 0
+let g:netrw_liststyle = 3
+let g:netrw_sort_sequence = "*"
 
 highlight StatusLine cterm=NONE ctermbg=white ctermfg=black gui=NONE guibg=white guifg=black
 highlight StatusLineNC cterm=NONE ctermbg=grey ctermfg=black gui=NONE guibg=grey guifg=black

@@ -8,6 +8,7 @@ set listchars=tab:>-
 set nohidden
 set noincsearch
 set nomodeline
+set nrformats+=unsigned
 set mouse=
 set ruler
 set scrolloff=6

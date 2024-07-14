@@ -1,5 +1,6 @@
 set nocompatible
 filetype plugin indent on
+set clipboard=unnamedplus
 set diffopt+=vertical
 set formatoptions+=n
 set hlsearch

@@ -7,11 +7,11 @@ set formatoptions+=n
 set hlsearch
 set laststatus=2
 set listchars=tab:>-
+set mouse=
 set nohidden
 set noincsearch
 set nomodeline
 set nrformats+=unsigned
-set mouse=
 set ruler
 set scrolloff=6
 set shortmess+=I

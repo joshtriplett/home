@@ -81,6 +81,9 @@ autocmd Syntax * syntax match localWhitespaceError excludenl /\s\+\%#\@<!$\| \+\
 
 highlight NonText cterm=bold ctermfg=darkgrey ctermbg=black gui=NONE guifg=grey
 
+highlight DiffText guibg=#550000
+highlight DiffAdd guibg=#005500
+
 autocmd FileType gitcommit,mail call s:gitabbrevs()
 function s:gitabbrevs()
     iabbrev <buffer> sb Signed-off-by: <C-R>=$NAME . " <" . $EMAIL . ">"<CR>

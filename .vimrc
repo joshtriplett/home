@@ -1,6 +1,5 @@
 set nocompatible
 filetype plugin indent on
-set clipboard=unnamedplus
 set diffopt+=vertical
 set display+=uhex
 set formatoptions+=n

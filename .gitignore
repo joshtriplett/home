@@ -58,6 +58,7 @@
 
 # Hard to version
 /.config/freerdp/known_hosts2
+/.config/termux/termux.properties
 /.ssh/known_hosts
 
 # Machine-specific

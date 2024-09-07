@@ -14,6 +14,8 @@ export PATH EDITOR LESS BROWSER ENSCRIPT GREP_COLORS DCONF_PROFILE
 
 if [ -d /usr/lib/locale/C.utf8 ] || [ -d /usr/lib/locale/C.UTF-8 ] ; then
     LANG=C.UTF-8
+elif ! [ -x /usr/bin/locale ] && [ "$LANG" = "en_US.UTF-8" ] ; then
+    :
 else
     case " $(echo $(LC_ALL=C locale -a)) " in
         *\ C.UTF-8\ *) LANG=C.UTF-8 ;;

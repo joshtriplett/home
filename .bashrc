@@ -1,3 +1,9 @@
+# Avoid running twice
+if [ -n "$TERMUX_VERSION" ]; then
+    [ -n "$bashrc_sourced" ] && return
+    bashrc_sourced=true
+fi
+
 . ~/.environment
 
 # If not running interactively, don't do anything

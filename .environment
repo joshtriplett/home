@@ -1,5 +1,8 @@
 #!/bin/sh
-PATH="$HOME/.local/bin:/usr/lib/ccache:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
+if [ -z "$TERMUX_VERSION" ]; then
+    PATH="/usr/lib/ccache:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
+fi
+PATH="$HOME/.local/bin:$PATH"
 EDITOR=vim
 PAGER=less
 LESS='-iQR'

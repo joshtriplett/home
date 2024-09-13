@@ -22,6 +22,9 @@ shopt -s globstar 2>/dev/null
 # Append history rather than replacing it
 shopt -s histappend
 
+# Run history commands immediately
+shopt -u histverify
+
 # Do not complete an empty command (listing every program in $PATH)
 shopt -s no_empty_cmd_completion
 

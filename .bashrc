@@ -36,6 +36,7 @@ stty -ixon
 
 HISTSIZE=-1
 unset HISTFILESIZE
+unset HISTCONTROL
 HISTTIMEFORMAT='%F %T: '
 
 # enable color support of ls and also add handy aliases

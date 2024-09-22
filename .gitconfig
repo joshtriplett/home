@@ -49,6 +49,7 @@
 
 [delta]
 	color-only = true
+	max-line-length = 4095
 	navigate = true
 	pager = less -iQR
 	tabs = 8

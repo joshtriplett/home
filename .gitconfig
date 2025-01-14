@@ -47,6 +47,10 @@
 	helper =
 	helper = !gh auth git-credential
 
+[credential "https://gitlab.com"]
+	helper =
+	helper = !/usr/bin/glab auth git-credential
+
 [delta]
 	color-only = true
 	max-line-length = 4095

@@ -100,4 +100,8 @@ if has('nvim')
     tnoremap <Esc> <C-\><C-n>
     autocmd TermOpen * setlocal statusline=%{b:term_title}
     autocmd TermOpen * startinsert
+
+    if has('nvim-0.10')
+        colorscheme vim
+    endif
 endif

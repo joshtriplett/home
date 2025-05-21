@@ -18,6 +18,10 @@ set pager_stop=yes
 set recall=ask-no
 set reverse_name=yes
 set reverse_realname=no
+set sidebar_divider_char="│"
+set sidebar_format="%B%*  %N "
+set sidebar_visible=yes
+set sidebar_width=18
 set sleep_time=0
 set use_domain=no
 

@@ -51,6 +51,10 @@
 	helper =
 	helper = !/usr/bin/glab auth git-credential
 
+[credential "https://gitlab.freedesktop.org"]
+	helper =
+	helper = !/usr/bin/glab auth git-credential
+
 [delta]
 	color-only = true
 	max-line-length = 4095

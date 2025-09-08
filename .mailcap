@@ -1,2 +1,2 @@
-application/pdf; evince %s; test=test -n "$DISPLAY"
-application/postscript; evince %s; test=test -n "$DISPLAY"
+application/pdf; papers %s; test=test -n "$DISPLAY"
+application/postscript; papers %s; test=test -n "$DISPLAY"

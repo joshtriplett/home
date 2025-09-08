@@ -55,6 +55,10 @@
 	helper =
 	helper = !/usr/bin/glab auth git-credential
 
+[credential "https://salsa.debian.org"]
+	helper =
+	helper = !/usr/bin/glab auth git-credential
+
 [delta]
 	color-only = true
 	max-line-length = 4095

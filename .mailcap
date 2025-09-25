@@ -1,2 +1,0 @@
-application/pdf; papers %s; test=test -n "$DISPLAY"
-application/postscript; papers %s; test=test -n "$DISPLAY"

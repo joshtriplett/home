@@ -141,6 +141,3 @@ scrollbar-policy='never'
 text-blink-mode='never'
 use-theme-colors=false
 visible-name='Default'
-
-[org/gtk/settings/file-chooser]
-location-mode='filename-entry'

@@ -46,6 +46,7 @@ autocmd FileType html S 2
 autocmd FileType tex S 2
 
 autocmd FileType markdown syntax sync fromstart
+autocmd FileType rust syntax sync fromstart
 
 let &titlestring = 'VIM %f%(  %h%m%r%)    '
 if $SSH_CONNECTION != '' || $SUDO_USER != ''

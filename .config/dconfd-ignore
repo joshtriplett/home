@@ -24,6 +24,7 @@
 /org/gnome/nautilus/*
 /org/gnome/nm-applet/stamp
 /org/gnome/quadrapassel/*
+/org/gnome/settings-daemon/plugins/housekeeping/donation-reminder-last-shown
 /org/gnome/settings-daemon/plugins/power/sleep-inactive-ac-timeout
 /org/gnome/settings-daemon/plugins/power/sleep-inactive-battery-timeout
 /org/gnome/shell/command-history
@@ -31,10 +32,12 @@
 /org/gnome/solitaire/window-state/*
 /org/gnome/vinagre/show-accels
 /org/gtk/settings/file-chooser/*
+/org/gtk/gtk4/settings/file-chooser/*
 
 # Machine-specific
 /org/gnome/desktop/interface/scaling-factor
 /org/gnome/desktop/interface/text-scaling-factor
+/org/gnome/mutter/output-luminance
 /org/gnome/settings-daemon/peripherals/keyboard/numlock-state
 /org/gnome/settings-daemon/peripherals/mouse/motion-acceleration
 /org/gnome/settings-daemon/peripherals/touchpad/motion-acceleration

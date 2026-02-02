@@ -93,9 +93,6 @@ active=false
 hinting='slight'
 antialiasing='grayscale'
 
-[org/gnome/shell]
-enabled-extensions=['TopIcons@phocean.net']
-
 [org/gnome/shell/extensions/topicons]
 icon-opacity=255
 icon-saturation=0.0
@@ -141,3 +138,6 @@ scrollbar-policy='never'
 text-blink-mode='never'
 use-theme-colors=false
 visible-name='Default'
+
+[org/gnome/settings-daemon/plugins/housekeeping]
+donation-reminder-enabled=false

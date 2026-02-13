@@ -56,9 +56,6 @@ let &titlestring .= '(in %{fnamemodify(getcwd(),":~:s?/$??")})%( %a%)'
 set titlelen=0
 set title
 
-set <C-Left>=[1;5D
-set <C-Right>=[1;5C
-
 packadd! gnupg
 
 let g:debchangelog_fold_enable = 1

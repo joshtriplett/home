@@ -10,7 +10,7 @@ set mouse=
 set nohidden
 set noincsearch
 set nomodeline
-set nrformats+=unsigned
+set nrformats+=blank
 set ruler
 set scrolloff=6
 set shortmess+=I

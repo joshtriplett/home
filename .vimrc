@@ -86,6 +86,7 @@ function s:gitabbrevs()
     iabbrev <buffer> sb Signed-off-by: <C-R>=$NAME . " <" . $EMAIL . ">"<CR>
     iabbrev <buffer> ab Acked-by: <C-R>=$NAME . " <" . $EMAIL . ">"<CR>
     iabbrev <buffer> rb Reviewed-by: <C-R>=$NAME . " <" . $EMAIL . ">"<CR>
+    iabbrev <buffer> cb Co-authored-by: <C-R>=$NAME . " <" . $EMAIL . ">"<CR>
 endfunction
 
 noremap <C-n> <Cmd>cnext<CR>

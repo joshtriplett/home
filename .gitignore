@@ -79,6 +79,7 @@
 # Some transient, some configuration files, but configuration files get written
 # out every time, and not just the changed values.  Some also contain
 # machine-specific configuration, and private data.
+/.config/pipewire-media-session/*
 /.boto
 /.config/chromium
 /.config/dconf/user

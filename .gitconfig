@@ -80,6 +80,9 @@
 	folder="Drafts"
 	tunnel="cloud-imap"
 
+[include]
+	path = ~/.private/gitconfig
+
 [init]
 	defaultBranch="main"
 

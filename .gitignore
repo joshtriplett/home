@@ -46,7 +46,6 @@
 /.cargo/credentials.toml
 /.cert/
 /.config/asciinema/install-id
-/.config/gh/hosts.yml
 /.local/share/folks/relationships.ini
 /.local/share/keyrings/
 /.private

@@ -68,6 +68,7 @@
 
 [diff]
 	algorithm=histogram
+	noprefix = true
 	tool=vimdiff
 
 [fetch]

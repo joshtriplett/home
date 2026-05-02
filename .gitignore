@@ -48,6 +48,7 @@
 /.config/asciinema/install-id
 /.local/share/folks/relationships.ini
 /.local/share/keyrings/
+/.offlineimap/
 /.private
 /.ssh/id_ed25519
 /.ssh/id_rsa

@@ -1,5 +1,11 @@
 startup_message off
 altscreen on
-caption always "%{= KW}%-w%{= bW}%50L>%n %t%{-}%+w%<${-}"
+truecolor on
+caption top always "%{#FFFFFF;#222222}%-w%{#FFFFFF;#000077}%50L>%n %t%{-}%+w%=%{-}"
+status top right
 defscrollback 100000
 ignorecase on
+
+# "layout autosave on" requires a non-default layout
+layout new default
+layout autosave on

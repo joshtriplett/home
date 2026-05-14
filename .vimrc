@@ -24,6 +24,17 @@ set winminheight=0
 set winminwidth=0
 syntax on
 
+let &packpath=&runtimepath
+set shada=
+
+tnoremap <Esc> <C-\><C-n>
+autocmd TermOpen * setlocal statusline=%{b:term_title}
+autocmd TermOpen * startinsert
+
+if has('nvim-0.10')
+    colorscheme vim
+endif
+
 set expandtab
 set shiftwidth=4
 set softtabstop=4
@@ -91,16 +102,3 @@ endfunction
 
 noremap <C-n> <Cmd>cnext<CR>
 noremap <C-p> <Cmd>cprev<CR>
-
-if has('nvim')
-    let &packpath=&runtimepath
-    set shada=
-
-    tnoremap <Esc> <C-\><C-n>
-    autocmd TermOpen * setlocal statusline=%{b:term_title}
-    autocmd TermOpen * startinsert
-
-    if has('nvim-0.10')
-        colorscheme vim
-    endif
-endif

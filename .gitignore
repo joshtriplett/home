@@ -17,9 +17,12 @@
 /.cargo/.global-cache
 /.cargo/.package-cache
 /.cargo/.package-cache-mutate
+/.cargo/advisory-dbs
+/.cargo/build
 /.cargo/git
 /.cargo/registry
 /.ccache
+/.config/pulse/cookie
 /.dbus/session-bus
 /.distcc/lock
 /.distcc/state
@@ -46,9 +49,11 @@
 /.cargo/credentials.toml
 /.cert/
 /.config/asciinema/install-id
+/.config/offlineimap/config
 /.local/share/folks/relationships.ini
 /.local/share/keyrings/
 /.offlineimap/
+/.password-store/
 /.private
 /.ssh/id_ed25519
 /.ssh/id_rsa
@@ -67,6 +72,7 @@
 /.aws/config
 /.cargo/bin
 /.cargo/env
+/.config/autostart/syncthing-start.desktop
 /.drirc
 /.forward
 /.local/share/icc
@@ -81,6 +87,7 @@
 # machine-specific configuration, and private data.
 /.config/pipewire-media-session/*
 /.boto
+/.config/Signal Beta/
 /.config/chromium
 /.config/dconf/user
 /.config/dconf/user.txt-lock
@@ -101,6 +108,8 @@
 /.config/mimeapps.list
 /.config/monitors.xml
 /.config/mupen64plus
+/.config/papers/print-settings
+/.config/simple-scan/state
 /.config/totem
 /.config/transmission
 /.dosbox/*.conf

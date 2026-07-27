@@ -23,6 +23,7 @@ set sidebar_format="%B%*  %N "
 set sidebar_visible=yes
 set sidebar_width=18
 set sleep_time=0
+set sort=threads
 set use_domain=no
 
 unignore List-Id

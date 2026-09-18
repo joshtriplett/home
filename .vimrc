@@ -69,7 +69,6 @@ packadd! gnupg
 
 let g:debchangelog_fold_enable = 1
 let g:debcontrol_fold_enable = 1
-let g:ft_man_open_mode = "vert"
 
 let g:xml_syntax_folding = 1
 autocmd FileType xml setlocal foldmethod=syntax
@@ -100,3 +99,14 @@ endfunction
 
 nnoremap <C-n> <Cmd>cnext<CR>
 nnoremap <C-p> <Cmd>cprev<CR>
+
+lua << EOF
+    local man = require('man')
+    local man_open_page = man.open_page
+    man.open_page = function(count, mods, args)
+      if not mods.horizontal then
+        mods.vertical = true
+      end
+      return man_open_page(count, mods, args)
+    end
+EOF

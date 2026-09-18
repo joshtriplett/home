@@ -1,23 +1,17 @@
-set nocompatible
 filetype plugin indent on
 set diffopt+=vertical
 set display+=uhex
 set formatoptions+=n
-set hlsearch
-set laststatus=2
 set listchars=tab:>-
 set mouse=
 set nohidden
 set noincsearch
 set nomodeline
 set nrformats+=blank
-set ruler
 set scrolloff=6
 set shortmess+=I
-set showcmd
 set termguicolors
 set wildmode=longest,list,full
-set wildmenu
 set winheight=5
 set winminheight=0
 set winminwidth=0

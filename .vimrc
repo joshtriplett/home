@@ -16,7 +16,6 @@ set scrolloff=6
 set shortmess+=I
 set showcmd
 set termguicolors
-set viminfo=
 set wildmode=longest,list,full
 set wildmenu
 set winheight=5
@@ -25,7 +24,6 @@ set winminwidth=0
 syntax on
 
 let &packpath=&runtimepath
-set shada=
 
 tnoremap <Esc> <C-\><C-n>
 autocmd TermOpen * setlocal statusline=%{b:term_title}

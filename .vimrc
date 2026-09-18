@@ -76,7 +76,7 @@ let g:ft_man_open_mode = "vert"
 let g:xml_syntax_folding = 1
 autocmd FileType xml setlocal foldmethod=syntax
 
-noremap <C-b> <Cmd>Explore */%:t<CR>
+nnoremap <C-b> <Cmd>Explore */%:t<CR>
 let g:netrw_dirhistmax = 0
 let g:netrw_liststyle = 3
 let g:netrw_sort_sequence = "*"
@@ -100,5 +100,5 @@ function s:gitabbrevs()
     iabbrev <buffer> cb Co-authored-by: <C-R>=$NAME . " <" . $EMAIL . ">"<CR>
 endfunction
 
-noremap <C-n> <Cmd>cnext<CR>
-noremap <C-p> <Cmd>cprev<CR>
+nnoremap <C-n> <Cmd>cnext<CR>
+nnoremap <C-p> <Cmd>cprev<CR>

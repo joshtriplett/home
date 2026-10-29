@@ -39,7 +39,6 @@ unset HISTFILESIZE
 unset HISTCONTROL
 HISTTIMEFORMAT='%F %T: '
 
-# enable color support of ls and also add handy aliases
 if command -v dircolors >/dev/null 2>&1 ; then
     eval "`dircolors -b`"
     alias ls="LS_COLORS='$LS_COLORS' ls --color=auto -v"
@@ -50,6 +49,7 @@ else
     alias tree='tree -v'
 fi
 
+alias diff='diff --color=auto'
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'

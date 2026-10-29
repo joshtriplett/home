@@ -23,7 +23,6 @@
 /.cargo/registry
 /.ccache
 /.config/pulse/cookie
-/.dbus/session-bus
 /.distcc/lock
 /.distcc/state
 /.dmrc

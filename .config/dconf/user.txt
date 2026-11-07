@@ -139,6 +139,8 @@ scrollbar-policy='never'
 text-blink-mode='never'
 use-theme-colors=false
 visible-name='Default'
+font='DejaVu Sans Mono 16'
+use-system-font=false
 
 [org/gnome/settings-daemon/plugins/housekeeping]
 donation-reminder-enabled=false

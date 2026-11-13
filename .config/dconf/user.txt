@@ -50,6 +50,14 @@ event-sounds=false
 switch-applications=@as []
 switch-windows=['<Alt>Tab']
 toggle-fullscreen=['<Super>f']
+switch-to-workspace-left=@as []
+switch-to-workspace-right=@as []
+switch-to-workspace-up=@as []
+switch-to-workspace-down=@as []
+move-to-workspace-left=@as []
+move-to-workspace-right=@as []
+move-to-workspace-up=@as []
+move-to-workspace-down=@as []
 
 [org/gnome/desktop/wm/preferences]
 button-layout=appmenu:close

@@ -51,7 +51,7 @@ autocmd FileType tex S 2
 autocmd FileType markdown syntax sync fromstart
 autocmd FileType rust syntax sync fromstart | compiler cargo
 
-let &titlestring = 'VIM %f%(  %h%m%r%)    '
+let &titlestring = 'VIM %f%(  %h%m%r%)  '
 if $SSH_CONNECTION != '' || $SUDO_USER != ''
     let &titlestring .= $USER . '@' . hostname() . ': '
 endif

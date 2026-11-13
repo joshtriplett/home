@@ -87,7 +87,7 @@ custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybin
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Super>t'
-command='gnome-terminal --maximize --tab'
+command='wezterm start --new-tab'
 name='Terminal'
 
 [org/gnome/settings-daemon/plugins/power]

@@ -1,5 +1,6 @@
 /apps/seahorse/*
 /ca/desrt/dconf-editor/*
+/org/gnome/Showtime/State/is-maximized
 /org/gnome/Totem/*
 /org/gnome/boxes/window-*
 /org/gnome/charmap/*

@@ -5,7 +5,7 @@ primary-color='#000000'
 
 [org/gnome/desktop/input-sources]
 sources=[('xkb', 'us')]
-xkb-options=['caps:super', 'lv3:rwin_switch']
+xkb-options=['caps:super', 'compose:ins']
 
 [org/gnome/desktop/interface]
 clock-format='12h'
@@ -37,7 +37,7 @@ picture-options='none'
 primary-color='#000000'
 
 [org/gnome/desktop/search-providers]
-disabled=['org.gnome.Calendar.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.Software.desktop']
+disabled=['org.gnome.Calendar.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.Software.desktop', 'org.gnome.Nautilus.desktop', 'io.github.quodlibet.QuodLibet.desktop']
 
 [org/gnome/desktop/session]
 idle-delay=uint32 600
@@ -60,10 +60,12 @@ move-to-workspace-up=@as []
 move-to-workspace-down=@as []
 
 [org/gnome/desktop/wm/preferences]
-button-layout=appmenu:close
+button-layout='appmenu:close'
 mouse-button-modifier='<Alt>'
 num-workspaces=1
-titlebar-font='Sans Bold 8'
+titlebar-font='Sans Bold 10'
+action-middle-click-titlebar='none'
+action-right-click-titlebar='menu'
 
 [org/gnome/GWeather]
 temperature-unit='fahrenheit'
@@ -152,3 +154,6 @@ use-system-font=false
 
 [org/gnome/settings-daemon/plugins/housekeeping]
 donation-reminder-enabled=false
+
+[org/gnome/Connections]
+first-run=false

@@ -156,3 +156,6 @@ show-logical-cpus=true
 
 [org/gnome/Snapshot]
 play-shutter-sound=false
+
+[org/gnome/clocks]
+world-clocks=[{'location': <(uint32 2, <('Coordinated Universal Time (UTC)', '@UTC', false, @a(dd) [], @a(dd) [])>)>}, {'location': <(uint32 2, <('Anchorage', 'PAMR', true, [(1.0684323962469595, -2.6153758841135026)], [(1.0684566388702696, -2.6162534007548204)])>)>}, {'location': <(uint32 2, <('Portland', 'KPDX', false, [(0.79571014457688405, -2.1397785149603687)], [(0.79571014457688405, -2.1397785149603687)])>)>}, {'location': <(uint32 2, <('Edinburgh', 'EGPH', true, [(0.97651171649082735, -0.058468529941810045)], [(0.97651171649082735, -0.055850536063818547)])>)>}, {'location': <(uint32 2, <('The Hague', 'EHRD', true, [(0.9066985464110543, 0.077667151713747662)], [(0.90896747443864678, 0.075223690760955586)])>)>}]

@@ -12,12 +12,12 @@ clock-format='12h'
 clock-show-date=true
 clock-show-weekday=true
 cursor-blink=false
-document-font-name='Sans 11'
-font-name='Cantarell 11'
+document-font-name='DejaVu Sans 11'
+font-name='DejaVu Sans Bold 11'
 gtk-im-module='gtk-im-context-simple'
 gtk-theme='Adwaita-dark'
 icon-theme='Adwaita'
-monospace-font-name='Monospace 11'
+monospace-font-name='DejaVu Sans Mono 12'
 show-battery-percentage=false
 gtk-enable-primary-paste=true
 

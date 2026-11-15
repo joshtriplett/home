@@ -154,3 +154,7 @@ world-clocks=[{'location': <(uint32 2, <('Coordinated Universal Time (UTC)', '@U
 
 [org/gnome/desktop/media-handling]
 autorun-never=true
+autorun-x-content-start-app=@as []
+autorun-x-content-open-folder=@as []
+autorun-x-content-ignore=['x-content/unix-software', 'x-content/ostree-repository']
+automount-open=false

@@ -1,5 +1,6 @@
 /apps/seahorse/*
 /ca/desrt/dconf-editor/*
+/org/gnome/Characters/recent-characters
 /org/gnome/Loupe/*
 /org/gnome/Resources/*
 /org/gnome/Showtime/State/is-maximized
@@ -39,6 +40,7 @@
 /org/gnome/simple-scan/*
 /org/gnome/solitaire/window-state/*
 /org/gnome/vinagre/show-accels
+/org/gtk/settings/color-chooser/custom-colors
 /org/gtk/settings/color-chooser/selected-color
 /org/gtk/settings/file-chooser/*
 /org/gtk/gtk4/settings/file-chooser/*

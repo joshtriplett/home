@@ -60,7 +60,6 @@ move-to-workspace-down=@as []
 button-layout='appmenu:close'
 mouse-button-modifier='<Alt>'
 num-workspaces=1
-titlebar-font='Sans Bold 10'
 action-middle-click-titlebar='none'
 action-right-click-titlebar='menu'
 

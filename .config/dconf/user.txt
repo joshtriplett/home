@@ -160,3 +160,12 @@ first-run=false
 
 [org/gnome/shell]
 favorite-apps=['firefox.desktop', 'org.wezfurlong.wezterm.desktop', 'signal-desktop-beta.desktop']
+
+[org/freedesktop/tracker/miner/files]
+index-recursive-directories=@as []
+
+[org/gnome/Resources]
+show-logical-cpus=true
+
+[org/gnome/Snapshot]
+play-shutter-sound=false

@@ -119,6 +119,7 @@ app-icon-mode='both'
 
 [org/gnome/software]
 download-updates=false
+download-updates-notify=false
 
 [org/gnome/terminal/legacy]
 dark-theme=true

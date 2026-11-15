@@ -94,10 +94,6 @@ idle-dim=false
 sleep-inactive-ac-type='nothing'
 sleep-inactive-battery-type='nothing'
 
-[org/gnome/settings-daemon/plugins/xsettings]
-hinting='slight'
-antialiasing='grayscale'
-
 [org/gnome/shell/window-switcher]
 app-icon-mode='both'
 

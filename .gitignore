@@ -35,6 +35,7 @@
 /.local/.crates.toml
 /.local/.crates2.json
 /.local/share/nvim/swap/*.swp
+/.local/share/recently-used.xbel
 /.local/state/wireplumber
 /.mutt_certificates
 /.psql_history

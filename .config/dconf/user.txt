@@ -30,11 +30,8 @@ tap-to-click=false
 two-finger-scrolling-enabled=true
 
 [org/gnome/desktop/screensaver]
-color-shading-type='solid'
 lock-delay=uint32 0
 lock-enabled=true
-picture-options='none'
-primary-color='#000000'
 
 [org/gnome/desktop/search-providers]
 disabled=['org.gnome.Calendar.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.Software.desktop', 'org.gnome.Nautilus.desktop', 'io.github.quodlibet.QuodLibet.desktop']
@@ -100,15 +97,9 @@ idle-dim=false
 sleep-inactive-ac-type='nothing'
 sleep-inactive-battery-type='nothing'
 
-[org/gnome/settings-daemon/plugins/updates]
-active=false
-
 [org/gnome/settings-daemon/plugins/xsettings]
 hinting='slight'
 antialiasing='grayscale'
-
-[org/gnome/shell/overrides]
-dynamic-workspaces=false
 
 [org/gnome/shell/window-switcher]
 app-icon-mode='both'
@@ -118,7 +109,6 @@ download-updates=false
 download-updates-notify=false
 
 [org/gnome/terminal/legacy]
-dark-theme=true
 default-show-menubar=false
 menu-accelerator-enabled=false
 mnemonics-enabled=false

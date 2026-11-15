@@ -1,6 +1,9 @@
 /apps/seahorse/*
 /ca/desrt/dconf-editor/*
+/org/gnome/Loupe/*
+/org/gnome/Resources/*
 /org/gnome/Showtime/State/is-maximized
+/org/gnome/Snapshot/*
 /org/gnome/Totem/*
 /org/gnome/boxes/window-*
 /org/gnome/charmap/*
@@ -25,6 +28,7 @@
 /org/gnome/libgnomekbd/*
 /org/gnome/nautilus/*
 /org/gnome/nm-applet/stamp
+/org/gnome/papers/*
 /org/gnome/quadrapassel/*
 /org/gnome/settings-daemon/plugins/housekeeping/donation-reminder-last-shown
 /org/gnome/settings-daemon/plugins/power/sleep-inactive-ac-timeout

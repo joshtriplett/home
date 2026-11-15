@@ -73,9 +73,8 @@ dynamic-workspaces=false
 rotate-monitor=['XF86RotateWindows', '<Super>r']
 
 [org/gnome/settings-daemon/plugins/color]
-night-light-enabled=true
 night-light-schedule-automatic=true
-night-light-temperature=uint32 1700
+night-light-temperature=uint32 2700
 
 [org/gnome/settings-daemon/plugins/media-keys]
 custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']

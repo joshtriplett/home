@@ -107,13 +107,6 @@ active=false
 hinting='slight'
 antialiasing='grayscale'
 
-[org/gnome/shell/extensions/topicons]
-icon-opacity=255
-icon-saturation=0.0
-icon-size=32
-tray-order=3
-tray-pos='right'
-
 [org/gnome/shell/overrides]
 dynamic-workspaces=false
 

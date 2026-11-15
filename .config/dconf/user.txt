@@ -157,3 +157,6 @@ donation-reminder-enabled=false
 
 [org/gnome/Connections]
 first-run=false
+
+[org/gnome/shell]
+favorite-apps=['firefox.desktop', 'org.wezfurlong.wezterm.desktop', 'signal-desktop-beta.desktop']

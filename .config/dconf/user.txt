@@ -64,7 +64,7 @@ titlebar-font='Sans Bold 10'
 action-middle-click-titlebar='none'
 action-right-click-titlebar='menu'
 
-[org/gnome/GWeather]
+[org/gnome/GWeather4]
 temperature-unit='fahrenheit'
 
 [org/gnome/mutter]

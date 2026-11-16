@@ -104,8 +104,6 @@
 /.config/gnome-hearts/gnome-hearts.cfg
 /.config/gtk-2.0/gtkfilechooser.ini
 /.config/higan
-/.config/hiro/gtk.bml
-/.config/hiro/gtk2.bml
 /.config/inkscape
 /.config/libreoffice
 /.config/mimeapps.list
@@ -122,6 +120,7 @@
 /.local/share/gnome-shell/application_state
 /.local/share/gnome-shell/extensions
 /.local/share/gsettings-data-convert
+/.local/share/hiro/gtk3.bml
 /.local/share/telepathy
 /.local/share/tracker
 /.mission-control/accounts/accounts.cfg

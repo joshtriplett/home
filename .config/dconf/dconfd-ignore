@@ -6,7 +6,6 @@
 /org/gnome/Snapshot/*
 /org/gnome/boxes/window-*
 /org/gnome/charmap/*
-/org/gnome/cheese/*
 /org/gnome/clocks/state/window/*
 /org/gnome/control-center/last-panel
 /org/gnome/control-center/window-state
@@ -14,16 +13,7 @@
 /org/gnome/desktop/notifications/application-children
 /org/gnome/desktop/notifications/application/*
 /org/gnome/desktop/search-providers/sort-order
-/org/gnome/eog/*
-/org/gnome/evince/*
-/org/gnome/evolution/*
-/org/gnome/evolution-data-server/calendar/*
-/org/gnome/evolution-data-server/migrated
-/org/gnome/evolution-data-server/network-monitor-gio-name
 /org/gnome/file-roller/*
-/org/gnome/gedit/*
-/org/gnome/gnome-screenshot/*
-/org/gnome/gnome-system-monitor/*
 /org/gnome/nautilus/*
 /org/gnome/nm-applet/stamp
 /org/gnome/papers/*
@@ -48,7 +38,7 @@
 /org/gnome/desktop/interface/scaling-factor
 /org/gnome/desktop/interface/text-scaling-factor
 /org/gnome/desktop/peripherals/keyboard/numlock-state
+/org/gnome/desktop/peripherals/mouse/speed
+/org/gnome/desktop/peripherals/touchpad/speed
 /org/gnome/mutter/output-luminance
-/org/gnome/settings-daemon/peripherals/mouse/motion-acceleration
-/org/gnome/settings-daemon/peripherals/touchpad/motion-acceleration
 /system/proxy/*

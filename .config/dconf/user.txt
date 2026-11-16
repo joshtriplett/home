@@ -89,6 +89,7 @@ name='Terminal'
 idle-dim=false
 sleep-inactive-ac-type='nothing'
 sleep-inactive-battery-type='nothing'
+power-button-action='interactive'
 
 [org/gnome/software]
 download-updates=false

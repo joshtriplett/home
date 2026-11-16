@@ -34,10 +34,12 @@
 /org/gnome/portal/filechooser/*
 /org/gnome/quadrapassel/*
 /org/gnome/settings-daemon/plugins/color/night-light-enabled
+/org/gnome/settings-daemon/plugins/color/night-light-last-coordinates
 /org/gnome/settings-daemon/plugins/housekeeping/donation-reminder-last-shown
 /org/gnome/settings-daemon/plugins/power/sleep-inactive-ac-timeout
 /org/gnome/settings-daemon/plugins/power/sleep-inactive-battery-timeout
 /org/gnome/shell/command-history
+/org/gnome/shell/world-clocks/locations
 /org/gnome/simple-scan/*
 /org/gnome/solitaire/window-state/*
 /org/gnome/vinagre/show-accels

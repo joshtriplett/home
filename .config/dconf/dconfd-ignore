@@ -11,6 +11,7 @@
 /org/gnome/cheese/*
 /org/gnome/clocks/state/window/*
 /org/gnome/control-center/last-panel
+/org/gnome/control-center/window-state
 /org/gnome/desktop/interface/color-scheme
 /org/gnome/desktop/notifications/application-children
 /org/gnome/desktop/notifications/application/*

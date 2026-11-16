@@ -9,14 +9,12 @@ xkb-options=['caps:super', 'compose:ins']
 
 [org/gnome/desktop/interface]
 clock-format='12h'
-clock-show-date=true
 clock-show-weekday=true
 cursor-blink=false
 document-font-name='DejaVu Sans 11'
 font-name='DejaVu Sans Bold 11'
 gtk-im-module='gtk-im-context-simple'
 monospace-font-name='DejaVu Sans Mono 12'
-show-battery-percentage=false
 gtk-enable-primary-paste=true
 accent-color='blue'
 
@@ -56,7 +54,6 @@ move-to-workspace-up=@as []
 move-to-workspace-down=@as []
 
 [org/gnome/desktop/wm/preferences]
-button-layout='appmenu:close'
 mouse-button-modifier='<Alt>'
 num-workspaces=1
 action-middle-click-titlebar='none'

@@ -20,6 +20,8 @@
 /.local/bin/oxipng
 /.local/bin/typst
 /.local/bin/wezterm*
+/.local/share/applications/org.wezfurlong.wezterm.desktop
+/.local/share/icons/hicolor/128x128/apps/org.wezfurlong.wezterm.png
 
 # Transient
 .*.swp

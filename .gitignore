@@ -39,9 +39,11 @@
 /.local/state/wireplumber
 /.mutt_certificates
 /.psql_history
+/.python_history
 /.rustup/toolchains/
 /.rustup/update-hashes/
 /.speech-dispatcher
+/.sqlite_history
 
 # Private
 /.aws/cli/cache/

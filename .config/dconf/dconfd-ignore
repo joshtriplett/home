@@ -1,11 +1,9 @@
 /apps/seahorse/*
-/ca/desrt/dconf-editor/*
 /org/gnome/Characters/recent-characters
 /org/gnome/Loupe/*
 /org/gnome/Resources/*
 /org/gnome/Showtime/State/is-maximized
 /org/gnome/Snapshot/*
-/org/gnome/Totem/*
 /org/gnome/boxes/window-*
 /org/gnome/charmap/*
 /org/gnome/cheese/*
@@ -26,13 +24,10 @@
 /org/gnome/gedit/*
 /org/gnome/gnome-screenshot/*
 /org/gnome/gnome-system-monitor/*
-/org/gnome/gnote/*
-/org/gnome/libgnomekbd/*
 /org/gnome/nautilus/*
 /org/gnome/nm-applet/stamp
 /org/gnome/papers/*
 /org/gnome/portal/filechooser/*
-/org/gnome/quadrapassel/*
 /org/gnome/settings-daemon/plugins/color/night-light-enabled
 /org/gnome/settings-daemon/plugins/color/night-light-last-coordinates
 /org/gnome/settings-daemon/plugins/housekeeping/donation-reminder-last-shown
@@ -43,7 +38,6 @@
 /org/gnome/shell/weather/locations
 /org/gnome/shell/world-clocks/locations
 /org/gnome/simple-scan/*
-/org/gnome/solitaire/window-state/*
 /org/gnome/vinagre/show-accels
 /org/gtk/settings/color-chooser/custom-colors
 /org/gtk/settings/color-chooser/selected-color

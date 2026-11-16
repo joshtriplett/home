@@ -1,10 +1,25 @@
 # Non-dotfiles, which I currently don't track in git
 /Downloads/
+/ai/
 /archive/
 /doc/
 /media/
+/pl*/
 /src/
 /tmp/
+
+# Untracked locally installed applications
+/.local/bin/aws*
+/.local/bin/bit
+/.local/bin/cargo-*
+/.local/bin/codex*
+/.local/bin/delta
+/.local/bin/highlight-stderr
+/.local/bin/mdbook
+/.local/bin/mdt
+/.local/bin/oxipng
+/.local/bin/typst
+/.local/bin/wezterm*
 
 # Transient
 .*.swp
@@ -34,9 +49,12 @@
 /.lesshst
 /.local/.crates.toml
 /.local/.crates2.json
+/.local/share/gnome-settings-daemon/input-sources-converted
+/.local/share/nautilus/
 /.local/share/nvim/swap/*.swp
 /.local/share/recently-used.xbel
 /.local/state/wireplumber
+/.local/state/lesshst
 /.mutt_certificates
 /.psql_history
 /.python_history
@@ -51,6 +69,8 @@
 /.cargo/credentials.toml
 /.cert/
 /.config/asciinema/install-id
+/.config/buildit/auth.toml
+/.config/buildit-*/
 /.config/offlineimap/config
 /.local/share/folks/relationships.ini
 /.local/share/keyrings/
@@ -75,9 +95,11 @@
 /.cargo/bin
 /.cargo/env
 /.config/autostart/syncthing-start.desktop
+/.config/systemd/user/default.target.wants/offlineimap-oneshot.timer
 /.drirc
 /.forward
 /.local/share/icc
+/.local/share/systemd/user/offlineimap-oneshot.*
 /.maildir
 /.ssh/*.pub
 !/.ssh/id_ed25519.pub
@@ -88,6 +110,7 @@
 # out every time, and not just the changed values.  Some also contain
 # machine-specific configuration, and private data.
 /.boto
+/.codex*
 /.config/Signal Beta/
 /.config/chromium
 /.config/cool-retro-term/cool-retro-term.conf
@@ -100,6 +123,7 @@
 /.config/evolution/sources/system-proxy.source
 /.config/gedit/accels
 /.config/git/gitk
+/.config/glab-cli/
 /.config/gnome-games/
 /.config/gnome-hearts/gnome-hearts.cfg
 /.config/gtk-2.0/gtkfilechooser.ini
@@ -116,13 +140,18 @@
 /.config/transmission
 /.dosbox/*.conf
 /.libreoffice
+/.local/share/ares/
+/.local/share/cool-retro-term/
+/.local/share/delta/lesshst
 /.local/share/evolution
-/.local/share/gnome-shell/application_state
-/.local/share/gnome-shell/extensions
+/.local/share/gnome-shell/
 /.local/share/gsettings-data-convert
 /.local/share/hiro/gtk3.bml
 /.local/share/tracker
-/.mission-control/accounts/accounts.cfg
+/.local/share/ykman/history.json
+/.local/state/gnome-session@gnome.state
+/.local/state/nvim
+/.local/state/syncthing
 /.mozilla
 /.pki
 /.qt/*.lock

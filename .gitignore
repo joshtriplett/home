@@ -91,6 +91,7 @@
 /.boto
 /.config/Signal Beta/
 /.config/chromium
+/.config/cool-retro-term/cool-retro-term.conf
 /.config/dconf/user
 /.config/dconf/user.txt-lock
 /.config/enchant/*.dic
@@ -105,6 +106,7 @@
 /.config/gtk-2.0/gtkfilechooser.ini
 /.config/higan
 /.config/hiro/gtk.bml
+/.config/hiro/gtk2.bml
 /.config/inkscape
 /.config/libreoffice
 /.config/mimeapps.list

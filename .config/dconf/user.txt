@@ -115,7 +115,7 @@ bold-color-same-as-fg=true
 bold-is-bright=true
 foreground-color='rgb(255,255,255)'
 highlight-background-color='rgb(255,255,255)'
-highlight-colors-set=true
+highlight-colors-set=false
 highlight-foreground-color='rgb(0,0,0)'
 palette=['#000000', '#FF0000', '#00AA00', '#AAAA00', '#5555FF', '#FF00FF', '#00AAAA', '#AAAAAA', '#757575', '#FF5555', '#55FF55', '#FFFF55', '#7777FF', '#FF66FF', '#55FFFF', '#FFFFFF']
 scrollback-unlimited=true
@@ -125,6 +125,8 @@ use-theme-colors=false
 visible-name='Default'
 font='DejaVu Sans Mono 16'
 use-system-font=false
+cursor-colors-set=false
+default-size-rows=25
 
 [org/gnome/settings-daemon/plugins/housekeeping]
 donation-reminder-enabled=false

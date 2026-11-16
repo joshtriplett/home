@@ -1,0 +1,9 @@
+#!/bin/sh
+sudo sh -c "
+    echo 0 > /sys/class/leds/tpacpi\:\:power/brightness
+    echo 0 > /sys/class/leds/tpacpi\:\:lid_logo_dot/brightness
+    printf 'Y\n' | tee /sys/module/ec_sys/parameters/write_support >/dev/null
+    printf '\001' | dd of=/sys/kernel/debug/ec/ec0/io bs=1 seek=12 count=1 conv=notrunc status=none
+    printf '\002' | dd of=/sys/kernel/debug/ec/ec0/io bs=1 seek=12 count=1 conv=notrunc status=none
+    printf 'N\n' | tee /sys/module/ec_sys/parameters/write_support >/dev/null
+"

@@ -15,8 +15,6 @@ cursor-blink=false
 document-font-name='DejaVu Sans 11'
 font-name='DejaVu Sans Bold 11'
 gtk-im-module='gtk-im-context-simple'
-gtk-theme='Adwaita-dark'
-icon-theme='Adwaita'
 monospace-font-name='DejaVu Sans Mono 12'
 show-battery-percentage=false
 gtk-enable-primary-paste=true
@@ -91,9 +89,6 @@ name='Terminal'
 idle-dim=false
 sleep-inactive-ac-type='nothing'
 sleep-inactive-battery-type='nothing'
-
-[org/gnome/shell/window-switcher]
-app-icon-mode='both'
 
 [org/gnome/software]
 download-updates=false

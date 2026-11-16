@@ -53,6 +53,7 @@
 /.local/share/nautilus/
 /.local/share/nvim/swap/*.swp
 /.local/share/recently-used.xbel
+/.local/share/sequoia/keystore/keystore.cookie
 /.local/state/wireplumber
 /.local/state/lesshst
 /.mutt_certificates

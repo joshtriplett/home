@@ -121,14 +121,10 @@
 /.local/share/gnome-shell/extensions
 /.local/share/gsettings-data-convert
 /.local/share/hiro/gtk3.bml
-/.local/share/telepathy
 /.local/share/tracker
 /.mission-control/accounts/accounts.cfg
 /.mozilla
-/.mythtv/config.xml
-/.mythtv/mysql.txt
 /.pki
-/.purple
 /.qt/*.lock
 /.qt/qt_plugins_*rc
 /.quodlibet

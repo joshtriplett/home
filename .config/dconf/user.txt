@@ -25,6 +25,8 @@ show-in-lock-screen=false
 natural-scroll=false
 tap-to-click=false
 two-finger-scrolling-enabled=true
+click-method='fingers'
+edge-scrolling-enabled=false
 
 [org/gnome/desktop/screensaver]
 lock-delay=uint32 0

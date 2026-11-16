@@ -18,6 +18,7 @@ gtk-im-module='gtk-im-context-simple'
 monospace-font-name='DejaVu Sans Mono 12'
 show-battery-percentage=false
 gtk-enable-primary-paste=true
+accent-color='blue'
 
 [org/gnome/desktop/notifications]
 show-in-lock-screen=false

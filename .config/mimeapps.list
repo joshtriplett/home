@@ -1,0 +1,27 @@
+[Default Applications]
+application/pdf=firefox.desktop;
+application/rdf+xml=firefox.desktop
+application/rss+xml=firefox.desktop
+application/toml=nvim.desktop
+application/xhtml+xml=firefox.desktop
+application/xml=firefox.desktop
+image/bmp=firefox.desktop
+image/gif=firefox.desktop
+image/jpeg=firefox.desktop
+image/pjpeg=firefox.desktop
+image/png=firefox.desktop
+image/svg+xml-compressed=org.inkscape.Inkscape.desktop
+image/svg+xml=org.inkscape.Inkscape.desktop
+text/html=firefox.desktop
+text/plain=nvim.desktop
+text/xml=firefox.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/mailto=mutt.desktop
+
+[Added Associations]
+application/pdf=firefox.desktop;
+image/bmp=firefox.desktop;
+image/svg+xml=firefox.desktop;
+text/x-patch=nvim.desktop;
+text/x-python=nvim.desktop;

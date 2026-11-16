@@ -39,6 +39,7 @@
 /org/gnome/settings-daemon/plugins/power/sleep-inactive-ac-timeout
 /org/gnome/settings-daemon/plugins/power/sleep-inactive-battery-timeout
 /org/gnome/shell/command-history
+/org/gnome/shell/weather/automatic-location
 /org/gnome/shell/weather/locations
 /org/gnome/shell/world-clocks/locations
 /org/gnome/simple-scan/*

@@ -39,6 +39,7 @@ local function copy_or_interrupt(window, pane)
 end
 
 config.keys = {
+  { mods = 'CTRL', key = 'Tab', action = act.SendKey { mods = 'CTRL', key = 'Tab' } },
   { mods = 'CTRL', key = 'c', action = wezterm.action_callback(copy_or_interrupt) },
   { mods = 'CTRL|ALT', key = 'n', action = act.SpawnTab 'CurrentPaneDomain' },
   { mods = 'ALT', key = 'LeftArrow', action = act.ActivateTabRelative(-1) },

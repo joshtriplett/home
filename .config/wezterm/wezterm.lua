@@ -29,6 +29,8 @@ config.show_new_tab_button_in_tab_bar = false
 
 config.selection_word_boundary = " \t\n{}[]()\"'`:;"
 
+config.detect_password_input = false
+
 local function copy_or_interrupt(window, pane)
   if window:get_selection_text_for_pane(pane) ~= '' then
     window:perform_action(act.CopyTo 'Clipboard', pane)

@@ -63,8 +63,8 @@
 /.local/share/recently-used.xbel
 /.local/share/sequoia/keystore/keystore.cookie
 /.local/share/user-session-migration/
-/.local/state/wireplumber
 /.local/state/lesshst
+/.local/state/wireplumber
 /.mutt_certificates
 /.psql_history
 /.python_history
@@ -79,8 +79,8 @@
 /.cargo/credentials.toml
 /.cert/
 /.config/asciinema/install-id
-/.config/buildit/auth.toml
 /.config/buildit-*/
+/.config/buildit/auth.toml
 /.config/offlineimap/config
 /.local/share/folks/relationships.ini
 /.local/share/keyrings/

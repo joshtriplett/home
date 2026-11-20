@@ -2,6 +2,7 @@ filetype plugin indent on
 set diffopt+=vertical
 set display+=uhex
 set formatoptions+=n
+set guicursor+=t:blinkon0
 set listchars=tab:>-
 set mouse=
 set nohidden

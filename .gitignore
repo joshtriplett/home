@@ -17,7 +17,6 @@
 /.local/bin/highlight-stderr
 /.local/bin/mdbook
 /.local/bin/mdt
-/.local/bin/oxipng
 /.local/bin/typst
 /.local/bin/wezterm*
 /.local/share/applications/org.wezfurlong.wezterm.desktop

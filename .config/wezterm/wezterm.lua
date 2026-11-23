@@ -27,7 +27,7 @@ config.enable_scroll_bar = false
 config.show_tab_index_in_tab_bar = false
 config.show_new_tab_button_in_tab_bar = false
 
-config.selection_word_boundary = " \t\n{}[]()\"'`:;"
+config.selection_word_boundary = " \t\n{}[]()\"'`:;|"
 
 config.detect_password_input = false
 

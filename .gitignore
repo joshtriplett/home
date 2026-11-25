@@ -49,7 +49,6 @@
 /.distcc/lock
 /.distcc/state
 /.dmrc
-/.emacs.d
 /.evolution-composer.autosave-*
 /.gnuplot_history
 /.gstreamer-0.10/registry.*

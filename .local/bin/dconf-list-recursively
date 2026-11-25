@@ -1,5 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 # SPDX-License-Identifier: GPL-3.0-or-later
+set -euo pipefail
 l() {
     dconf list "$1" | while read key ; do
         if [ "${key%/}" != "$key" ] ; then

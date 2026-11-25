@@ -130,6 +130,7 @@
 /.config/evince/print-settings
 /.config/evolution/sources/system-proxy.source
 /.config/gedit/accels
+/.config/gh/hosts.yml
 /.config/git/gitk
 /.config/glab-cli/
 /.config/gnome-games/

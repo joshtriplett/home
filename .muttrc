@@ -35,8 +35,8 @@ save-hook ~A =Archive
 bind pager <up> previous-line
 bind pager <down> next-line
 
-alternates josh@joshtriplett.org
-alternates josh@freedesktop.org
-alternates josh@kernel.org
+alternates ^[^@]+@joshtriplett[.]org$
+alternates ^josh@freedesktop[.]org$
+alternates ^josh@kernel[.]org$
 
 color normal default default
